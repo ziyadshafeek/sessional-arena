@@ -101,7 +101,7 @@ h1.gameTitle{font-size:clamp(calc(var(--fscale) * 34px),11vw,calc(var(--fscale) 
 .btn{min-height:48px;padding:14px 18px}
 .btnRow{gap:12px}
 .flipInner{min-height:320px}
-.libGrid{grid-template-columns:1fr}
+.libGrid{grid-template-columns:minmax(0,1fr)}
 .photoGrid{grid-template-columns:repeat(auto-fill,minmax(150px,1fr))}
 .photoCard img{height:140px}
 }
@@ -130,7 +130,7 @@ h1.gameTitle{font-size:clamp(calc(var(--fscale) * 34px),11vw,calc(var(--fscale) 
 /* Library */
 .search{width:100%;padding:13px;background:var(--panel);border:1px solid var(--line);color:var(--text);font:inherit;margin:6px 0}
 .libCount{font-family:"Share Tech Mono",monospace;color:var(--muted);font-size:calc(var(--fscale) * 12px)}
-.libGrid{display:grid;gap:12px}.libCard,.noteCard{background:var(--panel);border:1px solid var(--line);clip-path:var(--cut);padding:14px;line-height:1.6}
+.libGrid{display:grid;gap:12px;grid-template-columns:minmax(0,1fr)}.libCard,.noteCard{min-width:0;background:var(--panel);border:1px solid var(--line);clip-path:var(--cut);padding:14px;line-height:1.6}
 .libCard h3,.noteCard summary{font-family:"Chakra Petch";margin:0 0 6px;cursor:pointer}
 .libCard img{max-width:100%;max-height:240px;border:1px solid var(--line)}
 .pcCat{color:var(--neon);font-family:"Share Tech Mono",monospace;font-size:calc(var(--fscale) * 11px);letter-spacing:.14em}
@@ -138,7 +138,7 @@ h1.gameTitle{font-size:clamp(calc(var(--fscale) * 34px),11vw,calc(var(--fscale) 
 .photoGrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px}
 .photoCard{background:var(--panel);border:1px solid var(--line);clip-path:var(--cut);overflow:hidden}
 .photoCard img{width:100%;height:200px;object-fit:cover;display:block}.pcBody{padding:12px;line-height:1.55}.pcBody h4{margin:0 0 4px;font-family:"Chakra Petch"}
-.libPhotos{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:10px}.libPhotos img{max-height:150px;border:1px solid var(--line)}
+.libPhotos{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:10px}.libPhotos img{max-height:150px;max-width:100%;border:1px solid var(--line)}
 /* Settings */
 .settingsCard{background:var(--panel);border:1px solid var(--line);clip-path:var(--cut);padding:18px;max-width:640px}
 .setRow{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:14px 0;border-bottom:1px solid var(--line);font-family:"Chakra Petch"}
@@ -152,10 +152,10 @@ h1.gameTitle{font-size:clamp(calc(var(--fscale) * 34px),11vw,calc(var(--fscale) 
 .btn{min-height:48px}
 .chooserGrid{display:grid;gap:10px;max-width:640px}
 .chooserGrid .btn{text-align:left}
-.fbPassage{white-space:pre-wrap;line-height:1.7;margin:10px 0;text-align:left}
-.lbText{white-space:pre-wrap;line-height:1.7;text-align:left;margin-top:12px}
+.fbPassage{white-space:pre-wrap;overflow-wrap:anywhere;line-height:1.7;margin:10px 0;text-align:left}
+.lbText{white-space:pre-wrap;overflow-wrap:anywhere;line-height:1.7;text-align:left;margin-top:12px}
 .flipBack{overflow-y:auto}
-.libText{white-space:pre-wrap;line-height:1.65;margin-top:8px}
+.libText{white-space:pre-wrap;overflow-wrap:anywhere;line-height:1.65;margin-top:8px}
 .noteCard summary{cursor:pointer}
 .libCard h3{cursor:pointer}
 .presetRow{flex-wrap:wrap}
@@ -165,20 +165,20 @@ h1.gameTitle{font-size:clamp(calc(var(--fscale) * 34px),11vw,calc(var(--fscale) 
 
 /* Proper tables (data/tables.json): horizontally scrollable on phones,
    first column pinned while scrolling sideways, theme-matched. */
-.tblWrap{overflow-x:auto;margin:12px 0;border:1px solid var(--line);background:#050d1a}
+.tblWrap{overflow-x:auto;min-width:0;max-width:100%;margin:12px 0;border:1px solid var(--line);background:#050d1a}
 .tblCap{font-weight:700;padding:10px 12px;border-bottom:1px solid var(--line)}
 table.tbl{border-collapse:collapse;width:100%;min-width:540px;white-space:normal;font-size:calc(var(--fscale) * 14px);line-height:1.5}
 table.tbl th,table.tbl td{padding:9px 10px;border-bottom:1px solid var(--line);border-right:1px solid var(--line);text-align:left;vertical-align:top}
 table.tbl thead th{background:#0e2233}
 table.tbl tbody th{position:sticky;left:0;background:#0a1826;font-weight:700;white-space:nowrap}
 .tblNote{padding:8px 12px;font-size:calc(var(--fscale) * 13px);opacity:.85}
-.tblBefore{white-space:pre-wrap;line-height:1.65;margin-bottom:8px}
+.tblBefore{white-space:pre-wrap;overflow-wrap:anywhere;line-height:1.65;margin-bottom:8px}
 
 /* ---- Sessional Arena additions (v1): subject chooser + table markers ---- */
-.subjectGrid{display:grid;grid-template-columns:1fr 1fr;gap:12px;max-width:560px;margin:0 auto}
+.subjectGrid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:12px;max-width:560px;margin:0 auto}
 .subjectCard{min-height:56px}
 .subjectHomeTitle{font-family:"Chakra Petch";font-size:clamp(calc(var(--fscale) * 32px),8vw,calc(var(--fscale) * 56px));margin:12px 0;text-transform:uppercase}
-.tblText{white-space:pre-wrap;line-height:1.7;text-align:left;margin:10px 0}
+.tblText{white-space:pre-wrap;overflow-wrap:anywhere;line-height:1.7;text-align:left;margin:10px 0}
 
 /* ---- Light theme (data-theme="light" on <html>) ---- */
 html[data-theme="light"]{--bg:#f2f6fb;--panel:#ffffff;--panel2:#e9f0f8;--line:#c2d2e4;--text:#12263d;--muted:#52708f;--cyan:#007aa3;--amber:#a86500;--neon:#0087b8;--mag:#c2187a;--violet:#6d4bd0;--green:#0a7a45;--red:#d81b3f;--orange:#c25700}
