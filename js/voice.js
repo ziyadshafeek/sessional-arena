@@ -360,7 +360,8 @@
     token: 0,
     chunkId: 0,
     watchdog: null,
-    keepAlive: null
+    keepAlive: null,
+    force: false
   };
 
   function dispatchVoiceEvent(name) {
@@ -508,7 +509,9 @@
       finishChain(token);
       return;
     }
-    if (isMutedOrOff()) {
+    /* Forced playback (Library mini player) keeps going even when the
+       voice setting is off — the tap already chose to listen. */
+    if (!state.force && isMutedOrOff()) {
       clearWatchdog();
       clearKeepAlive();
       state.queue = [];
@@ -608,9 +611,9 @@
     }
   }
 
-  function speakTexts(texts) {
+  function speakTexts(texts, force) {
     try {
-      if (isMutedOrOff()) {
+      if (!force && isMutedOrOff()) {
         return;
       }
       if (!hasSpeech()) {
@@ -644,6 +647,7 @@
       }
       var token = ++state.token;
       state.queue = queue;
+      state.force = !!force;
       setSpeaking(true);
       startKeepAlive();
       speakChunk(token, 0, false);
@@ -660,12 +664,26 @@
     }
   }
 
-  function speakFullText(text) {
+  function speakFullText(text, force) {
     try {
       if (typeof text !== 'string') {
         return;
       }
-      speakTexts([text]);
+      speakTexts([text], force);
+    } catch (e) {
+      /* Never throw out of a public function. */
+    }
+  }
+
+  /* Forced playback: used by the Library mini player. An explicit tap on
+     a speaker icon starts reading even when the voice setting is off —
+     the player is the student's explicit choice, not auto-read. */
+  function speakForced(text) {
+    try {
+      if (typeof text !== 'string') {
+        return;
+      }
+      speakTexts([text], true);
     } catch (e) {
       /* Never throw out of a public function. */
     }
@@ -752,6 +770,7 @@
     saveSettings: saveSettings,
     prime: prime,
     speakFullText: speakFullText,
+    speakForced: speakForced,
     speakTexts: speakTexts,
     stopSpeak: stopSpeak,
     isSpeaking: isSpeaking,

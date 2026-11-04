@@ -49,6 +49,7 @@
     return String(text == null ? '' : text).replace(MARKER_RE, '');
   }
   function buildTable(tab) {
+    var box = document.createElement('div'); box.className = 'tblBox';
     var wrap = document.createElement('div'); wrap.className = 'tblWrap';
     var cap = document.createElement('div'); cap.className = 'tblCap';
     cap.textContent = tab.caption || 'Table'; wrap.appendChild(cap);
@@ -73,7 +74,10 @@
       var n = document.createElement('div'); n.className = 'tblNote';
       n.textContent = tab.note; wrap.appendChild(n);
     }
-    return wrap;
+    box.appendChild(wrap);
+    var hint = document.createElement('div'); hint.className = 'tblHint';
+    hint.textContent = '⇤ swipe sideways to see more ⇥'; box.appendChild(hint);
+    return box;
   }
   /* Render `text` (which contains >= 1 marker) into `el` as alternating
      text segments and grids, in document order. An unknown table id is

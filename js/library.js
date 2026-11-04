@@ -17,11 +17,127 @@
   var activeLibVoiceBtn = null;
   document.addEventListener('ophth-voice-start', function () {
     try { if (activeLibVoiceBtn) activeLibVoiceBtn.textContent = '⏹️'; } catch (e) {}
+    try { libPlayerSyncPlay(); } catch (e2) {}
   });
   document.addEventListener('ophth-voice-end', function () {
     try { if (activeLibVoiceBtn) activeLibVoiceBtn.textContent = '🔊'; } catch (e) {}
     activeLibVoiceBtn = null;
+    try { libPlayerSyncPlay(); } catch (e2) {}
   });
+
+  /* ---------- Library mini player: icons only, docked at the bottom ----------
+     Opens from any topic's speaker icon and plays even when the voice
+     setting is off — the tap itself is the student's choice (forced
+     playback). Prev/next walk the currently visible topic list. */
+  var libPlayer = null, libPlayerTitle = null, libPlayerPlay = null,
+      libPlayerSpeed = null, libPlayerPrev = null, libPlayerNext = null;
+  var libPlayerCurrent = null, libPlayerTopic = null;
+  var libPlayerRates = [0.75, 1, 1.25, 1.5];
+  function libPlayerClean(t) {
+    try { return String(t.title + '. ' + (t.text || '')).replace(/\[\[TABLE:[^\]]*\]\]/g, ' ').replace(/\s+/g, ' ').trim(); }
+    catch (e) { return ''; }
+  }
+  function libPlayerVisible() {
+    var out = [];
+    try {
+      var all = document.querySelectorAll('#libTopics details');
+      for (var i = 0; i < all.length; i++) { if (all[i].style.display !== 'none') out.push(all[i]); }
+    } catch (e) {}
+    return out;
+  }
+  function libPlayerTopicFor(detailsEl) {
+    try {
+      var id = detailsEl.dataset.topicId; if (!id) return null;
+      for (var i = 0; i < TOPICS.length; i++) { if (TOPICS[i].id === id) return TOPICS[i]; }
+    } catch (e) {}
+    return null;
+  }
+  function libPlayerSyncPlay() {
+    try {
+      if (!libPlayerPlay) return;
+      libPlayerPlay.textContent = (window.OphthVoice && window.OphthVoice.isSpeaking()) ? '⏸' : '▶';
+    } catch (e) {}
+  }
+  function libPlayerSyncNav() {
+    try {
+      if (!libPlayerPrev || !libPlayerNext || !libPlayerCurrent) return;
+      var list = libPlayerVisible(); var idx = list.indexOf(libPlayerCurrent);
+      libPlayerPrev.classList.toggle('lpDim', idx <= 0);
+      libPlayerNext.classList.toggle('lpDim', idx < 0 || idx >= list.length - 1);
+    } catch (e) {}
+  }
+  function libPlayerSync() { libPlayerSyncPlay(); libPlayerSyncNav(); }
+  function ensureLibPlayer() {
+    if (libPlayer) return libPlayer;
+    try {
+      var p = document.createElement('div'); p.className = 'libPlayer'; p.hidden = true;
+      function mk(txt, act, cls) {
+        var b = document.createElement('button'); b.type = 'button'; b.className = 'lpBtn' + (cls ? ' ' + cls : '');
+        b.textContent = txt; b.dataset.act = act; b.setAttribute('aria-label', act); p.appendChild(b); return b;
+      }
+      libPlayerPrev = mk('⏮', 'prev'); libPlayerPlay = mk('▶', 'play', 'lpPlay');
+      libPlayerNext = mk('⏭', 'next');
+      libPlayerTitle = document.createElement('div'); libPlayerTitle.className = 'lpTitle'; p.appendChild(libPlayerTitle);
+      libPlayerSpeed = mk('1×', 'speed', 'lpSpeed');
+      mk('✕', 'close', 'lpClose');
+      p.addEventListener('click', function (e) {
+        var b = e.target.closest('.lpBtn'); if (!b) return;
+        var act = b.dataset.act;
+        if (act === 'close') { closeLibPlayer(); return; }
+        if (act === 'play') {
+          safeVoice(function () {
+            window.OphthVoice.prime();
+            if (window.OphthVoice.isSpeaking()) { window.OphthVoice.stopSpeak(); }
+            else if (libPlayerTopic) { window.OphthVoice.speakForced(libPlayerClean(libPlayerTopic)); }
+            libPlayerSyncPlay();
+          });
+          return;
+        }
+        if (act === 'speed') {
+          safeVoice(function () {
+            var cur = 1; try { cur = window.OphthVoice.settings.rate || 1; } catch (e2) {}
+            var idx = 0, best = 1e9;
+            for (var i = 0; i < libPlayerRates.length; i++) { var dd = Math.abs(libPlayerRates[i] - cur); if (dd < best) { best = dd; idx = i; } }
+            var next = libPlayerRates[(idx + 1) % libPlayerRates.length];
+            var set = window.OphthVoice.setRate(next);
+            libPlayerSpeed.textContent = set + '×';
+          });
+          return;
+        }
+        if (act === 'prev' || act === 'next') {
+          var list = libPlayerVisible(); var at = list.indexOf(libPlayerCurrent); if (at < 0) return;
+          var to = act === 'prev' ? at - 1 : at + 1; if (to < 0 || to >= list.length) return;
+          var d = list[to]; var topic = libPlayerTopicFor(d); if (!topic) return;
+          openLibPlayer(d, topic);
+          safeVoice(function () {
+            window.OphthVoice.prime();
+            if (window.OphthVoice.isSpeaking()) window.OphthVoice.stopSpeak();
+            window.OphthVoice.speakForced(libPlayerClean(topic));
+            libPlayerSync();
+          });
+        }
+      });
+      document.body.appendChild(p); libPlayer = p;
+    } catch (e) {}
+    return libPlayer;
+  }
+  function openLibPlayer(detailsEl, topic) {
+    try {
+      ensureLibPlayer(); if (!libPlayer) return;
+      libPlayerCurrent = detailsEl; libPlayerTopic = topic;
+      libPlayerTitle.textContent = topic.title;
+      try { var r = window.OphthVoice.settings.rate || 1; libPlayerSpeed.textContent = r + '×'; } catch (e) {}
+      libPlayer.hidden = false;
+      try { detailsEl.open = true; } catch (e2) {}
+      try { detailsEl.scrollIntoView({ block: 'start' }); } catch (e3) {}
+      libPlayerSync();
+    } catch (e) {}
+  }
+  function closeLibPlayer() {
+    try { safeVoice(function () { window.OphthVoice.stopSpeak(); }); } catch (e) {}
+    libPlayerCurrent = null; libPlayerTopic = null;
+    try { if (libPlayer) libPlayer.hidden = true; } catch (e2) {}
+  }
   function currentSubject() {
     try { if (window.OphthApp && typeof OphthApp.getSubject === 'function') return OphthApp.getSubject(); } catch (e) {}
     return null;
@@ -50,9 +166,11 @@
     sectionChipsBuilt = true;
   }
   function renderTopics() {
+    try { closeLibPlayer(); } catch (e) {}
     var box = $('libTopics'); box.innerHTML = '';
     TOPICS.forEach(function (t) {
       var d = document.createElement('details'); d.className = 'noteCard';
+      d.dataset.topicId = t.id;
       d.dataset.search = (t.title + ' ' + (t.text || '') + ' ' + OphthData.subjectName(SECTIONS, t.section)).toLowerCase();
       d.dataset.section = t.section || '';
       var s = document.createElement('summary');
@@ -78,6 +196,9 @@
       d.addEventListener('toggle', function () {
         if (!d.open) {
           try { if (activeLibVoiceBtn && d.contains(activeLibVoiceBtn)) safeVoice(function () { window.OphthVoice.stopSpeak(); }); } catch (e) {}
+          try {
+            if (libPlayerCurrent === d) { libPlayerCurrent = null; libPlayerTopic = null; if (libPlayer) libPlayer.hidden = true; }
+          } catch (e2) {}
           return;
         }
         if (d.dataset.timerDone) return;
@@ -93,15 +214,13 @@
           try { if (ev) ev.preventDefault(); } catch (e) {}
           safeVoice(function () {
             window.OphthVoice.prime();
-            if (window.OphthVoice.isSpeaking()) {
-              var wasMine = (activeLibVoiceBtn === spk);
-              window.OphthVoice.stopSpeak();
-              if (wasMine) return;
-            }
+            if (libPlayerCurrent === d && window.OphthVoice.isSpeaking()) { closeLibPlayer(); return; }
+            openLibPlayer(d, t);
+            if (window.OphthVoice.isSpeaking()) window.OphthVoice.stopSpeak();
             activeLibVoiceBtn = spk;
-            var clean = String(t.text || '').replace(/\[\[TABLE:[^\]]*\]\]/g, ' ').replace(/\s+/g, ' ').trim();
-            window.OphthVoice.speakFullText(t.title + '. ' + clean);
+            window.OphthVoice.speakForced(libPlayerClean(t));
             if (!window.OphthVoice.isSpeaking()) activeLibVoiceBtn = null;
+            libPlayerSync();
           });
         };
       });
@@ -167,7 +286,7 @@
   }
   document.addEventListener('DOMContentLoaded', function () {
     $('libBtn').onclick = function () { safeAudio(function () { OphthAudio.sfx('click'); }); openLibrary(); };
-    $('libBack').onclick = function () { OphthHome(); };
+    $('libBack').onclick = function () { try { closeLibPlayer(); } catch (e) {} OphthHome(); };
     $('libSearch').addEventListener('input', applySearch);
     $('libTabs').addEventListener('click', function (e) {
       var b = e.target.closest('.chip'); if (!b) return;

@@ -230,3 +230,22 @@ html[data-theme="light"] .timerBarWrap{background:#dbe7f3}
 .timerWithVoice{display:flex;gap:8px;align-items:flex-start}
 .timerWithVoice .timerVoiceSlot{flex:1;min-width:0}
 .timerVoiceBtn{flex:none;margin-top:12px;padding:10px 12px;font-size:calc(var(--fscale) * 18px);line-height:1}
+
+/* ---- v1.5: Library mini player (icons only, bottom dock) ---- */
+.libPlayer{position:fixed;left:10px;right:10px;bottom:10px;z-index:90;display:flex;align-items:center;gap:6px;padding:8px 10px;background:var(--panel2);border:1px solid var(--neon);clip-path:var(--cut);box-shadow:0 0 18px rgba(0,240,255,.25)}
+.libPlayer[hidden]{display:none}
+.lpBtn{flex:none;width:40px;height:40px;padding:0;background:transparent;border:1px solid var(--line);color:var(--ink);font-size:calc(var(--fscale) * 18px);line-height:1;cursor:pointer;clip-path:var(--cut)}
+.lpBtn:active{background:var(--panel)}
+.lpDim{opacity:.3}
+.lpTitle{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-family:"Chakra Petch";font-size:calc(var(--fscale) * 13px)}
+.lpSpeed{width:auto;padding:0 10px;font-size:calc(var(--fscale) * 13px);font-family:"Chakra Petch"}
+
+/* ---- v1.5: portrait table scrolling (mechanics + hint, layout unchanged) ---- */
+.tblBox{min-width:0;margin:12px 0}
+.tblBox .tblWrap{margin:0}
+.tblWrap{-webkit-overflow-scrolling:touch;overscroll-behavior-x:contain;touch-action:pan-x pan-y}
+.tblWrap::-webkit-scrollbar{height:8px}
+.tblWrap::-webkit-scrollbar-track{background:var(--panel)}
+.tblWrap::-webkit-scrollbar-thumb{background:var(--neon);border-radius:4px}
+.tblHint{display:none;text-align:center;color:var(--muted);font-size:calc(var(--fscale) * 12px);padding:4px 0 0}
+@media (max-width:500px){ .tblHint{display:block} }
