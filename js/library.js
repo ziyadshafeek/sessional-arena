@@ -14,6 +14,14 @@
   var SECTIONS = [], TOPICS = [], FIGURES = [];
   var rendered = false, currentTab = 'topics', currentSection = 'all';
   var sectionChipsBuilt = false, lastSubject = null;
+  var activeLibVoiceBtn = null;
+  document.addEventListener('ophth-voice-start', function () {
+    try { if (activeLibVoiceBtn) activeLibVoiceBtn.textContent = '⏹️'; } catch (e) {}
+  });
+  document.addEventListener('ophth-voice-end', function () {
+    try { if (activeLibVoiceBtn) activeLibVoiceBtn.textContent = '🔊'; } catch (e) {}
+    activeLibVoiceBtn = null;
+  });
   function currentSubject() {
     try { if (window.OphthApp && typeof OphthApp.getSubject === 'function') return OphthApp.getSubject(); } catch (e) {}
     return null;
@@ -68,11 +76,34 @@
       try { OphthTables.applyTo(t.id, tx); } catch (e) {}
       d.appendChild(tx);
       d.addEventListener('toggle', function () {
-        if (!d.open || d.dataset.timerDone) return;
+        if (!d.open) {
+          try { if (activeLibVoiceBtn && d.contains(activeLibVoiceBtn)) safeVoice(function () { window.OphthVoice.stopSpeak(); }); } catch (e) {}
+          return;
+        }
+        if (d.dataset.timerDone) return;
         d.dataset.timerDone = '1';
-        var slot = document.createElement('div');
-        d.insertBefore(slot, tx);
+        var wrap = document.createElement('div'); wrap.className = 'timerWithVoice';
+        var slot = document.createElement('div'); slot.className = 'timerVoiceSlot';
+        var spk = document.createElement('button'); spk.className = 'btn ghost timerVoiceBtn'; spk.type = 'button';
+        spk.textContent = '🔊'; spk.setAttribute('aria-label', 'Read aloud');
+        wrap.appendChild(slot); wrap.appendChild(spk);
+        d.insertBefore(wrap, tx);
         try { if (window.OphthTimer) OphthTimer.attach(slot, t.text || '', 'lib:' + t.id); } catch (e2) {}
+        spk.onclick = function (ev) {
+          try { if (ev) ev.preventDefault(); } catch (e) {}
+          safeVoice(function () {
+            window.OphthVoice.prime();
+            if (window.OphthVoice.isSpeaking()) {
+              var wasMine = (activeLibVoiceBtn === spk);
+              window.OphthVoice.stopSpeak();
+              if (wasMine) return;
+            }
+            activeLibVoiceBtn = spk;
+            var clean = String(t.text || '').replace(/\[\[TABLE:[^\]]*\]\]/g, ' ').replace(/\s+/g, ' ').trim();
+            window.OphthVoice.speakFullText(t.title + '. ' + clean);
+            if (!window.OphthVoice.isSpeaking()) activeLibVoiceBtn = null;
+          });
+        };
       });
       box.appendChild(d);
     });

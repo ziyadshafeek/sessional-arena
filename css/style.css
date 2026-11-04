@@ -225,3 +225,8 @@ html[data-theme="light"] .timerBarWrap{background:#dbe7f3}
 .tutCard{text-align:left;background:var(--panel2);border:1px solid var(--line);clip-path:var(--cut);padding:10px 12px;margin:8px 0}
 .tutCard b{font-family:"Chakra Petch"}
 .tutCard p{margin:2px 0 0;color:var(--muted);font-size:calc(var(--fscale) * 13px);line-height:1.5}
+
+/* ---- v1.4: Library read-aloud button beside the timer ---- */
+.timerWithVoice{display:flex;gap:8px;align-items:flex-start}
+.timerWithVoice .timerVoiceSlot{flex:1;min-width:0}
+.timerVoiceBtn{flex:none;margin-top:12px;padding:10px 12px;font-size:calc(var(--fscale) * 18px);line-height:1}
