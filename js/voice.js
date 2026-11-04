@@ -15,7 +15,9 @@
     sounds: true,
     muted: false,
     fontSize: 16,
-    theme: 'dark'
+    theme: 'dark',
+    fontStyle: 'default',
+    voiceAsked: false
   };
 
   function isObject(value) {
@@ -88,6 +90,12 @@
           if (typeof parsed.theme === 'string') {
             settings.theme = clampTheme(parsed.theme);
           }
+          if (typeof parsed.fontStyle === 'string') {
+            settings.fontStyle = parsed.fontStyle === 'serif' ? 'serif' : 'default';
+          }
+          if (typeof parsed.voiceAsked === 'boolean') {
+            settings.voiceAsked = parsed.voiceAsked;
+          }
         }
       }
     } catch (e) {
@@ -120,6 +128,7 @@
       var th = clampTheme(current.theme);
       current.theme = th;
       document.documentElement.setAttribute('data-theme', th);
+      document.documentElement.setAttribute('data-font', current.fontStyle === 'serif' ? 'serif' : 'default');
       document.documentElement.style.setProperty('--fscale', (fs / 16).toFixed(3));
       var tc = document.querySelector('meta[name="theme-color"]');
       if (tc) {

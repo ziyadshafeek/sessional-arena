@@ -116,6 +116,7 @@
     $('lbName').textContent = t.title;
     $('lbText').textContent = t.text || '';
     try { OphthTables.applyTo(t.id, $('lbText')); } catch (e) {}
+    try { if (window.OphthTimer) { OphthTimer.attach($('learnTimer'), cleanSpeech(t.text || ''), 'learn:' + t.id); syncFlipHeight(); } } catch (e2) {}
     $('gradeMiss').disabled = true; $('gradeGot').disabled = true;
     updStats(first ? 'first card' : 'in ~3 cards if missed');
     syncFlipHeight();
@@ -182,6 +183,7 @@
   }
   function closeLearn() {
     safeVoice(function () { OphthVoice.stopSpeak(); });
+    try { if (window.OphthTimer) OphthTimer.stop(); } catch (e) {}
     if (window.OphthHome) { OphthHome(); return; }
     OphthShow('homeScreen');
   }

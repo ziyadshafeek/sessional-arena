@@ -41,6 +41,8 @@
   function updateSubjectHome() {
     var t = $('subjectHomeTitle');
     if (t && currentSubject) t.textContent = subjectNameFor(currentSubject);
+    var el = $('subjectExamLine');
+    if (el) el.textContent = currentSubject ? subjectExamText(currentSubject) : '';
   }
   function goToSubject(id) {
     currentSubject = id;
@@ -58,7 +60,8 @@
   }
   function goHome() {
     try { if (window.OphthVoice) OphthVoice.stopSpeak(); } catch (e) {}
-    try { if (window.OphthGame) OphthGame.stopGame(); } catch (e2) {}
+    try { if (window.OphthTimer) OphthTimer.stop(); } catch (e2) {}
+    try { if (window.OphthGame) OphthGame.stopGame(); } catch (e3) {}
     if (currentSubject) {
       updateSubjectHome();
       showScreen('subjectHomeScreen');
@@ -75,13 +78,15 @@
 
   /* ---------- Settings helpers ---------- */
   function getSettings() {
-    if (!window.OphthSettings) window.OphthSettings = { mode: 'browser', autoRead: true, rate: 1.0, sounds: true, muted: false, fontSize: 16, theme: 'dark' };
+    if (!window.OphthSettings) window.OphthSettings = { mode: 'browser', autoRead: true, rate: 1.0, sounds: true, muted: false, fontSize: 16, theme: 'dark', fontStyle: 'default', voiceAsked: false };
     var s = window.OphthSettings;
     if (s.rate == null || isNaN(Number(s.rate))) s.rate = 1.0;
     if (s.mode == null) s.mode = 'browser';
     var fs = parseInt(s.fontSize, 10);
     s.fontSize = isNaN(fs) ? 16 : Math.max(12, Math.min(24, fs));
     if (s.theme !== 'light' && s.theme !== 'dark') s.theme = 'dark';
+    if (s.fontStyle !== 'serif') s.fontStyle = 'default';
+    if (typeof s.voiceAsked !== 'boolean') s.voiceAsked = false;
     return s;
   }
   function saveSettings() {
@@ -117,6 +122,72 @@
     try { if (window.OphthVoice && OphthVoice.applyDisplay) OphthVoice.applyDisplay(); } catch (e) {}
     syncSettingsUI();
   }
+  function setFontStyle(t) {
+    var st = getSettings();
+    st.fontStyle = (t === 'serif') ? 'serif' : 'default';
+    saveSettings();
+    try { if (window.OphthVoice && OphthVoice.applyDisplay) OphthVoice.applyDisplay(); } catch (e) {}
+    syncSettingsUI();
+  }
+  /* ---------- Exam timeline (Second Sessional, Nov 2026) ---------- */
+  var EXAMS = [
+    { id: 'surgery', code: 'SUR', name: 'SURGERY', date: new Date(2026, 10, 9) },
+    { id: 'ophthalmology', code: 'OPH', name: 'OPHTHALMOLOGY', date: new Date(2026, 10, 10) },
+    { id: 'gynecology', code: 'OBG', name: 'OBGYN', date: new Date(2026, 10, 12) },
+    { id: 'ent', code: 'ENT', name: 'ENT', date: new Date(2026, 10, 13) },
+    { id: 'medicine', code: 'MED', name: 'MEDICINE', date: new Date(2026, 10, 16) },
+    { id: 'pediatrics', code: 'PED', name: 'PEDIATRICS', date: new Date(2026, 10, 17) }
+  ];
+  function examDaysLeft(d) {
+    var now = new Date();
+    var today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+    return Math.round((d - today) / 86400000);
+  }
+  function examDateStr(d) {
+    var dd = d.getDate(); if (dd < 10) dd = '0' + dd;
+    var mm = d.getMonth() + 1; if (mm < 10) mm = '0' + mm;
+    return dd + '/' + mm;
+  }
+  function examFor(id) {
+    for (var i = 0; i < EXAMS.length; i++) if (EXAMS[i].id === id) return EXAMS[i];
+    return null;
+  }
+  function examState(ex) {
+    var dl = examDaysLeft(ex.date);
+    if (dl < 0) return 'done';
+    for (var i = 0; i < EXAMS.length; i++) {
+      if (examDaysLeft(EXAMS[i].date) >= 0) return EXAMS[i] === ex ? 'next' : 'todo';
+    }
+    return 'done';
+  }
+  function renderExamHud() {
+    var bar = $('examBar'); if (!bar) return;
+    var next = null, done = 0, html = '';
+    EXAMS.forEach(function (ex) {
+      var st = examState(ex);
+      if (st === 'done') done++;
+      if (st === 'next' && !next) next = ex;
+      html += '<div class="examSeg ' + st + '"><b>' + ex.code + '</b>' + examDateStr(ex.date) + (st === 'done' ? ' ✓' : '') + '</div>';
+    });
+    bar.innerHTML = html;
+    var nx = $('examNext');
+    if (nx) {
+      if (next) {
+        var dl = examDaysLeft(next.date);
+        nx.textContent = 'NEXT ▸ ' + next.name + ' · ' + (dl === 0 ? 'TODAY' : dl === 1 ? 'TOMORROW' : dl + ' DAYS LEFT');
+      } else nx.textContent = 'ALL EXAMS DONE ✓';
+    }
+    var ft = $('examFoot');
+    if (ft) ft.textContent = 'SESSIONAL 10/11 – 17/11 · ' + done + '/6 DONE';
+  }
+  function subjectExamText(id) {
+    var ex = examFor(id); if (!ex) return '';
+    var dl = examDaysLeft(ex.date);
+    if (dl < 0) return '📅 EXAM ' + examDateStr(ex.date) + ' · DONE ✓';
+    if (dl === 0) return '📅 ' + ex.name + ' EXAM TODAY';
+    if (dl === 1) return '📅 ' + ex.name + ' EXAM TOMORROW · ' + examDateStr(ex.date);
+    return '📅 ' + ex.name + ' EXAM ' + examDateStr(ex.date) + ' · ' + dl + ' DAYS LEFT';
+  }
   function syncSettingsUI() {
     try {
       var st = getSettings();
@@ -130,6 +201,8 @@
       var fzv = $('fontSizeVal'); if (fzv) fzv.textContent = st.fontSize + 'px';
       var td = $('themeDark'); if (td) td.classList.toggle('active', st.theme !== 'light');
       var tl = $('themeLight'); if (tl) tl.classList.toggle('active', st.theme === 'light');
+      var fd = $('fontDefault'); if (fd) fd.classList.toggle('active', st.fontStyle !== 'serif');
+      var fs = $('fontSerif'); if (fs) fs.classList.toggle('active', st.fontStyle === 'serif');
       if (window.OphthVoice && OphthVoice.updateVoiceStatus) OphthVoice.updateVoiceStatus();
     } catch (e) {}
   }
@@ -273,5 +346,26 @@
       try { OphthVoice.speakFullText('Voice test. This is the Sessional Arena voice. If you can hear this, voice is working.'); } catch (e2) {}
     };
   });
-  window.OphthApp = { syncSettingsUI: syncSettingsUI, toggleFullscreen: toggleFullscreen, setRate: setRate, setFontSize: setFontSize, setTheme: setTheme, getSettings: getSettings, getSubject: getSubject, goToSubject: goToSubject, showChooser: showChooser, subjectNameFor: subjectNameFor };
+  /* Exam timeline + first-run voice popup + font-style buttons. */
+  document.addEventListener('DOMContentLoaded', function () {
+    renderExamHud();
+    if ($('fontDefault')) $('fontDefault').onclick = function () { setFontStyle('default'); };
+    if ($('fontSerif')) $('fontSerif').onclick = function () { setFontStyle('serif'); };
+    var pop = $('voicePopup');
+    if (!pop) return;
+    var st = getSettings();
+    if (st.voiceAsked) return;
+    pop.classList.add('on');
+    var choose = function (on) {
+      var s = getSettings();
+      if (on) { s.mode = 'browser'; s.muted = false; try { if (window.OphthVoice) OphthVoice.prime(); } catch (e) {} }
+      else { s.mode = 'off'; s.muted = true; try { if (window.OphthVoice) OphthVoice.stopSpeak(); } catch (e2) {} }
+      s.voiceAsked = true;
+      saveSettings(); syncSettingsUI();
+      pop.classList.remove('on');
+    };
+    if ($('voiceYes')) $('voiceYes').onclick = function () { choose(true); };
+    if ($('voiceNo')) $('voiceNo').onclick = function () { choose(false); };
+  });
+  window.OphthApp = { syncSettingsUI: syncSettingsUI, toggleFullscreen: toggleFullscreen, setRate: setRate, setFontSize: setFontSize, setTheme: setTheme, setFontStyle: setFontStyle, renderExamHud: renderExamHud, getSettings: getSettings, getSubject: getSubject, goToSubject: goToSubject, showChooser: showChooser, subjectNameFor: subjectNameFor };
 })();

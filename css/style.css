@@ -192,3 +192,36 @@ html[data-theme="light"] .setRow select{background:#eef3f9}
 html[data-theme="light"] .kicker,html[data-theme="light"] h1.gameTitle span,html[data-theme="light"] h1.gameTitle em{text-shadow:none}
 html[data-theme="light"] .viva{background:rgba(0,122,163,.08)}
 .themeBtn.active{border-color:var(--neon);color:var(--neon)}
+
+/* ---- v1.3: exam timeline, read timer, serif font ---- */
+.examHud{border:1px solid var(--line);background:var(--panel);clip-path:var(--cut);padding:14px;margin:0 0 16px}
+.examTop{display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;align-items:center}
+.examKick{font-family:"Share Tech Mono",monospace;letter-spacing:.2em;font-size:calc(var(--fscale) * 11px);color:var(--neon)}
+.examNext{font-family:"Chakra Petch";font-weight:700;color:var(--amber)}
+.examBar{display:flex;gap:4px;margin-top:12px}
+.examSeg{flex:1;min-width:0;text-align:center;padding:8px 2px;border:1px solid var(--line);background:var(--panel2);font-family:"Share Tech Mono",monospace;font-size:calc(var(--fscale) * 10px);line-height:1.5;overflow-wrap:anywhere}
+.examSeg b{display:block;font-family:"Chakra Petch";font-size:calc(var(--fscale) * 13px)}
+.examSeg.done{border-color:var(--green);color:var(--green)}
+.examSeg.next{border-color:var(--neon);color:var(--neon);box-shadow:0 0 14px rgba(0,240,255,.45);animation:examPulse 1.6s infinite}
+.examSeg.todo{opacity:.55}
+@keyframes examPulse{50%{box-shadow:0 0 26px rgba(0,240,255,.85)}}
+.examFoot{margin-top:10px;font-family:"Share Tech Mono",monospace;font-size:calc(var(--fscale) * 11px);color:var(--muted)}
+.examLine{color:var(--amber);font-weight:700}
+.timerRow{border:1px solid var(--line);background:var(--panel);clip-path:var(--cut);padding:12px;margin:12px 0}
+.timerTop{display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;align-items:center}
+.timerEst{color:var(--muted);font-family:"Share Tech Mono",monospace;font-size:calc(var(--fscale) * 11px)}
+.timerClock{font-size:calc(var(--fscale) * 20px);color:var(--neon);letter-spacing:.05em;font-family:"Chakra Petch"}
+.timerHit{color:var(--green);font-weight:700;font-family:"Chakra Petch"}
+.timerBarWrap{height:10px;background:#050d1a;border:1px solid var(--line);margin-top:10px;overflow:hidden}
+.timerBarFill{height:100%;width:0;background:repeating-linear-gradient(45deg,var(--neon) 0 10px,#0aa8c4 10px 20px);transition:width .5s}
+.timerBarFill.hit{background:var(--green)}
+.timerBtns{display:flex;gap:8px;margin-top:10px;flex-wrap:wrap}
+.timerBtns .btn{padding:10px 14px}
+.fontBtn.active{border-color:var(--neon);color:var(--neon)}
+html[data-font="serif"] *{font-family:"Times New Roman",Times,serif !important}
+html[data-theme="light"] .timerBarWrap{background:#dbe7f3}
+
+/* ---- v1.3: first-run tutorial cards ---- */
+.tutCard{text-align:left;background:var(--panel2);border:1px solid var(--line);clip-path:var(--cut);padding:10px 12px;margin:8px 0}
+.tutCard b{font-family:"Chakra Petch"}
+.tutCard p{margin:2px 0 0;color:var(--muted);font-size:calc(var(--fscale) * 13px);line-height:1.5}

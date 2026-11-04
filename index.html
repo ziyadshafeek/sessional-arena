@@ -12,10 +12,10 @@
 <link rel="manifest" href="manifest.webmanifest"/>
 <link rel="icon" href="data:,">
 <title>Sessional Arena</title>
-<script>try{var _s=JSON.parse(localStorage.getItem('sessional-arena-settings')||'{}');var _fs=parseInt(_s.fontSize,10);if(isNaN(_fs))_fs=16;_fs=Math.max(12,Math.min(24,_fs));document.documentElement.setAttribute('data-theme',_s.theme==='light'?'light':'dark');document.documentElement.style.setProperty('--fscale',(_fs/16).toFixed(3));}catch(e){}</script>
+<script>try{var _s=JSON.parse(localStorage.getItem('sessional-arena-settings')||'{}');var _fs=parseInt(_s.fontSize,10);if(isNaN(_fs))_fs=16;_fs=Math.max(12,Math.min(24,_fs));document.documentElement.setAttribute('data-theme',_s.theme==='light'?'light':'dark');document.documentElement.setAttribute('data-font',_s.fontStyle==='serif'?'serif':'default');document.documentElement.style.setProperty('--fscale',(_fs/16).toFixed(3));}catch(e){}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=Sora:wght@400;600;700;800&family=Share+Tech+Mono&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css?v=5">
+<link rel="stylesheet" href="css/style.css?v=7">
 </head>
 <body>
 <main class="wrap" id="mainWrap">
@@ -25,10 +25,15 @@
 <div class="kicker">SESSIONAL · ARENA</div>
 <h1 class="gameTitle">SESSIONAL<br><span>ARENA</span></h1>
 <p class="oneLine">6 subjects · Learn + Quiz</p>
-<p class="oneLine" id="appVersion">Sessional Arena v1.2</p>
+<p class="oneLine" id="appVersion">Sessional Arena v1.3</p>
 <p class="oneLine" id="homeVoiceLine">Browser voice</p>
 <p class="oneLine" id="voiceWarn" style="display:none;color:#ffb3b3">⚠️ Voice is not available in this browser — open this link in Chrome for voice.</p>
 <p class="oneLine">Choose a subject to start.</p>
+<div id="examHud" class="examHud">
+<div class="examTop"><span class="examKick">⚡ EXAM PROTOCOL</span><span id="examNext" class="examNext"></span></div>
+<div id="examBar" class="examBar"></div>
+<div id="examFoot" class="examFoot"></div>
+</div>
 <div id="subjectCards" class="subjectGrid"></div>
 <div class="btnRow centerRow"><button class="btn primary" id="mixedBtn">▶ MIXED QUIZ · ALL SUBJECTS</button><button class="btn ghost" id="settingsBtnHome">⚙️ SETTINGS</button></div>
 <div id="resumeRowAll" class="btnRow centerRow" style="display:none"><button class="btn primary" id="resumeBtnAll">↻ RESUME MIXED QUIZ</button></div>
@@ -42,6 +47,7 @@
 <div class="kicker">SESSIONAL ARENA</div>
 <h2 class="subjectHomeTitle" id="subjectHomeTitle">Subject</h2>
 <p class="oneLine">Learn + Quiz</p>
+<p class="oneLine examLine" id="subjectExamLine"></p>
 <nav class="homeGrid" aria-label="Subject menu">
 <button class="homeBtn primary" id="playBtn"><span class="hbIc">▶</span><span>Play</span></button>
 <button class="homeBtn" id="learnBtn"><span class="hbIc">🧠</span><span>Learn</span></button>
@@ -143,6 +149,7 @@
 <div class="flipFace flipBack">
 <div class="lbName" id="lbName"></div>
 <div class="lbText" id="lbText"></div>
+<div id="learnTimer"></div>
 </div>
 </div>
 </div>
@@ -177,6 +184,7 @@
 <div class="setRow"><span>Speed presets</span><span class="speedRow presetRow"><button class="btn ghost presetBtn" data-rate="0.75">0.75×</button><button class="btn ghost presetBtn" data-rate="1">1×</button><button class="btn ghost presetBtn" data-rate="1.25">1.25×</button><button class="btn ghost presetBtn" data-rate="1.5">1.5×</button></span></div>
 <div class="setRow"><span>Text size</span><span class="speedRow"><button class="btn ghost" id="fontDown">A−</button><input type="range" id="fontSize" min="12" max="24" step="1"><strong id="fontSizeVal"></strong><button class="btn ghost" id="fontUp">A+</button></span></div>
 <div class="setRow"><span>Theme</span><span class="speedRow"><button class="btn ghost themeBtn" id="themeDark">🌙 Dark</button><button class="btn ghost themeBtn" id="themeLight">☀️ Light</button></span></div>
+<div class="setRow"><span>Font style</span><span class="speedRow"><button class="btn ghost fontBtn" id="fontDefault">Default</button><button class="btn ghost fontBtn" id="fontSerif">Times New Roman</button></span></div>
 <label class="setRow"><span>Sounds</span><input type="checkbox" id="soundsOn"></label>
 <div class="setRow"><span>Mute voice</span><button class="btn ghost" id="muteBtn">🎙️ VOICE: ON</button></div>
 <div class="setRow"><span>Test voice</span><button class="btn ghost" id="testVoiceBtn">🔊 TEST VOICE</button></div>
@@ -185,14 +193,26 @@
 <p class="voiceStatus" id="voiceStatus"></p>
 </div>
 </section>
+<div id="voicePopup" class="overlay"><div class="overlayBox">
+<div class="kicker">👋 FIRST TIME HERE?</div>
+<h2>Sessional Arena</h2>
+<div class="tutCard"><b>📚 Same as the group PDFs</b><p>These are the exact sessional notes from the PDFs shared in the group.</p></div>
+<div class="tutCard"><b>📖 Library</b><p>Full notes, as they are. Open any topic and read.</p></div>
+<div class="tutCard"><b>🧠 Flashcards + Quiz</b><p>Learn flips cards like flashcards. Play runs timed quiz rounds with score, lives and ranks.</p></div>
+<div class="tutCard"><b>⚙️ Settings</b><p>Voice, speed, text size, theme and font — all in Settings.</p></div>
+<p><b>Voice on?</b> Hear notes read aloud as you study?</p>
+<div class="btnRow centerRow"><button class="btn primary" id="voiceYes">🔊 YES, VOICE ON</button><button class="btn ghost" id="voiceNo">🔇 NO VOICE</button></div>
+<p class="voiceStatus">You can change this later in Settings.</p>
+</div></div>
 </main>
-<script src="js/voice.js?v=3"></script>
+<script src="js/voice.js?v=4"></script>
 <script src="js/audio.js?v=1"></script>
 <script src="js/data.js?v=3"></script>
 <script src="js/tables.js?v=3"></script>
-<script src="js/app.js?v=3"></script>
+<script src="js/timer.js?v=1"></script>
+<script src="js/app.js?v=4"></script>
 <script src="js/game.js?v=3"></script>
-<script src="js/learn.js?v=3"></script>
-<script src="js/library.js?v=3"></script>
+<script src="js/learn.js?v=4"></script>
+<script src="js/library.js?v=4"></script>
 </body>
 </html>

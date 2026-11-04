@@ -67,6 +67,13 @@
       var tx = document.createElement('div'); tx.className = 'libText'; tx.textContent = t.text || '';
       try { OphthTables.applyTo(t.id, tx); } catch (e) {}
       d.appendChild(tx);
+      d.addEventListener('toggle', function () {
+        if (!d.open || d.dataset.timerDone) return;
+        d.dataset.timerDone = '1';
+        var slot = document.createElement('div');
+        d.insertBefore(slot, tx);
+        try { if (window.OphthTimer) OphthTimer.attach(slot, t.text || '', 'lib:' + t.id); } catch (e2) {}
+      });
       box.appendChild(d);
     });
   }
