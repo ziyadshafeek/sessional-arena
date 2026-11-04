@@ -361,7 +361,10 @@
     chunkId: 0,
     watchdog: null,
     keepAlive: null,
-    force: false
+    force: false,
+    index: 0,
+    total: 0,
+    items: null
   };
 
   function dispatchVoiceEvent(name) {
@@ -438,6 +441,8 @@
     clearWatchdog();
     clearKeepAlive();
     state.queue = [];
+    state.index = state.total;
+    dispatchVoiceEvent('ophth-voice-progress');
     setSpeaking(false);
   }
 
@@ -522,6 +527,12 @@
       finishChain(token);
       return;
     }
+
+    /* Progress for seekers (e.g. the Library mini player slider). Browser
+       voices cannot report time or seek inside one spoken chunk, so
+       progress moves chunk by chunk and seeks jump between chunks. */
+    state.index = index;
+    dispatchVoiceEvent('ophth-voice-progress');
 
     var chunkId = ++state.chunkId;
     var chunk = state.queue[index];
@@ -611,7 +622,7 @@
     }
   }
 
-  function speakTexts(texts, force) {
+  function speakTexts(texts, force, startRatio) {
     try {
       if (!force && isMutedOrOff()) {
         return;
@@ -648,9 +659,18 @@
       var token = ++state.token;
       state.queue = queue;
       state.force = !!force;
+      state.items = items;
+      state.total = queue.length;
+      var startIndex = 0;
+      if (startRatio && startRatio > 0) {
+        startIndex = startRatio >= 1 ? queue.length - 1 : Math.floor(startRatio * queue.length);
+        if (startIndex < 0) startIndex = 0;
+        if (startIndex >= queue.length) startIndex = queue.length - 1;
+      }
+      state.index = startIndex;
       setSpeaking(true);
       startKeepAlive();
-      speakChunk(token, 0, false);
+      speakChunk(token, startIndex, false);
     } catch (e) {
       /* Never throw out of a public function. */
       try {
@@ -686,6 +706,40 @@
       speakTexts([text], true);
     } catch (e) {
       /* Never throw out of a public function. */
+    }
+  }
+
+  /* Forced playback starting part-way through (mini player resume). */
+  function speakForcedAt(text, ratio) {
+    try {
+      if (typeof text !== 'string') {
+        return;
+      }
+      speakTexts([text], true, ratio);
+    } catch (e) {
+      /* Never throw out of a public function. */
+    }
+  }
+
+  /* Seek inside the current chain (mini player slider). Restarts the
+     chain at the chunk nearest the requested position. */
+  function seekTo(ratio) {
+    try {
+      if (!state.items || !state.items.length || !state.total) {
+        return false;
+      }
+      speakTexts(state.items, state.force, ratio);
+      return true;
+    } catch (e) {
+      return false;
+    }
+  }
+
+  function getProgress() {
+    try {
+      return { index: state.index, total: state.total, speaking: !!state.speaking };
+    } catch (e) {
+      return { index: 0, total: 0, speaking: false };
     }
   }
 
@@ -771,6 +825,9 @@
     prime: prime,
     speakFullText: speakFullText,
     speakForced: speakForced,
+    speakForcedAt: speakForcedAt,
+    seekTo: seekTo,
+    getProgress: getProgress,
     speakTexts: speakTexts,
     stopSpeak: stopSpeak,
     isSpeaking: isSpeaking,

@@ -30,9 +30,27 @@
      setting is off — the tap itself is the student's choice (forced
      playback). Prev/next walk the currently visible topic list. */
   var libPlayer = null, libPlayerTitle = null, libPlayerPlay = null,
-      libPlayerSpeed = null, libPlayerPrev = null, libPlayerNext = null;
+      libPlayerSpeed = null, libPlayerPrev = null, libPlayerNext = null,
+      libPlayerSeek = null;
   var libPlayerCurrent = null, libPlayerTopic = null;
   var libPlayerRates = [0.75, 1, 1.25, 1.5];
+  var libPlayerRatio = 0, libPlayerSeeking = false;
+  function libPlayerFill() {
+    try {
+      if (!libPlayerSeek) return;
+      var pct = (Number(libPlayerSeek.value) || 0) / 10;
+      libPlayerSeek.style.setProperty('--fill', pct + '%');
+    } catch (e) {}
+  }
+  document.addEventListener('ophth-voice-progress', function () {
+    try {
+      if (!libPlayer || libPlayer.hidden || !libPlayerTopic || libPlayerSeeking) return;
+      var pr = window.OphthVoice ? window.OphthVoice.getProgress() : null;
+      if (!pr || !pr.total) return;
+      libPlayerRatio = pr.total ? pr.index / pr.total : 0;
+      if (libPlayerSeek) { libPlayerSeek.value = Math.round(libPlayerRatio * 1000); libPlayerFill(); }
+    } catch (e) {}
+  });
   function libPlayerClean(t) {
     try { return String(t.title + '. ' + (t.text || '')).replace(/\[\[TABLE:[^\]]*\]\]/g, ' ').replace(/\s+/g, ' ').trim(); }
     catch (e) { return ''; }
@@ -71,15 +89,35 @@
     if (libPlayer) return libPlayer;
     try {
       var p = document.createElement('div'); p.className = 'libPlayer'; p.hidden = true;
+      libPlayerSeek = document.createElement('input');
+      libPlayerSeek.type = 'range'; libPlayerSeek.className = 'lpSeek';
+      libPlayerSeek.min = '0'; libPlayerSeek.max = '1000'; libPlayerSeek.value = '0';
+      libPlayerSeek.setAttribute('aria-label', 'Seek');
+      p.appendChild(libPlayerSeek);
+      var row = document.createElement('div'); row.className = 'lpRow'; p.appendChild(row);
       function mk(txt, act, cls) {
         var b = document.createElement('button'); b.type = 'button'; b.className = 'lpBtn' + (cls ? ' ' + cls : '');
-        b.textContent = txt; b.dataset.act = act; b.setAttribute('aria-label', act); p.appendChild(b); return b;
+        b.textContent = txt; b.dataset.act = act; b.setAttribute('aria-label', act); row.appendChild(b); return b;
       }
       libPlayerPrev = mk('⏮', 'prev'); libPlayerPlay = mk('▶', 'play', 'lpPlay');
       libPlayerNext = mk('⏭', 'next');
-      libPlayerTitle = document.createElement('div'); libPlayerTitle.className = 'lpTitle'; p.appendChild(libPlayerTitle);
+      libPlayerTitle = document.createElement('div'); libPlayerTitle.className = 'lpTitle'; row.appendChild(libPlayerTitle);
       libPlayerSpeed = mk('1×', 'speed', 'lpSpeed');
       mk('✕', 'close', 'lpClose');
+      libPlayerSeek.addEventListener('pointerdown', function () { libPlayerSeeking = true; });
+      libPlayerSeek.addEventListener('input', function () { libPlayerFill(); });
+      libPlayerSeek.addEventListener('change', function () {
+        libPlayerSeeking = false;
+        var ratio = (Number(libPlayerSeek.value) || 0) / 1000;
+        libPlayerRatio = ratio; libPlayerFill();
+        safeVoice(function () {
+          window.OphthVoice.prime();
+          var ok = false;
+          try { ok = window.OphthVoice.seekTo(ratio); } catch (e) { ok = false; }
+          if (!ok && libPlayerTopic) { window.OphthVoice.speakForcedAt(libPlayerClean(libPlayerTopic), ratio); }
+          libPlayerSync();
+        });
+      });
       p.addEventListener('click', function (e) {
         var b = e.target.closest('.lpBtn'); if (!b) return;
         var act = b.dataset.act;
@@ -88,7 +126,10 @@
           safeVoice(function () {
             window.OphthVoice.prime();
             if (window.OphthVoice.isSpeaking()) { window.OphthVoice.stopSpeak(); }
-            else if (libPlayerTopic) { window.OphthVoice.speakForced(libPlayerClean(libPlayerTopic)); }
+            else if (libPlayerTopic) {
+              if (libPlayerRatio > 0.01 && libPlayerRatio < 0.999) { window.OphthVoice.speakForcedAt(libPlayerClean(libPlayerTopic), libPlayerRatio); }
+              else { window.OphthVoice.speakForced(libPlayerClean(libPlayerTopic)); }
+            }
             libPlayerSyncPlay();
           });
           return;
@@ -126,6 +167,8 @@
       ensureLibPlayer(); if (!libPlayer) return;
       libPlayerCurrent = detailsEl; libPlayerTopic = topic;
       libPlayerTitle.textContent = topic.title;
+      libPlayerRatio = 0;
+      try { if (libPlayerSeek) { libPlayerSeek.value = '0'; libPlayerFill(); } } catch (e) {}
       try { var r = window.OphthVoice.settings.rate || 1; libPlayerSpeed.textContent = r + '×'; } catch (e) {}
       libPlayer.hidden = false;
       try { detailsEl.open = true; } catch (e2) {}
@@ -135,7 +178,7 @@
   }
   function closeLibPlayer() {
     try { safeVoice(function () { window.OphthVoice.stopSpeak(); }); } catch (e) {}
-    libPlayerCurrent = null; libPlayerTopic = null;
+    libPlayerCurrent = null; libPlayerTopic = null; libPlayerRatio = 0;
     try { if (libPlayer) libPlayer.hidden = true; } catch (e2) {}
   }
   function currentSubject() {
@@ -197,7 +240,7 @@
         if (!d.open) {
           try { if (activeLibVoiceBtn && d.contains(activeLibVoiceBtn)) safeVoice(function () { window.OphthVoice.stopSpeak(); }); } catch (e) {}
           try {
-            if (libPlayerCurrent === d) { libPlayerCurrent = null; libPlayerTopic = null; if (libPlayer) libPlayer.hidden = true; }
+            if (libPlayerCurrent === d) { libPlayerCurrent = null; libPlayerTopic = null; libPlayerRatio = 0; if (libPlayer) libPlayer.hidden = true; }
           } catch (e2) {}
           return;
         }
