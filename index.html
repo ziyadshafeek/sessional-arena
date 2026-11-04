@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"/>
+<meta name="color-scheme" content="dark"/>
+<meta name="theme-color" content="#020610"/>
+<meta name="mobile-web-app-capable" content="yes"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+<meta name="apple-mobile-web-app-title" content="Sessional Arena"/>
+<link rel="manifest" href="manifest.webmanifest"/>
+<link rel="icon" href="data:,">
+<title>Sessional Arena</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=Sora:wght@400;600;700;800&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css?v=3">
+</head>
+<body>
+<main class="wrap" id="mainWrap">
+<!-- ============ HOME ============ -->
+<section id="homeScreen" class="screen on">
+<div class="hero">
+<div class="kicker">SESSIONAL · ARENA</div>
+<h1 class="gameTitle">SESSIONAL<br><span>ARENA</span></h1>
+<p class="oneLine">6 subjects · Learn + Quiz</p>
+<p class="oneLine" id="appVersion">Sessional Arena v1</p>
+<p class="oneLine" id="homeVoiceLine">Browser voice</p>
+<p class="oneLine" id="voiceWarn" style="display:none;color:#ffb3b3">⚠️ Voice is not available in this browser — open this link in Chrome for voice.</p>
+<p class="oneLine">Choose a subject to start.</p>
+<div id="subjectCards" class="subjectGrid"></div>
+<div class="btnRow centerRow"><button class="btn primary" id="mixedBtn">▶ MIXED QUIZ · ALL SUBJECTS</button><button class="btn ghost" id="settingsBtnHome">⚙️ SETTINGS</button></div>
+<div id="resumeRowAll" class="btnRow centerRow" style="display:none"><button class="btn primary" id="resumeBtnAll">↻ RESUME MIXED QUIZ</button></div>
+<div class="btnRow centerRow"><button class="btn ghost" id="fsBtnHome">⛶ FULL SCREEN</button></div>
+</div>
+</section>
+
+<!-- ============ SUBJECT HOME ============ -->
+<section id="subjectHomeScreen" class="screen">
+<div class="hero">
+<div class="kicker">SESSIONAL ARENA</div>
+<h2 class="subjectHomeTitle" id="subjectHomeTitle">Subject</h2>
+<p class="oneLine">Learn + Quiz</p>
+<nav class="homeGrid" aria-label="Subject menu">
+<button class="homeBtn primary" id="playBtn"><span class="hbIc">▶</span><span>Play</span></button>
+<button class="homeBtn" id="learnBtn"><span class="hbIc">🧠</span><span>Learn</span></button>
+<button class="homeBtn" id="libBtn"><span class="hbIc">📚</span><span>Library</span></button>
+<button class="homeBtn" id="settingsBtn"><span class="hbIc">⚙️</span><span>Settings</span></button>
+</nav>
+<div id="resumeRow" class="btnRow centerRow" style="display:none"><button class="btn primary" id="resumeBtn">↻ RESUME GAME</button></div>
+<p class="bestLine" id="bestLine"></p>
+<div class="btnRow centerRow"><button class="btn ghost" id="subjectsBackBtn">✕ SUBJECTS</button><button class="btn ghost" id="fsBtnSubject">⛶ FULL SCREEN</button></div>
+</div>
+</section>
+
+<!-- ============ QUIZ CHOOSER (shown before every Play) ============ -->
+<section id="chooserScreen" class="screen">
+<div class="screenHead"><h2>▶ Choose a quiz</h2><button class="btn ghost" id="chooserBack">✕ HOME</button></div>
+<p class="oneLine" style="text-align:left">Pick this subject's quiz, or play across all subjects.</p>
+<div id="chooserBtns" class="chooserGrid"></div>
+<p class="oneLine" id="chooserNote" style="display:none;text-align:left"></p>
+</section>
+
+<!-- ============ GAME ============ -->
+<section id="gameScreen" class="screen">
+<div id="hud" class="hud">
+<div class="hudTop">
+<div class="pill"><small>LEVEL</small><strong id="lvlVal">LEVEL 1</strong></div>
+<div class="pill"><small>SCORE</small><strong id="scoreVal">0</strong></div>
+<div class="pill" id="comboPill"><small>COMBO</small><strong><span id="comboVal">0</span> <span id="comboMult">×1</span></strong></div>
+<div class="pill"><small>LIVES</small><strong id="hearts" class="hearts"></strong></div>
+</div>
+<div class="timerWrap" id="timerWrap"><div id="timerBar"></div></div>
+<div class="hudRow"><span id="qCount">ROUND 1 / 8</span><span id="timerText">15.0s</span><span class="hudBtns"><button id="fsBtnGame" class="iconBtn" aria-label="Fullscreen">⛶</button><button id="speakerBtn" class="iconBtn" aria-label="Read aloud">🔊</button></span></div>
+<div class="progressDots" id="dots"></div>
+<div class="powers" id="powers">
+<button class="pwBtn" id="pwFifty" aria-label="50:50">✂️ <span class="pwCount" id="cFifty">1</span></button>
+<button class="pwBtn" id="pwTime" aria-label="Add 5 seconds">⏱️ <span class="pwCount" id="cTime">1</span></button>
+<button class="pwBtn" id="pwShield" aria-label="Shield">🛡️ <span class="pwCount" id="cShield">1</span></button>
+<button class="pwBtn" id="pwHint" aria-label="Hint">💡 <span class="pwCount" id="cHint">1</span></button>
+</div>
+</div>
+<div id="arena" class="arena">
+<div id="photoStage" class="photoStage" style="display:none">
+<img id="photoImg" alt="" loading="lazy" decoding="async">
+<div id="photoCap" class="photoCap" style="display:none"></div>
+</div>
+<div class="qHead"><span id="qTag" class="tag"></span><span id="pointsTag" class="pointsTag"></span></div>
+<h2 id="qTitle"></h2>
+<p id="qClue" class="qClue"></p>
+<div id="hintBox" class="hintBox"></div>
+<div id="opts" class="opts"></div>
+<div id="feedback" class="feedback">
+<div id="fbTitle" class="fbTitle"></div>
+<div id="fbPassage" class="fbPassage"></div>
+<div class="btnRow"><button class="btn primary" id="nextBtn">NEXT ▶</button><button class="btn ghost" id="replayRevealBtn">🔊 READ PASSAGE AGAIN</button></div>
+</div>
+<div class="btnRow"><button class="btn ghost" id="quitGameBtn">✕ QUIT TO HOME</button></div>
+</div>
+<div id="levelOverlay" class="overlay"><div class="overlayBox"><div class="kicker" id="lvlKick"></div><h2 id="lvlTitle"></h2><p id="lvlDesc"></p><p id="lvlBonus"></p></div></div>
+</section>
+
+<!-- ============ RESULTS ============ -->
+<section id="resultsScreen" class="screen">
+<div class="resultBox">
+<div class="kicker" id="endKick">GAME OVER</div>
+<h2 id="endTitle"></h2>
+<p id="endDesc"></p>
+<p id="rankLine" class="rankLine"></p>
+<div class="statsGrid">
+<div class="stat"><small>FINAL SCORE</small><strong id="stScore">0</strong></div>
+<div class="stat"><small>BEST COMBO</small><strong id="stCombo">0</strong></div>
+<div class="stat"><small>ACCURACY</small><strong id="stAcc">0%</strong></div>
+<div class="stat"><small>ROUNDS</small><strong id="stRounds">0</strong></div>
+</div>
+<div class="btnRow"><button class="btn primary" id="againBtn">▶ PLAY AGAIN</button><button class="btn ghost" id="menuBtn">HOME</button></div>
+</div>
+</section>
+
+<!-- ============ LEARN ============ -->
+<section id="learnScreen" class="screen">
+<div class="screenHead"><h2>🧠 Learn</h2><button class="btn ghost" id="learnExit">✕ EXIT</button></div>
+<div class="chips" id="learnChips"></div>
+<div class="learnStats">
+<span>MASTERED <strong id="lsMastered">0 / 0</strong></span>
+<span>IN ROTATION <strong id="lsRotation">0</strong></span>
+<span>REVIEWS <strong id="lsReviews">0</strong></span>
+<span>ACCURACY <strong id="lsAcc">—</strong></span>
+<span>NEXT <strong id="lsNext">—</strong></span>
+</div>
+<div class="learnProgWrap"><div id="learnProg"></div></div>
+<div id="learnPlay">
+<div id="flipCard" class="flipCard" tabindex="0" role="button" aria-label="Flip card">
+<div class="flipInner">
+<div class="flipFace flipFront">
+<div class="lfTag" id="lfTag"></div>
+<img id="lfImg" alt="" loading="lazy" decoding="async">
+<div class="lfQ" id="lfTitle"></div>
+<p class="lfCue" id="lfQ">What do you know about this topic?</p>
+<div class="tapHint">TAP TO FLIP ▸</div>
+</div>
+<div class="flipFace flipBack">
+<div class="lbName" id="lbName"></div>
+<div class="lbText" id="lbText"></div>
+</div>
+</div>
+</div>
+<div class="btnRow"><button class="btn ghost" id="learnSpeakerBtn">🔊 READ AGAIN</button></div>
+<div class="btnRow"><button class="btn bad" id="gradeMiss">✗ STILL LEARNING</button><button class="btn good" id="gradeGot">✓ GOT IT</button></div>
+</div>
+<div id="learnDone" class="learnDone"><h3>🏆 DECK MASTERED</h3><p id="learnDoneTxt"></p>
+<div class="btnRow"><button class="btn primary" id="learnAgain">↻ RUN IT AGAIN</button><button class="btn ghost" id="learnToGame">▶ GO TO THE GAME</button></div></div>
+</section>
+
+<!-- ============ LIBRARY ============ -->
+<section id="libraryScreen" class="screen">
+<div class="screenHead"><h2>📚 Library</h2><button class="btn ghost" id="libBack">✕ HOME</button></div>
+<input id="libSearch" class="search" type="search" placeholder="Search topics…" aria-label="Search library">
+<div class="chips" id="libTabs">
+<button class="chip sel" data-tab="topics">Topics</button>
+<button class="chip" data-tab="figures">Figures</button>
+</div>
+<div class="chips" id="libSectionChips"></div>
+<p class="libCount" id="libCount"></p>
+<div id="libTopics" class="libGrid"></div>
+<div id="libFigures" class="photoGrid" style="display:none"></div>
+</section>
+
+<!-- ============ SETTINGS ============ -->
+<section id="settingsScreen" class="screen">
+<div class="screenHead"><h2>⚙️ Settings</h2><button class="btn ghost" id="settingsBack">✕ HOME</button></div>
+<div class="settingsCard">
+<label class="setRow"><span>Voice</span><input type="checkbox" id="voiceOn"></label>
+<label class="setRow"><span>Auto-read</span><input type="checkbox" id="autoRead"></label>
+<label class="setRow"><span>Voice speed</span><span class="speedRow"><input type="range" id="voiceSpeed" min="0.5" max="2.0" step="0.05"><strong id="voiceSpeedVal"></strong></span></label>
+<div class="setRow"><span>Speed presets</span><span class="speedRow presetRow"><button class="btn ghost presetBtn" data-rate="0.75">0.75×</button><button class="btn ghost presetBtn" data-rate="1">1×</button><button class="btn ghost presetBtn" data-rate="1.25">1.25×</button><button class="btn ghost presetBtn" data-rate="1.5">1.5×</button></span></div>
+<label class="setRow"><span>Sounds</span><input type="checkbox" id="soundsOn"></label>
+<div class="setRow"><span>Mute voice</span><button class="btn ghost" id="muteBtn">🎙️ VOICE: ON</button></div>
+<div class="setRow"><span>Test voice</span><button class="btn ghost" id="testVoiceBtn">🔊 TEST VOICE</button></div>
+<div class="setRow"><span>Test sound</span><button class="btn ghost" id="soundTestBtn">🔔 TEST SOUND</button></div>
+<div class="setRow"><span>Reset sound</span><button class="btn ghost" id="resetSoundBtn">↻ RESET SOUND SETTINGS</button></div>
+<p class="voiceStatus" id="voiceStatus"></p>
+</div>
+</section>
+</main>
+<script src="js/voice.js?v=2"></script>
+<script src="js/audio.js?v=1"></script>
+<script src="js/data.js?v=3"></script>
+<script src="js/tables.js?v=3"></script>
+<script src="js/app.js?v=2"></script>
+<script src="js/game.js?v=3"></script>
+<script src="js/learn.js?v=3"></script>
+<script src="js/library.js?v=3"></script>
+</body>
+</html>

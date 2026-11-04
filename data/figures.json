@@ -1,0 +1,2725 @@
+[
+ {
+  "file": "surgery-fig-001.png",
+  "subject": "surgery",
+  "topic": "Q1.1: Malignant Melanoma (Classification, Clinical Features, Prognostic Factors, Staging & Management)",
+  "topicId": "surgery-t01",
+  "label": "Q1.1: Malignant Melanoma (Classification, Clinical Features, Prognostic Factors, Staging & Management)"
+ },
+ {
+  "file": "surgery-fig-002.png",
+  "subject": "surgery",
+  "topic": "Q1.2: Basal Cell Carcinoma (Rodent Ulcer) & Mohs Micrographic Surgery",
+  "topicId": "surgery-t02",
+  "label": "Q1.2: Basal Cell Carcinoma (Rodent Ulcer) & Mohs Micrographic Surgery"
+ },
+ {
+  "file": "surgery-fig-003.png",
+  "subject": "surgery",
+  "topic": "Q1.3: Cutaneous Squamous Cell Carcinoma (SCC) & Marjolin’s Ulcer",
+  "topicId": "surgery-t03",
+  "label": "Q1.3: Cutaneous Squamous Cell Carcinoma (SCC) & Marjolin’s Ulcer"
+ },
+ {
+  "file": "surgery-fig-004.png",
+  "subject": "surgery",
+  "topic": "Q1.4: Classification of Ulcers",
+  "topicId": "surgery-t04",
+  "label": "Q1.4: Classification of Ulcers"
+ },
+ {
+  "file": "surgery-fig-005.png",
+  "subject": "surgery",
+  "topic": "Q2.1: Pathophysiology, Assessment, Classification & Management of Major Thermal Burns",
+  "topicId": "surgery-t06",
+  "label": "Q2.1: Pathophysiology, Assessment, Classification & Management of Major Thermal Burns"
+ },
+ {
+  "file": "surgery-fig-006.png",
+  "subject": "surgery",
+  "topic": "Q2.1: Pathophysiology, Assessment, Classification & Management of Major Thermal Burns",
+  "topicId": "surgery-t06",
+  "label": "Q2.1: Pathophysiology, Assessment, Classification & Management of Major Thermal Burns"
+ },
+ {
+  "file": "surgery-fig-007.png",
+  "subject": "surgery",
+  "topic": "Q2.1: Pathophysiology, Assessment, Classification & Management of Major Thermal Burns",
+  "topicId": "surgery-t06",
+  "label": "Q2.1: Pathophysiology, Assessment, Classification & Management of Major Thermal Burns"
+ },
+ {
+  "file": "surgery-fig-008.png",
+  "subject": "surgery",
+  "topic": "Q2.2: Electrical and Chemical Burns",
+  "topicId": "surgery-t07",
+  "label": "Q2.2: Electrical and Chemical Burns"
+ },
+ {
+  "file": "surgery-fig-009.png",
+  "subject": "surgery",
+  "topic": "Q3.1: Skin Grafts (Types, Split-Skin Graft / Thiersch Graft, Full-Thickness / Wolfe Graft)",
+  "topicId": "surgery-t08",
+  "label": "Q3.1: Skin Grafts (Types, Split-Skin Graft / Thiersch Graft, Full-Thickness / Wolfe Graft)"
+ },
+ {
+  "file": "surgery-fig-010.png",
+  "subject": "surgery",
+  "topic": "Q3.1: Skin Grafts (Types, Split-Skin Graft / Thiersch Graft, Full-Thickness / Wolfe Graft)",
+  "topicId": "surgery-t08",
+  "label": "Q3.1: Skin Grafts (Types, Split-Skin Graft / Thiersch Graft, Full-Thickness / Wolfe Graft)"
+ },
+ {
+  "file": "surgery-fig-011.png",
+  "subject": "surgery",
+  "topic": "Q3.2: Flaps & Vascular Grafts",
+  "topicId": "surgery-t09",
+  "label": "Q3.2: Flaps & Vascular Grafts"
+ },
+ {
+  "file": "surgery-fig-012.png",
+  "subject": "surgery",
+  "topic": "Q3.2: Flaps & Vascular Grafts",
+  "topicId": "surgery-t09",
+  "label": "Q3.2: Flaps & Vascular Grafts"
+ },
+ {
+  "file": "surgery-fig-013.png",
+  "subject": "surgery",
+  "topic": "Q3.2: Flaps & Vascular Grafts",
+  "topicId": "surgery-t09",
+  "label": "Q3.2: Flaps & Vascular Grafts"
+ },
+ {
+  "file": "surgery-fig-014.png",
+  "subject": "surgery",
+  "topic": "Q3.2: Flaps & Vascular Grafts",
+  "topicId": "surgery-t09",
+  "label": "Q3.2: Flaps & Vascular Grafts"
+ },
+ {
+  "file": "surgery-fig-015.png",
+  "subject": "surgery",
+  "topic": "Q4.2: Oral Cavity Squamous Cell Carcinoma (Carcinoma Tongue & Buccal Mucosa)",
+  "topicId": "surgery-t11",
+  "label": "Q4.2: Oral Cavity Squamous Cell Carcinoma (Carcinoma Tongue & Buccal Mucosa)"
+ },
+ {
+  "file": "surgery-fig-016.png",
+  "subject": "surgery",
+  "topic": "Q4.2: Oral Cavity Squamous Cell Carcinoma (Carcinoma Tongue & Buccal Mucosa)",
+  "topicId": "surgery-t11",
+  "label": "Q4.2: Oral Cavity Squamous Cell Carcinoma (Carcinoma Tongue & Buccal Mucosa)"
+ },
+ {
+  "file": "surgery-fig-017.png",
+  "subject": "surgery",
+  "topic": "Q4.2: Oral Cavity Squamous Cell Carcinoma (Carcinoma Tongue & Buccal Mucosa)",
+  "topicId": "surgery-t11",
+  "label": "Q4.2: Oral Cavity Squamous Cell Carcinoma (Carcinoma Tongue & Buccal Mucosa)"
+ },
+ {
+  "file": "surgery-fig-018.png",
+  "subject": "surgery",
+  "topic": "Q4.2: Oral Cavity Squamous Cell Carcinoma (Carcinoma Tongue & Buccal Mucosa)",
+  "topicId": "surgery-t11",
+  "label": "Q4.2: Oral Cavity Squamous Cell Carcinoma (Carcinoma Tongue & Buccal Mucosa)"
+ },
+ {
+  "file": "surgery-fig-019.png",
+  "subject": "surgery",
+  "topic": "Q4.2: Oral Cavity Squamous Cell Carcinoma (Carcinoma Tongue & Buccal Mucosa)",
+  "topicId": "surgery-t11",
+  "label": "Q4.2: Oral Cavity Squamous Cell Carcinoma (Carcinoma Tongue & Buccal Mucosa)"
+ },
+ {
+  "file": "surgery-fig-020.png",
+  "subject": "surgery",
+  "topic": "Q4.2: Oral Cavity Squamous Cell Carcinoma (Carcinoma Tongue & Buccal Mucosa)",
+  "topicId": "surgery-t11",
+  "label": "Q4.2: Oral Cavity Squamous Cell Carcinoma (Carcinoma Tongue & Buccal Mucosa)"
+ },
+ {
+  "file": "surgery-fig-021.png",
+  "subject": "surgery",
+  "topic": "Q5.1: Classification of Salivary Gland Tumours, Pleomorphic Adenoma & Parotidectomy",
+  "topicId": "surgery-t13",
+  "label": "Q5.1: Classification of Salivary Gland Tumours, Pleomorphic Adenoma & Parotidectomy"
+ },
+ {
+  "file": "surgery-fig-022.png",
+  "subject": "surgery",
+  "topic": "Q5.1: Classification of Salivary Gland Tumours, Pleomorphic Adenoma & Parotidectomy",
+  "topicId": "surgery-t13",
+  "label": "Q5.1: Classification of Salivary Gland Tumours, Pleomorphic Adenoma & Parotidectomy"
+ },
+ {
+  "file": "surgery-fig-023.png",
+  "subject": "surgery",
+  "topic": "Q5.3: Ranula, Submandibular Sialolithiasis & Stafne Bone Cyst",
+  "topicId": "surgery-t15",
+  "label": "Q5.3: Ranula, Submandibular Sialolithiasis & Stafne Bone Cyst"
+ },
+ {
+  "file": "surgery-fig-024.png",
+  "subject": "surgery",
+  "topic": "Q5.3: Ranula, Submandibular Sialolithiasis & Stafne Bone Cyst",
+  "topicId": "surgery-t15",
+  "label": "Q5.3: Ranula, Submandibular Sialolithiasis & Stafne Bone Cyst"
+ },
+ {
+  "file": "surgery-fig-025.png",
+  "subject": "surgery",
+  "topic": "Q5.3: Ranula, Submandibular Sialolithiasis & Stafne Bone Cyst",
+  "topicId": "surgery-t15",
+  "label": "Q5.3: Ranula, Submandibular Sialolithiasis & Stafne Bone Cyst"
+ },
+ {
+  "file": "surgery-fig-026.png",
+  "subject": "surgery",
+  "topic": "Q5.3: Ranula, Submandibular Sialolithiasis & Stafne Bone Cyst",
+  "topicId": "surgery-t15",
+  "label": "Q5.3: Ranula, Submandibular Sialolithiasis & Stafne Bone Cyst"
+ },
+ {
+  "file": "surgery-fig-027.png",
+  "subject": "surgery",
+  "topic": "Q6.1: Thyroglossal Cyst & Thyroglossal Fistula",
+  "topicId": "surgery-t16",
+  "label": "Q6.1: Thyroglossal Cyst & Thyroglossal Fistula"
+ },
+ {
+  "file": "surgery-fig-028.png",
+  "subject": "surgery",
+  "topic": "Q6.2: Solitary Thyroid Nodule (Discrete Thyroid Swelling) & Preoperative Evaluation",
+  "topicId": "surgery-t17",
+  "label": "Q6.2: Solitary Thyroid Nodule (Discrete Thyroid Swelling) & Preoperative Evaluation"
+ },
+ {
+  "file": "surgery-fig-029.png",
+  "subject": "surgery",
+  "topic": "Q6.2: Solitary Thyroid Nodule (Discrete Thyroid Swelling) & Preoperative Evaluation",
+  "topicId": "surgery-t17",
+  "label": "Q6.2: Solitary Thyroid Nodule (Discrete Thyroid Swelling) & Preoperative Evaluation"
+ },
+ {
+  "file": "surgery-fig-030.png",
+  "subject": "surgery",
+  "topic": "Q6.3: Multinodular Goitre (MNG) & Retrosternal Goitre",
+  "topicId": "surgery-t18",
+  "label": "Q6.3: Multinodular Goitre (MNG) & Retrosternal Goitre"
+ },
+ {
+  "file": "surgery-fig-031.png",
+  "subject": "surgery",
+  "topic": "Q6.3: Multinodular Goitre (MNG) & Retrosternal Goitre",
+  "topicId": "surgery-t18",
+  "label": "Q6.3: Multinodular Goitre (MNG) & Retrosternal Goitre"
+ },
+ {
+  "file": "surgery-fig-032.png",
+  "subject": "surgery",
+  "topic": "Q6.4: Thyrotoxicosis & Graves’ Disease",
+  "topicId": "surgery-t19",
+  "label": "Q6.4: Thyrotoxicosis & Graves’ Disease"
+ },
+ {
+  "file": "surgery-fig-033.png",
+  "subject": "surgery",
+  "topic": "Q6.5: Thyroid Malignancies (Papillary, Follicular, Medullary) & Complications of Thyroidectomy",
+  "topicId": "surgery-t20",
+  "label": "Q6.5: Thyroid Malignancies (Papillary, Follicular, Medullary) & Complications of Thyroidectomy"
+ },
+ {
+  "file": "surgery-fig-034.png",
+  "subject": "surgery",
+  "topic": "Q6.6: Thyroiditis & Lingual Thyroid",
+  "topicId": "surgery-t21",
+  "label": "Q6.6: Thyroiditis & Lingual Thyroid"
+ },
+ {
+  "file": "surgery-fig-035.png",
+  "subject": "surgery",
+  "topic": "Q7.1: Primary Hyperparathyroidism (Parathyroid Adenoma), Sestamibi Scan & Hypocalcaemia",
+  "topicId": "surgery-t22",
+  "label": "Q7.1: Primary Hyperparathyroidism (Parathyroid Adenoma), Sestamibi Scan & Hypocalcaemia"
+ },
+ {
+  "file": "surgery-fig-036.png",
+  "subject": "surgery",
+  "topic": "Q7.1: Primary Hyperparathyroidism (Parathyroid Adenoma), Sestamibi Scan & Hypocalcaemia",
+  "topicId": "surgery-t22",
+  "label": "Q7.1: Primary Hyperparathyroidism (Parathyroid Adenoma), Sestamibi Scan & Hypocalcaemia"
+ },
+ {
+  "file": "surgery-fig-037.png",
+  "subject": "surgery",
+  "topic": "Q7.1: Primary Hyperparathyroidism (Parathyroid Adenoma), Sestamibi Scan & Hypocalcaemia",
+  "topicId": "surgery-t22",
+  "label": "Q7.1: Primary Hyperparathyroidism (Parathyroid Adenoma), Sestamibi Scan & Hypocalcaemia"
+ },
+ {
+  "file": "surgery-fig-038.png",
+  "subject": "surgery",
+  "topic": "Q7.1: Primary Hyperparathyroidism (Parathyroid Adenoma), Sestamibi Scan & Hypocalcaemia",
+  "topicId": "surgery-t22",
+  "label": "Q7.1: Primary Hyperparathyroidism (Parathyroid Adenoma), Sestamibi Scan & Hypocalcaemia"
+ },
+ {
+  "file": "surgery-fig-039.png",
+  "subject": "surgery",
+  "topic": "Q7.2: Phaeochromocytoma, Neuroblastoma & Multiple Endocrine Neoplasia (MEN) Syndromes",
+  "topicId": "surgery-t23",
+  "label": "Q7.2: Phaeochromocytoma, Neuroblastoma & Multiple Endocrine Neoplasia (MEN) Syndromes"
+ },
+ {
+  "file": "surgery-fig-040.png",
+  "subject": "surgery",
+  "topic": "Q8.1: Triple Assessment, BI-RADS, Benign Breast Diseases (ANDI, Mastalgia, Fibroadenoma, Phyllodes Tumour, Breast Abscess & Nipple Discharge)",
+  "topicId": "surgery-t24",
+  "label": "Q8.1: Triple Assessment, BI-RADS, Benign Breast Diseases (ANDI, Mastalgia, Fibroadenoma, Phyllodes Tumour, Breast Abscess & Nipple Discharge)"
+ },
+ {
+  "file": "surgery-fig-041.png",
+  "subject": "surgery",
+  "topic": "Q8.1: Triple Assessment, BI-RADS, Benign Breast Diseases (ANDI, Mastalgia, Fibroadenoma, Phyllodes Tumour, Breast Abscess & Nipple Discharge)",
+  "topicId": "surgery-t24",
+  "label": "Q8.1: Triple Assessment, BI-RADS, Benign Breast Diseases (ANDI, Mastalgia, Fibroadenoma, Phyllodes Tumour, Breast Abscess & Nipple Discharge)"
+ },
+ {
+  "file": "surgery-fig-042.png",
+  "subject": "surgery",
+  "topic": "Q8.1: Triple Assessment, BI-RADS, Benign Breast Diseases (ANDI, Mastalgia, Fibroadenoma, Phyllodes Tumour, Breast Abscess & Nipple Discharge)",
+  "topicId": "surgery-t24",
+  "label": "Q8.1: Triple Assessment, BI-RADS, Benign Breast Diseases (ANDI, Mastalgia, Fibroadenoma, Phyllodes Tumour, Breast Abscess & Nipple Discharge)"
+ },
+ {
+  "file": "surgery-fig-043.png",
+  "subject": "surgery",
+  "topic": "Q8.1: Triple Assessment, BI-RADS, Benign Breast Diseases (ANDI, Mastalgia, Fibroadenoma, Phyllodes Tumour, Breast Abscess & Nipple Discharge)",
+  "topicId": "surgery-t24",
+  "label": "Q8.1: Triple Assessment, BI-RADS, Benign Breast Diseases (ANDI, Mastalgia, Fibroadenoma, Phyllodes Tumour, Breast Abscess & Nipple Discharge)"
+ },
+ {
+  "file": "surgery-fig-044.png",
+  "subject": "surgery",
+  "topic": "Q8.1: Triple Assessment, BI-RADS, Benign Breast Diseases (ANDI, Mastalgia, Fibroadenoma, Phyllodes Tumour, Breast Abscess & Nipple Discharge)",
+  "topicId": "surgery-t24",
+  "label": "Q8.1: Triple Assessment, BI-RADS, Benign Breast Diseases (ANDI, Mastalgia, Fibroadenoma, Phyllodes Tumour, Breast Abscess & Nipple Discharge)"
+ },
+ {
+  "file": "surgery-fig-045.png",
+  "subject": "surgery",
+  "topic": "Q8.2: Carcinoma of the Breast (Risk Factors, Staging, Screening, Early vs Locally Advanced Management, BCT, SLNB & Adjuvant Therapy)",
+  "topicId": "surgery-t25",
+  "label": "Q8.2: Carcinoma of the Breast (Risk Factors, Staging, Screening, Early vs Locally Advanced Management, BCT, SLNB & Adjuvant Therapy)"
+ },
+ {
+  "file": "surgery-fig-046.png",
+  "subject": "surgery",
+  "topic": "Q8.2: Carcinoma of the Breast (Risk Factors, Staging, Screening, Early vs Locally Advanced Management, BCT, SLNB & Adjuvant Therapy)",
+  "topicId": "surgery-t25",
+  "label": "Q8.2: Carcinoma of the Breast (Risk Factors, Staging, Screening, Early vs Locally Advanced Management, BCT, SLNB & Adjuvant Therapy)"
+ },
+ {
+  "file": "surgery-fig-047.png",
+  "subject": "surgery",
+  "topic": "Q8.2: Carcinoma of the Breast (Risk Factors, Staging, Screening, Early vs Locally Advanced Management, BCT, SLNB & Adjuvant Therapy)",
+  "topicId": "surgery-t25",
+  "label": "Q8.2: Carcinoma of the Breast (Risk Factors, Staging, Screening, Early vs Locally Advanced Management, BCT, SLNB & Adjuvant Therapy)"
+ },
+ {
+  "file": "surgery-fig-048.png",
+  "subject": "surgery",
+  "topic": "Q8.2: Carcinoma of the Breast (Risk Factors, Staging, Screening, Early vs Locally Advanced Management, BCT, SLNB & Adjuvant Therapy)",
+  "topicId": "surgery-t25",
+  "label": "Q8.2: Carcinoma of the Breast (Risk Factors, Staging, Screening, Early vs Locally Advanced Management, BCT, SLNB & Adjuvant Therapy)"
+ },
+ {
+  "file": "surgery-fig-049.png",
+  "subject": "surgery",
+  "topic": "Q8.2: Carcinoma of the Breast (Risk Factors, Staging, Screening, Early vs Locally Advanced Management, BCT, SLNB & Adjuvant Therapy)",
+  "topicId": "surgery-t25",
+  "label": "Q8.2: Carcinoma of the Breast (Risk Factors, Staging, Screening, Early vs Locally Advanced Management, BCT, SLNB & Adjuvant Therapy)"
+ },
+ {
+  "file": "surgery-fig-050.png",
+  "subject": "surgery",
+  "topic": "Q8.2: Carcinoma of the Breast (Risk Factors, Staging, Screening, Early vs Locally Advanced Management, BCT, SLNB & Adjuvant Therapy)",
+  "topicId": "surgery-t25",
+  "label": "Q8.2: Carcinoma of the Breast (Risk Factors, Staging, Screening, Early vs Locally Advanced Management, BCT, SLNB & Adjuvant Therapy)"
+ },
+ {
+  "file": "surgery-fig-051.png",
+  "subject": "surgery",
+  "topic": "Q8.2: Carcinoma of the Breast (Risk Factors, Staging, Screening, Early vs Locally Advanced Management, BCT, SLNB & Adjuvant Therapy)",
+  "topicId": "surgery-t25",
+  "label": "Q8.2: Carcinoma of the Breast (Risk Factors, Staging, Screening, Early vs Locally Advanced Management, BCT, SLNB & Adjuvant Therapy)"
+ },
+ {
+  "file": "surgery-fig-052.png",
+  "subject": "surgery",
+  "topic": "Q9.1: Varicose Veins & Venous Leg Ulcer (Anatomy, Pathophysiology, CEAP, Investigations, Endovenous & Surgical Management)",
+  "topicId": "surgery-t26",
+  "label": "Q9.1: Varicose Veins & Venous Leg Ulcer (Anatomy, Pathophysiology, CEAP, Investigations, Endovenous & Surgical Management)"
+ },
+ {
+  "file": "surgery-fig-053.png",
+  "subject": "surgery",
+  "topic": "Q9.1: Varicose Veins & Venous Leg Ulcer (Anatomy, Pathophysiology, CEAP, Investigations, Endovenous & Surgical Management)",
+  "topicId": "surgery-t26",
+  "label": "Q9.1: Varicose Veins & Venous Leg Ulcer (Anatomy, Pathophysiology, CEAP, Investigations, Endovenous & Surgical Management)"
+ },
+ {
+  "file": "surgery-fig-054.png",
+  "subject": "surgery",
+  "topic": "Q9.1: Varicose Veins & Venous Leg Ulcer (Anatomy, Pathophysiology, CEAP, Investigations, Endovenous & Surgical Management)",
+  "topicId": "surgery-t26",
+  "label": "Q9.1: Varicose Veins & Venous Leg Ulcer (Anatomy, Pathophysiology, CEAP, Investigations, Endovenous & Surgical Management)"
+ },
+ {
+  "file": "surgery-fig-055.png",
+  "subject": "surgery",
+  "topic": "Q9.1: Varicose Veins & Venous Leg Ulcer (Anatomy, Pathophysiology, CEAP, Investigations, Endovenous & Surgical Management)",
+  "topicId": "surgery-t26",
+  "label": "Q9.1: Varicose Veins & Venous Leg Ulcer (Anatomy, Pathophysiology, CEAP, Investigations, Endovenous & Surgical Management)"
+ },
+ {
+  "file": "surgery-fig-056.png",
+  "subject": "surgery",
+  "topic": "Q9.1: Varicose Veins & Venous Leg Ulcer (Anatomy, Pathophysiology, CEAP, Investigations, Endovenous & Surgical Management)",
+  "topicId": "surgery-t26",
+  "label": "Q9.1: Varicose Veins & Venous Leg Ulcer (Anatomy, Pathophysiology, CEAP, Investigations, Endovenous & Surgical Management)"
+ },
+ {
+  "file": "surgery-fig-057.png",
+  "subject": "surgery",
+  "topic": "Q9.1: Varicose Veins & Venous Leg Ulcer (Anatomy, Pathophysiology, CEAP, Investigations, Endovenous & Surgical Management)",
+  "topicId": "surgery-t26",
+  "label": "Q9.1: Varicose Veins & Venous Leg Ulcer (Anatomy, Pathophysiology, CEAP, Investigations, Endovenous & Surgical Management)"
+ },
+ {
+  "file": "surgery-fig-058.png",
+  "subject": "surgery",
+  "topic": "Q9.1: Varicose Veins & Venous Leg Ulcer (Anatomy, Pathophysiology, CEAP, Investigations, Endovenous & Surgical Management)",
+  "topicId": "surgery-t26",
+  "label": "Q9.1: Varicose Veins & Venous Leg Ulcer (Anatomy, Pathophysiology, CEAP, Investigations, Endovenous & Surgical Management)"
+ },
+ {
+  "file": "surgery-fig-059.png",
+  "subject": "surgery",
+  "topic": "Q9.1: Varicose Veins & Venous Leg Ulcer (Anatomy, Pathophysiology, CEAP, Investigations, Endovenous & Surgical Management)",
+  "topicId": "surgery-t26",
+  "label": "Q9.1: Varicose Veins & Venous Leg Ulcer (Anatomy, Pathophysiology, CEAP, Investigations, Endovenous & Surgical Management)"
+ },
+ {
+  "file": "surgery-fig-060.png",
+  "subject": "surgery",
+  "topic": "Q9.2: Deep Vein Thrombosis (DVT) & Pulmonary Embolism (Etiology, Modified Wells Score, Diagnosis, Prophylaxis & Management)",
+  "topicId": "surgery-t27",
+  "label": "Q9.2: Deep Vein Thrombosis (DVT) & Pulmonary Embolism (Etiology, Modified Wells Score, Diagnosis, Prophylaxis & Management)"
+ },
+ {
+  "file": "surgery-fig-061.png",
+  "subject": "surgery",
+  "topic": "Q9.2: Deep Vein Thrombosis (DVT) & Pulmonary Embolism (Etiology, Modified Wells Score, Diagnosis, Prophylaxis & Management)",
+  "topicId": "surgery-t27",
+  "label": "Q9.2: Deep Vein Thrombosis (DVT) & Pulmonary Embolism (Etiology, Modified Wells Score, Diagnosis, Prophylaxis & Management)"
+ },
+ {
+  "file": "surgery-fig-062.png",
+  "subject": "surgery",
+  "topic": "Q9.2: Deep Vein Thrombosis (DVT) & Pulmonary Embolism (Etiology, Modified Wells Score, Diagnosis, Prophylaxis & Management)",
+  "topicId": "surgery-t27",
+  "label": "Q9.2: Deep Vein Thrombosis (DVT) & Pulmonary Embolism (Etiology, Modified Wells Score, Diagnosis, Prophylaxis & Management)"
+ },
+ {
+  "file": "surgery-fig-063.png",
+  "subject": "surgery",
+  "topic": "Q10.1: Chronic Lower Limb Ischaemia, Atherosclerotic Peripheral Arterial Disease (PAD) & Thromboangiitis Obliterans (Buerger’s Disease)",
+  "topicId": "surgery-t28",
+  "label": "Q10.1: Chronic Lower Limb Ischaemia, Atherosclerotic Peripheral Arterial Disease (PAD) & Thromboangiitis Obliterans (Buerger’s Disease)"
+ },
+ {
+  "file": "surgery-fig-064.png",
+  "subject": "surgery",
+  "topic": "Q10.1: Chronic Lower Limb Ischaemia, Atherosclerotic Peripheral Arterial Disease (PAD) & Thromboangiitis Obliterans (Buerger’s Disease)",
+  "topicId": "surgery-t28",
+  "label": "Q10.1: Chronic Lower Limb Ischaemia, Atherosclerotic Peripheral Arterial Disease (PAD) & Thromboangiitis Obliterans (Buerger’s Disease)"
+ },
+ {
+  "file": "surgery-fig-065.png",
+  "subject": "surgery",
+  "topic": "Q10.1: Chronic Lower Limb Ischaemia, Atherosclerotic Peripheral Arterial Disease (PAD) & Thromboangiitis Obliterans (Buerger’s Disease)",
+  "topicId": "surgery-t28",
+  "label": "Q10.1: Chronic Lower Limb Ischaemia, Atherosclerotic Peripheral Arterial Disease (PAD) & Thromboangiitis Obliterans (Buerger’s Disease)"
+ },
+ {
+  "file": "surgery-fig-066.png",
+  "subject": "surgery",
+  "topic": "Q10.1: Chronic Lower Limb Ischaemia, Atherosclerotic Peripheral Arterial Disease (PAD) & Thromboangiitis Obliterans (Buerger’s Disease)",
+  "topicId": "surgery-t28",
+  "label": "Q10.1: Chronic Lower Limb Ischaemia, Atherosclerotic Peripheral Arterial Disease (PAD) & Thromboangiitis Obliterans (Buerger’s Disease)"
+ },
+ {
+  "file": "surgery-fig-067.png",
+  "subject": "surgery",
+  "topic": "Q10.1: Chronic Lower Limb Ischaemia, Atherosclerotic Peripheral Arterial Disease (PAD) & Thromboangiitis Obliterans (Buerger’s Disease)",
+  "topicId": "surgery-t28",
+  "label": "Q10.1: Chronic Lower Limb Ischaemia, Atherosclerotic Peripheral Arterial Disease (PAD) & Thromboangiitis Obliterans (Buerger’s Disease)"
+ },
+ {
+  "file": "surgery-fig-068.png",
+  "subject": "surgery",
+  "topic": "Q10.1: Chronic Lower Limb Ischaemia, Atherosclerotic Peripheral Arterial Disease (PAD) & Thromboangiitis Obliterans (Buerger’s Disease)",
+  "topicId": "surgery-t28",
+  "label": "Q10.1: Chronic Lower Limb Ischaemia, Atherosclerotic Peripheral Arterial Disease (PAD) & Thromboangiitis Obliterans (Buerger’s Disease)"
+ },
+ {
+  "file": "surgery-fig-069.png",
+  "subject": "surgery",
+  "topic": "Q10.1: Chronic Lower Limb Ischaemia, Atherosclerotic Peripheral Arterial Disease (PAD) & Thromboangiitis Obliterans (Buerger’s Disease)",
+  "topicId": "surgery-t28",
+  "label": "Q10.1: Chronic Lower Limb Ischaemia, Atherosclerotic Peripheral Arterial Disease (PAD) & Thromboangiitis Obliterans (Buerger’s Disease)"
+ },
+ {
+  "file": "surgery-fig-070.png",
+  "subject": "surgery",
+  "topic": "Q10.2: Gangrene (Types, Diabetic Foot & Gas Gangrene), Acute Limb Ischaemia, Amputation & Lumbar Sympathectomy",
+  "topicId": "surgery-t29",
+  "label": "Q10.2: Gangrene (Types, Diabetic Foot & Gas Gangrene), Acute Limb Ischaemia, Amputation & Lumbar Sympathectomy"
+ },
+ {
+  "file": "surgery-fig-071.png",
+  "subject": "surgery",
+  "topic": "Q10.2: Gangrene (Types, Diabetic Foot & Gas Gangrene), Acute Limb Ischaemia, Amputation & Lumbar Sympathectomy",
+  "topicId": "surgery-t29",
+  "label": "Q10.2: Gangrene (Types, Diabetic Foot & Gas Gangrene), Acute Limb Ischaemia, Amputation & Lumbar Sympathectomy"
+ },
+ {
+  "file": "surgery-fig-072.png",
+  "subject": "surgery",
+  "topic": "Q10.2: Gangrene (Types, Diabetic Foot & Gas Gangrene), Acute Limb Ischaemia, Amputation & Lumbar Sympathectomy",
+  "topicId": "surgery-t29",
+  "label": "Q10.2: Gangrene (Types, Diabetic Foot & Gas Gangrene), Acute Limb Ischaemia, Amputation & Lumbar Sympathectomy"
+ },
+ {
+  "file": "surgery-fig-073.png",
+  "subject": "surgery",
+  "topic": "Q10.2: Gangrene (Types, Diabetic Foot & Gas Gangrene), Acute Limb Ischaemia, Amputation & Lumbar Sympathectomy",
+  "topicId": "surgery-t29",
+  "label": "Q10.2: Gangrene (Types, Diabetic Foot & Gas Gangrene), Acute Limb Ischaemia, Amputation & Lumbar Sympathectomy"
+ },
+ {
+  "file": "surgery-fig-074.png",
+  "subject": "surgery",
+  "topic": "Q10.3: Aortic Aneurysm, False/Cirsoid Aneurysm, Arteriovenous Fistula & Raynaud’s Syndrome",
+  "topicId": "surgery-t30",
+  "label": "Q10.3: Aortic Aneurysm, False/Cirsoid Aneurysm, Arteriovenous Fistula & Raynaud’s Syndrome"
+ },
+ {
+  "file": "surgery-fig-075.png",
+  "subject": "surgery",
+  "topic": "Q10.3: Aortic Aneurysm, False/Cirsoid Aneurysm, Arteriovenous Fistula & Raynaud’s Syndrome",
+  "topicId": "surgery-t30",
+  "label": "Q10.3: Aortic Aneurysm, False/Cirsoid Aneurysm, Arteriovenous Fistula & Raynaud’s Syndrome"
+ },
+ {
+  "file": "surgery-fig-076.png",
+  "subject": "surgery",
+  "topic": "Q10.3: Aortic Aneurysm, False/Cirsoid Aneurysm, Arteriovenous Fistula & Raynaud’s Syndrome",
+  "topicId": "surgery-t30",
+  "label": "Q10.3: Aortic Aneurysm, False/Cirsoid Aneurysm, Arteriovenous Fistula & Raynaud’s Syndrome"
+ },
+ {
+  "file": "surgery-fig-077.png",
+  "subject": "surgery",
+  "topic": "PART B: MASTER COMPENDIUM OF ALL TEXTBOOK CLASSIFICATIONS",
+  "topicId": "surgery-t34",
+  "label": "PART B: MASTER COMPENDIUM OF ALL TEXTBOOK CLASSIFICATIONS"
+ },
+ {
+  "file": "surgery-fig-078.png",
+  "subject": "surgery",
+  "topic": "PART B: MASTER COMPENDIUM OF ALL TEXTBOOK CLASSIFICATIONS",
+  "topicId": "surgery-t34",
+  "label": "PART B: MASTER COMPENDIUM OF ALL TEXTBOOK CLASSIFICATIONS"
+ },
+ {
+  "file": "surgery-fig-079.png",
+  "subject": "surgery",
+  "topic": "PART B: MASTER COMPENDIUM OF ALL TEXTBOOK CLASSIFICATIONS",
+  "topicId": "surgery-t34",
+  "label": "PART B: MASTER COMPENDIUM OF ALL TEXTBOOK CLASSIFICATIONS"
+ },
+ {
+  "file": "surgery-fig-080.png",
+  "subject": "surgery",
+  "topic": "4. Chapter 53: Oral Cavity Cancer (Remaining Topics)",
+  "topicId": "surgery-t38",
+  "label": "4. Chapter 53: Oral Cavity Cancer (Remaining Topics)"
+ },
+ {
+  "file": "surgery-fig-081.png",
+  "subject": "surgery",
+  "topic": "5. Chapter 54: Disorders of the Salivary Glands (Remaining Topics)",
+  "topicId": "surgery-t39",
+  "label": "5. Chapter 54: Disorders of the Salivary Glands (Remaining Topics)"
+ },
+ {
+  "file": "surgery-fig-082.png",
+  "subject": "surgery",
+  "topic": "5. Chapter 54: Disorders of the Salivary Glands (Remaining Topics)",
+  "topicId": "surgery-t39",
+  "label": "5. Chapter 54: Disorders of the Salivary Glands (Remaining Topics)"
+ },
+ {
+  "file": "surgery-fig-083.png",
+  "subject": "surgery",
+  "topic": "7. Chapter 57: Adrenal Glands & Abdominal Endocrine Disorders (Remaining Topics)",
+  "topicId": "surgery-t41",
+  "label": "7. Chapter 57: Adrenal Glands & Abdominal Endocrine Disorders (Remaining Topics)"
+ },
+ {
+  "file": "surgery-fig-084.png",
+  "subject": "surgery",
+  "topic": "7. Chapter 57: Adrenal Glands & Abdominal Endocrine Disorders (Remaining Topics)",
+  "topicId": "surgery-t41",
+  "label": "7. Chapter 57: Adrenal Glands & Abdominal Endocrine Disorders (Remaining Topics)"
+ },
+ {
+  "file": "surgery-fig-085.png",
+  "subject": "surgery",
+  "topic": "7. Chapter 57: Adrenal Glands & Abdominal Endocrine Disorders (Remaining Topics)",
+  "topicId": "surgery-t41",
+  "label": "7. Chapter 57: Adrenal Glands & Abdominal Endocrine Disorders (Remaining Topics)"
+ },
+ {
+  "file": "surgery-fig-086.png",
+  "subject": "surgery",
+  "topic": "7. Chapter 57: Adrenal Glands & Abdominal Endocrine Disorders (Remaining Topics)",
+  "topicId": "surgery-t41",
+  "label": "7. Chapter 57: Adrenal Glands & Abdominal Endocrine Disorders (Remaining Topics)"
+ },
+ {
+  "file": "surgery-fig-087.png",
+  "subject": "surgery",
+  "topic": "8. Chapter 58, 61 & 62: Breast, Arterial & Venous Disorders (Remaining Topics)",
+  "topicId": "surgery-t42",
+  "label": "8. Chapter 58, 61 & 62: Breast, Arterial & Venous Disorders (Remaining Topics)"
+ },
+ {
+  "file": "surgery-fig-088.png",
+  "subject": "surgery",
+  "topic": "8. Chapter 58, 61 & 62: Breast, Arterial & Venous Disorders (Remaining Topics)",
+  "topicId": "surgery-t42",
+  "label": "8. Chapter 58, 61 & 62: Breast, Arterial & Venous Disorders (Remaining Topics)"
+ },
+ {
+  "file": "surgery-fig-089.png",
+  "subject": "surgery",
+  "topic": "8. Chapter 58, 61 & 62: Breast, Arterial & Venous Disorders (Remaining Topics)",
+  "topicId": "surgery-t42",
+  "label": "8. Chapter 58, 61 & 62: Breast, Arterial & Venous Disorders (Remaining Topics)"
+ },
+ {
+  "file": "surgery-fig-090.png",
+  "subject": "surgery",
+  "topic": "8. Chapter 58, 61 & 62: Breast, Arterial & Venous Disorders (Remaining Topics)",
+  "topicId": "surgery-t42",
+  "label": "8. Chapter 58, 61 & 62: Breast, Arterial & Venous Disorders (Remaining Topics)"
+ },
+ {
+  "file": "surgery-fig-091.png",
+  "subject": "surgery",
+  "topic": "8. Chapter 58, 61 & 62: Breast, Arterial & Venous Disorders (Remaining Topics)",
+  "topicId": "surgery-t42",
+  "label": "8. Chapter 58, 61 & 62: Breast, Arterial & Venous Disorders (Remaining Topics)"
+ },
+ {
+  "file": "ent-fig-001.png",
+  "subject": "ent",
+  "topic": "19. ANATOMY OF NOSE",
+  "topicId": "ent-t01",
+  "label": "19. ANATOMY OF NOSE"
+ },
+ {
+  "file": "ent-fig-002.png",
+  "subject": "ent",
+  "topic": "19. ANATOMY OF NOSE",
+  "topicId": "ent-t01",
+  "label": "19. ANATOMY OF NOSE"
+ },
+ {
+  "file": "ent-fig-003.png",
+  "subject": "ent",
+  "topic": "20. PHYSIOLOGY OF NOSE",
+  "topicId": "ent-t02",
+  "label": "20. PHYSIOLOGY OF NOSE"
+ },
+ {
+  "file": "ent-fig-004.png",
+  "subject": "ent",
+  "topic": "21. NASAL SEPTUM AND ITS DISORDERS",
+  "topicId": "ent-t03",
+  "label": "21. NASAL SEPTUM AND ITS DISORDERS"
+ },
+ {
+  "file": "ent-fig-005.png",
+  "subject": "ent",
+  "topic": "21. NASAL SEPTUM AND ITS DISORDERS",
+  "topicId": "ent-t03",
+  "label": "21. NASAL SEPTUM AND ITS DISORDERS"
+ },
+ {
+  "file": "ent-fig-006.png",
+  "subject": "ent",
+  "topic": "21. NASAL SEPTUM AND ITS DISORDERS",
+  "topicId": "ent-t03",
+  "label": "21. NASAL SEPTUM AND ITS DISORDERS"
+ },
+ {
+  "file": "ent-fig-007.png",
+  "subject": "ent",
+  "topic": "23. DISORDERS OF EXTERNAL NOSE AND GRANULOMATOUS DISEASES",
+  "topicId": "ent-t05",
+  "label": "23. DISORDERS OF EXTERNAL NOSE AND GRANULOMATOUS DISEASES"
+ },
+ {
+  "file": "ent-fig-008.png",
+  "subject": "ent",
+  "topic": "24. MISCELLANEOUS DISORDERS OF NOSE",
+  "topicId": "ent-t06",
+  "label": "24. MISCELLANEOUS DISORDERS OF NOSE"
+ },
+ {
+  "file": "ent-fig-009.png",
+  "subject": "ent",
+  "topic": "25. ALLERGIC RHINITIS",
+  "topicId": "ent-t07",
+  "label": "25. ALLERGIC RHINITIS"
+ },
+ {
+  "file": "ent-fig-010.png",
+  "subject": "ent",
+  "topic": "28. EPISTAXIS",
+  "topicId": "ent-t10",
+  "label": "28. EPISTAXIS"
+ },
+ {
+  "file": "ent-fig-011.png",
+  "subject": "ent",
+  "topic": "28. EPISTAXIS",
+  "topicId": "ent-t10",
+  "label": "28. EPISTAXIS"
+ },
+ {
+  "file": "ent-fig-012.png",
+  "subject": "ent",
+  "topic": "29. TRAUMA TO FACE",
+  "topicId": "ent-t11",
+  "label": "29. TRAUMA TO FACE"
+ },
+ {
+  "file": "ent-fig-013.png",
+  "subject": "ent",
+  "topic": "30. PARANASAL SINUSES AND SINUSITIS",
+  "topicId": "ent-t12",
+  "label": "30. PARANASAL SINUSES AND SINUSITIS"
+ },
+ {
+  "file": "ent-fig-014.png",
+  "subject": "ent",
+  "topic": "30. PARANASAL SINUSES AND SINUSITIS",
+  "topicId": "ent-t12",
+  "label": "30. PARANASAL SINUSES AND SINUSITIS"
+ },
+ {
+  "file": "ent-fig-015.png",
+  "subject": "ent",
+  "topic": "30. PARANASAL SINUSES AND SINUSITIS",
+  "topicId": "ent-t12",
+  "label": "30. PARANASAL SINUSES AND SINUSITIS"
+ },
+ {
+  "file": "ent-fig-016.png",
+  "subject": "ent",
+  "topic": "31. ORAL CAVITY AND SALIVARY GLANDS",
+  "topicId": "ent-t13",
+  "label": "31. ORAL CAVITY AND SALIVARY GLANDS"
+ },
+ {
+  "file": "ent-fig-017.png",
+  "subject": "ent",
+  "topic": "32. ANATOMY AND PHYSIOLOGY OF PHARYNX",
+  "topicId": "ent-t14",
+  "label": "32. ANATOMY AND PHYSIOLOGY OF PHARYNX"
+ },
+ {
+  "file": "ent-fig-018.png",
+  "subject": "ent",
+  "topic": "32. ANATOMY AND PHYSIOLOGY OF PHARYNX",
+  "topicId": "ent-t14",
+  "label": "32. ANATOMY AND PHYSIOLOGY OF PHARYNX"
+ },
+ {
+  "file": "ent-fig-019.png",
+  "subject": "ent",
+  "topic": "33. ADENOIDS",
+  "topicId": "ent-t15",
+  "label": "33. ADENOIDS"
+ },
+ {
+  "file": "ent-fig-020.png",
+  "subject": "ent",
+  "topic": "34. TUMOURS OF NASOPHARYNX",
+  "topicId": "ent-t16",
+  "label": "34. TUMOURS OF NASOPHARYNX"
+ },
+ {
+  "file": "ent-fig-021.png",
+  "subject": "ent",
+  "topic": "34. TUMOURS OF NASOPHARYNX",
+  "topicId": "ent-t16",
+  "label": "34. TUMOURS OF NASOPHARYNX"
+ },
+ {
+  "file": "ent-fig-022.png",
+  "subject": "ent",
+  "topic": "35 & 36. ACUTE AND CHRONIC PHARYNGITIS & TONSILLITIS",
+  "topicId": "ent-t17",
+  "label": "35 & 36. ACUTE AND CHRONIC PHARYNGITIS & TONSILLITIS"
+ },
+ {
+  "file": "ent-fig-023.png",
+  "subject": "ent",
+  "topic": "35 & 36. ACUTE AND CHRONIC PHARYNGITIS & TONSILLITIS",
+  "topicId": "ent-t17",
+  "label": "35 & 36. ACUTE AND CHRONIC PHARYNGITIS & TONSILLITIS"
+ },
+ {
+  "file": "ent-fig-024.png",
+  "subject": "ent",
+  "topic": "35 & 36. ACUTE AND CHRONIC PHARYNGITIS & TONSILLITIS",
+  "topicId": "ent-t17",
+  "label": "35 & 36. ACUTE AND CHRONIC PHARYNGITIS & TONSILLITIS"
+ },
+ {
+  "file": "ent-fig-025.png",
+  "subject": "ent",
+  "topic": "37. HEAD AND NECK SPACE INFECTIONS",
+  "topicId": "ent-t18",
+  "label": "37. HEAD AND NECK SPACE INFECTIONS"
+ },
+ {
+  "file": "ent-fig-026.png",
+  "subject": "ent",
+  "topic": "37. HEAD AND NECK SPACE INFECTIONS",
+  "topicId": "ent-t18",
+  "label": "37. HEAD AND NECK SPACE INFECTIONS"
+ },
+ {
+  "file": "ent-fig-027.png",
+  "subject": "ent",
+  "topic": "37. HEAD AND NECK SPACE INFECTIONS",
+  "topicId": "ent-t18",
+  "label": "37. HEAD AND NECK SPACE INFECTIONS"
+ },
+ {
+  "file": "ent-fig-028.png",
+  "subject": "ent",
+  "topic": "37. HEAD AND NECK SPACE INFECTIONS",
+  "topicId": "ent-t18",
+  "label": "37. HEAD AND NECK SPACE INFECTIONS"
+ },
+ {
+  "file": "ent-fig-029.png",
+  "subject": "ent",
+  "topic": "39 & 54. NECK MASSES AND THYROID",
+  "topicId": "ent-t20",
+  "label": "39 & 54. NECK MASSES AND THYROID"
+ },
+ {
+  "file": "ent-fig-030.png",
+  "subject": "ent",
+  "topic": "39 & 54. NECK MASSES AND THYROID",
+  "topicId": "ent-t20",
+  "label": "39 & 54. NECK MASSES AND THYROID"
+ },
+ {
+  "file": "ent-fig-031.png",
+  "subject": "ent",
+  "topic": "39 & 54. NECK MASSES AND THYROID",
+  "topicId": "ent-t20",
+  "label": "39 & 54. NECK MASSES AND THYROID"
+ },
+ {
+  "file": "ent-fig-032.png",
+  "subject": "ent",
+  "topic": "40. ANATOMY AND PHYSIOLOGY OF LARYNX",
+  "topicId": "ent-t21",
+  "label": "40. ANATOMY AND PHYSIOLOGY OF LARYNX"
+ },
+ {
+  "file": "ent-fig-033.png",
+  "subject": "ent",
+  "topic": "40. ANATOMY AND PHYSIOLOGY OF LARYNX",
+  "topicId": "ent-t21",
+  "label": "40. ANATOMY AND PHYSIOLOGY OF LARYNX"
+ },
+ {
+  "file": "ent-fig-034.png",
+  "subject": "ent",
+  "topic": "42. CONGENITAL LESIONS OF LARYNX AND STRIDOR",
+  "topicId": "ent-t23",
+  "label": "42. CONGENITAL LESIONS OF LARYNX AND STRIDOR"
+ },
+ {
+  "file": "ent-fig-035.png",
+  "subject": "ent",
+  "topic": "43. LARYNGEAL PARALYSIS",
+  "topicId": "ent-t24",
+  "label": "43. LARYNGEAL PARALYSIS"
+ },
+ {
+  "file": "ent-fig-036.png",
+  "subject": "ent",
+  "topic": "43. LARYNGEAL PARALYSIS",
+  "topicId": "ent-t24",
+  "label": "43. LARYNGEAL PARALYSIS"
+ },
+ {
+  "file": "ent-fig-037.png",
+  "subject": "ent",
+  "topic": "44. BENIGN LARYNGEAL TUMOURS AND LESIONS",
+  "topicId": "ent-t25",
+  "label": "44. BENIGN LARYNGEAL TUMOURS AND LESIONS"
+ },
+ {
+  "file": "ent-fig-038.png",
+  "subject": "ent",
+  "topic": "44. BENIGN LARYNGEAL TUMOURS AND LESIONS",
+  "topicId": "ent-t25",
+  "label": "44. BENIGN LARYNGEAL TUMOURS AND LESIONS"
+ },
+ {
+  "file": "ent-fig-039.png",
+  "subject": "ent",
+  "topic": "45. CARCINOMA LARYNX",
+  "topicId": "ent-t26",
+  "label": "45. CARCINOMA LARYNX"
+ },
+ {
+  "file": "ent-fig-040.png",
+  "subject": "ent",
+  "topic": "45. CARCINOMA LARYNX",
+  "topicId": "ent-t26",
+  "label": "45. CARCINOMA LARYNX"
+ },
+ {
+  "file": "ent-fig-041.png",
+  "subject": "ent",
+  "topic": "47. FOREIGN BODIES OF AIR PASSAGES",
+  "topicId": "ent-t28",
+  "label": "47. FOREIGN BODIES OF AIR PASSAGES"
+ },
+ {
+  "file": "ent-fig-042.png",
+  "subject": "ent",
+  "topic": "47. FOREIGN BODIES OF AIR PASSAGES",
+  "topicId": "ent-t28",
+  "label": "47. FOREIGN BODIES OF AIR PASSAGES"
+ },
+ {
+  "file": "ent-fig-043.png",
+  "subject": "ent",
+  "topic": "49. OESOPHAGUS AND DYSPHAGIA",
+  "topicId": "ent-t30",
+  "label": "49. OESOPHAGUS AND DYSPHAGIA"
+ },
+ {
+  "file": "ent-fig-044.png",
+  "subject": "ent",
+  "topic": "50 & 53. OPERATIVE SURGERY AND INSTRUMENTS",
+  "topicId": "ent-t31",
+  "label": "50 & 53. OPERATIVE SURGERY AND INSTRUMENTS"
+ },
+ {
+  "file": "ent-fig-045.png",
+  "subject": "ent",
+  "topic": "50 & 53. OPERATIVE SURGERY AND INSTRUMENTS",
+  "topicId": "ent-t31",
+  "label": "50 & 53. OPERATIVE SURGERY AND INSTRUMENTS"
+ },
+ {
+  "file": "ent-fig-046.png",
+  "subject": "ent",
+  "topic": "50 & 53. OPERATIVE SURGERY AND INSTRUMENTS",
+  "topicId": "ent-t31",
+  "label": "50 & 53. OPERATIVE SURGERY AND INSTRUMENTS"
+ },
+ {
+  "file": "ent-fig-047.png",
+  "subject": "ent",
+  "topic": "50 & 53. OPERATIVE SURGERY AND INSTRUMENTS",
+  "topicId": "ent-t31",
+  "label": "50 & 53. OPERATIVE SURGERY AND INSTRUMENTS"
+ },
+ {
+  "file": "ent-fig-048.png",
+  "subject": "ent",
+  "topic": "50 & 53. OPERATIVE SURGERY AND INSTRUMENTS",
+  "topicId": "ent-t31",
+  "label": "50 & 53. OPERATIVE SURGERY AND INSTRUMENTS"
+ },
+ {
+  "file": "ent-fig-049.png",
+  "subject": "ent",
+  "topic": "50 & 53. OPERATIVE SURGERY AND INSTRUMENTS",
+  "topicId": "ent-t31",
+  "label": "50 & 53. OPERATIVE SURGERY AND INSTRUMENTS"
+ },
+ {
+  "file": "ent-fig-050.png",
+  "subject": "ent",
+  "topic": "50 & 53. OPERATIVE SURGERY AND INSTRUMENTS",
+  "topicId": "ent-t31",
+  "label": "50 & 53. OPERATIVE SURGERY AND INSTRUMENTS"
+ },
+ {
+  "file": "ent-fig-051.png",
+  "subject": "ent",
+  "topic": "51. RECENT ADVANCES",
+  "topicId": "ent-t32",
+  "label": "51. RECENT ADVANCES"
+ },
+ {
+  "file": "ent-fig-052.png",
+  "subject": "ent",
+  "topic": "52. CLINICAL METHODS IN ENT",
+  "topicId": "ent-t33",
+  "label": "52. CLINICAL METHODS IN ENT"
+ },
+ {
+  "file": "ent-fig-053.png",
+  "subject": "ent",
+  "topic": "52. CLINICAL METHODS IN ENT",
+  "topicId": "ent-t33",
+  "label": "52. CLINICAL METHODS IN ENT"
+ },
+ {
+  "file": "ent-fig-054.png",
+  "subject": "ent",
+  "topic": "52. CLINICAL METHODS IN ENT",
+  "topicId": "ent-t33",
+  "label": "52. CLINICAL METHODS IN ENT"
+ },
+ {
+  "file": "ent-fig-055.png",
+  "subject": "ent",
+  "topic": "FINAL ADDENDUM: REMAINING HIGH-YIELD SHORT ANSWERS (RGU / TU)",
+  "topicId": "ent-t34",
+  "label": "FINAL ADDENDUM: REMAINING HIGH-YIELD SHORT ANSWERS (RGU / TU)"
+ },
+ {
+  "file": "ent-fig-056.png",
+  "subject": "ent",
+  "topic": "FINAL ADDENDUM: REMAINING HIGH-YIELD SHORT ANSWERS (RGU / TU)",
+  "topicId": "ent-t34",
+  "label": "FINAL ADDENDUM: REMAINING HIGH-YIELD SHORT ANSWERS (RGU / TU)"
+ },
+ {
+  "file": "ent-fig-057.png",
+  "subject": "ent",
+  "topic": "FINAL ADDENDUM: REMAINING HIGH-YIELD SHORT ANSWERS (RGU / TU)",
+  "topicId": "ent-t34",
+  "label": "FINAL ADDENDUM: REMAINING HIGH-YIELD SHORT ANSWERS (RGU / TU)"
+ },
+ {
+  "file": "ent-fig-058.png",
+  "subject": "ent",
+  "topic": "I. REMAINING NOSE & PARANASAL SINUS TOPICS",
+  "topicId": "ent-t35",
+  "label": "I. REMAINING NOSE & PARANASAL SINUS TOPICS"
+ },
+ {
+  "file": "ent-fig-059.png",
+  "subject": "ent",
+  "topic": "III. REMAINING PHARYNGEAL, OESOPHAGEAL & NECK TOPICS",
+  "topicId": "ent-t37",
+  "label": "III. REMAINING PHARYNGEAL, OESOPHAGEAL & NECK TOPICS"
+ },
+ {
+  "file": "medicine-fig-001.png",
+  "subject": "medicine",
+  "topic": "2. Conduction System of the Heart [KU 25, 22]",
+  "topicId": "medicine-t03",
+  "label": "2. Conduction System of the Heart [KU 25, 22]"
+ },
+ {
+  "file": "medicine-fig-002.png",
+  "subject": "medicine",
+  "topic": "9. Jugular Venous Pulse (JVP): Waveforms, Significance, Cannon Waves & Hepatojugular Reflux [KU 24, 23, 15, RGU]",
+  "topicId": "medicine-t10",
+  "label": "9. Jugular Venous Pulse (JVP): Waveforms, Significance, Cannon Waves & Hepatojugular Reflux [KU 24, 23, 15, RGU]"
+ },
+ {
+  "file": "medicine-fig-003.png",
+  "subject": "medicine",
+  "topic": "10. Heart Murmurs & Dynamic Auscultation [KU 24, 21, RGU]",
+  "topicId": "medicine-t11",
+  "label": "10. Heart Murmurs & Dynamic Auscultation [KU 24, 21, RGU]"
+ },
+ {
+  "file": "medicine-fig-004.png",
+  "subject": "medicine",
+  "topic": "10. Heart Murmurs & Dynamic Auscultation [KU 24, 21, RGU]",
+  "topicId": "medicine-t11",
+  "label": "10. Heart Murmurs & Dynamic Auscultation [KU 24, 21, RGU]"
+ },
+ {
+  "file": "medicine-fig-005.png",
+  "subject": "medicine",
+  "topic": "13. Heart Failure (Chronic & Acute Pulmonary Oedema) [KU 25, 24, 22, 21, 17, 16, TU, RGU]",
+  "topicId": "medicine-t14",
+  "label": "13. Heart Failure (Chronic & Acute Pulmonary Oedema) [KU 25, 24, 22, 21, 17, 16, TU, RGU]"
+ },
+ {
+  "file": "medicine-fig-006.png",
+  "subject": "medicine",
+  "topic": "13. Heart Failure (Chronic & Acute Pulmonary Oedema) [KU 25, 24, 22, 21, 17, 16, TU, RGU]",
+  "topicId": "medicine-t14",
+  "label": "13. Heart Failure (Chronic & Acute Pulmonary Oedema) [KU 25, 24, 22, 21, 17, 16, TU, RGU]"
+ },
+ {
+  "file": "medicine-fig-007.png",
+  "subject": "medicine",
+  "topic": "21. Acute Coronary Syndrome (ACS): Unstable Angina, NSTEMI & STEMI [KU 25, 24, 22, 20, 18, 17, 16, 15, TU, RGU]",
+  "topicId": "medicine-t22",
+  "label": "21. Acute Coronary Syndrome (ACS): Unstable Angina, NSTEMI & STEMI [KU 25, 24, 22, 20, 18, 17, 16, 15, TU, RGU]"
+ },
+ {
+  "file": "medicine-fig-008.png",
+  "subject": "medicine",
+  "topic": "32. Bronchopulmonary Segments & Pulmonary Function Tests (PFTs) [KU 22, 19, 21, TU]",
+  "topicId": "medicine-t33",
+  "label": "32. Bronchopulmonary Segments & Pulmonary Function Tests (PFTs) [KU 22, 19, 21, TU]"
+ },
+ {
+  "file": "medicine-fig-009.png",
+  "subject": "medicine",
+  "topic": "45. Pneumothorax, Tension Pneumothorax & Intercostal Drainage [KU 25, 24, 23, 20, RGU]",
+  "topicId": "medicine-t46",
+  "label": "45. Pneumothorax, Tension Pneumothorax & Intercostal Drainage [KU 25, 24, 23, 20, RGU]"
+ },
+ {
+  "file": "medicine-fig-010.png",
+  "subject": "medicine",
+  "topic": "52. Chronic Kidney Disease (CKD) [KU 24, 23, 19, 18, 17, TU, RGU]",
+  "topicId": "medicine-t53",
+  "label": "52. Chronic Kidney Disease (CKD) [KU 24, 23, 19, 18, 17, TU, RGU]"
+ },
+ {
+  "file": "medicine-fig-011.png",
+  "subject": "medicine",
+  "topic": "54. Drug-Induced Renal Disease & Diuretics [KU 21, 19, TU, RGU]",
+  "topicId": "medicine-t55",
+  "label": "54. Drug-Induced Renal Disease & Diuretics [KU 21, 19, TU, RGU]"
+ },
+ {
+  "file": "medicine-fig-012.png",
+  "subject": "medicine",
+  "topic": "72. Obesity, BMI, Leptin & Total Parenteral Nutrition [KU 25, 24, 23, 21, 20, 19, 18, 17, 15, TU]",
+  "topicId": "medicine-t57",
+  "label": "72. Obesity, BMI, Leptin & Total Parenteral Nutrition [KU 25, 24, 23, 21, 20, 19, 18, 17, 15, TU]"
+ },
+ {
+  "file": "medicine-fig-013.png",
+  "subject": "medicine",
+  "topic": "75. Water-Soluble Vitamins: Thiamine (B1/Beri-Beri), Niacin (B3/Pellagra), Vitamin B12 & Vitamin C (Scurvy) [KU 25, 24, 23, 18, 17, 16, 15, TU, RGU]",
+  "topicId": "medicine-t60",
+  "label": "75. Water-Soluble Vitamins: Thiamine (B1/Beri-Beri), Niacin (B3/Pellagra), Vitamin B12 & Vitamin C (Scurvy) [KU 25, 24, 23, 18, 17, 16, 15, TU, RGU]"
+ },
+ {
+  "file": "medicine-fig-014.png",
+  "subject": "medicine",
+  "topic": "75. Water-Soluble Vitamins: Thiamine (B1/Beri-Beri), Niacin (B3/Pellagra), Vitamin B12 & Vitamin C (Scurvy) [KU 25, 24, 23, 18, 17, 16, 15, TU, RGU]",
+  "topicId": "medicine-t60",
+  "label": "75. Water-Soluble Vitamins: Thiamine (B1/Beri-Beri), Niacin (B3/Pellagra), Vitamin B12 & Vitamin C (Scurvy) [KU 25, 24, 23, 18, 17, 16, 15, TU, RGU]"
+ },
+ {
+  "file": "medicine-fig-015.png",
+  "subject": "medicine",
+  "topic": "75. Water-Soluble Vitamins: Thiamine (B1/Beri-Beri), Niacin (B3/Pellagra), Vitamin B12 & Vitamin C (Scurvy) [KU 25, 24, 23, 18, 17, 16, 15, TU, RGU]",
+  "topicId": "medicine-t60",
+  "label": "75. Water-Soluble Vitamins: Thiamine (B1/Beri-Beri), Niacin (B3/Pellagra), Vitamin B12 & Vitamin C (Scurvy) [KU 25, 24, 23, 18, 17, 16, 15, TU, RGU]"
+ },
+ {
+  "file": "medicine-fig-016.png",
+  "subject": "medicine",
+  "topic": "12. Helicobacter pylori Infection: Pathophysiology, Consequences, Diagnosis, and Eradication Therapy [KU 24, 23, 19, 18, 17, 15, TU, RGU]",
+  "topicId": "medicine-t72",
+  "label": "12. Helicobacter pylori Infection: Pathophysiology, Consequences, Diagnosis, and Eradication Therapy [KU 24, 23, 19, 18, 17, 15, TU, RGU]"
+ },
+ {
+  "file": "medicine-fig-017.png",
+  "subject": "medicine",
+  "topic": "12. Helicobacter pylori Infection: Pathophysiology, Consequences, Diagnosis, and Eradication Therapy [KU 24, 23, 19, 18, 17, 15, TU, RGU]",
+  "topicId": "medicine-t72",
+  "label": "12. Helicobacter pylori Infection: Pathophysiology, Consequences, Diagnosis, and Eradication Therapy [KU 24, 23, 19, 18, 17, 15, TU, RGU]"
+ },
+ {
+  "file": "medicine-fig-018.png",
+  "subject": "medicine",
+  "topic": "21. Inflammatory Bowel Disease: Ulcerative Colitis and Crohn’s Disease [KU 24, 23, 22, 21, 18, 17, 16, TU, RGU]",
+  "topicId": "medicine-t81",
+  "label": "21. Inflammatory Bowel Disease: Ulcerative Colitis and Crohn’s Disease [KU 24, 23, 22, 21, 18, 17, 16, TU, RGU]"
+ },
+ {
+  "file": "medicine-fig-019.png",
+  "subject": "medicine",
+  "topic": "21. Inflammatory Bowel Disease: Ulcerative Colitis and Crohn’s Disease [KU 24, 23, 22, 21, 18, 17, 16, TU, RGU]",
+  "topicId": "medicine-t81",
+  "label": "21. Inflammatory Bowel Disease: Ulcerative Colitis and Crohn’s Disease [KU 24, 23, 22, 21, 18, 17, 16, TU, RGU]"
+ },
+ {
+  "file": "medicine-fig-020.png",
+  "subject": "medicine",
+  "topic": "23. Irritable Bowel Syndrome (IBS) [KU 25, 24, 23, 19, TU, RGU]",
+  "topicId": "medicine-t83",
+  "label": "23. Irritable Bowel Syndrome (IBS) [KU 25, 24, 23, 19, TU, RGU]"
+ },
+ {
+  "file": "medicine-fig-021.png",
+  "subject": "medicine",
+  "topic": "4. Cirrhosis of the Liver, Portal Hypertension, and Decompensated Complications (Ascites, Variceal Bleeding, Hepatic Encephalopathy, SBP, and Hepatorenal Syndrome) [KU 24, 23, 22, 21, 19, 18, 17, 16, 15, TU, RGU]",
+  "topicId": "medicine-t90",
+  "label": "4. Cirrhosis of the Liver, Portal Hypertension, and Decompensated Complications (Ascites, Variceal Bleeding, Hepatic Encephalopathy, SBP, and Hepatorenal Syndrome) [KU 24, 23, 22, 21, 19, 18, 17, 16, 15, TU, RGU]"
+ },
+ {
+  "file": "medicine-fig-022.png",
+  "subject": "medicine",
+  "topic": "4. Cirrhosis of the Liver, Portal Hypertension, and Decompensated Complications (Ascites, Variceal Bleeding, Hepatic Encephalopathy, SBP, and Hepatorenal Syndrome) [KU 24, 23, 22, 21, 19, 18, 17, 16, 15, TU, RGU]",
+  "topicId": "medicine-t90",
+  "label": "4. Cirrhosis of the Liver, Portal Hypertension, and Decompensated Complications (Ascites, Variceal Bleeding, Hepatic Encephalopathy, SBP, and Hepatorenal Syndrome) [KU 24, 23, 22, 21, 19, 18, 17, 16, 15, TU, RGU]"
+ },
+ {
+  "file": "medicine-fig-023.png",
+  "subject": "medicine",
+  "topic": "4. Cirrhosis of the Liver, Portal Hypertension, and Decompensated Complications (Ascites, Variceal Bleeding, Hepatic Encephalopathy, SBP, and Hepatorenal Syndrome) [KU 24, 23, 22, 21, 19, 18, 17, 16, 15, TU, RGU]",
+  "topicId": "medicine-t90",
+  "label": "4. Cirrhosis of the Liver, Portal Hypertension, and Decompensated Complications (Ascites, Variceal Bleeding, Hepatic Encephalopathy, SBP, and Hepatorenal Syndrome) [KU 24, 23, 22, 21, 19, 18, 17, 16, 15, TU, RGU]"
+ },
+ {
+  "file": "medicine-fig-024.png",
+  "subject": "medicine",
+  "topic": "7. Hepatitis B Virus (HBV) Infection: Serology, Natural History, Prophylaxis, and Treatment [KU 25, 24, 23, 21, 17, 16, TU]",
+  "topicId": "medicine-t93",
+  "label": "7. Hepatitis B Virus (HBV) Infection: Serology, Natural History, Prophylaxis, and Treatment [KU 25, 24, 23, 21, 17, 16, TU]"
+ },
+ {
+  "file": "medicine-fig-025.png",
+  "subject": "medicine",
+  "topic": "1. Rheumatoid Arthritis (RA), Felty’s Syndrome, Rheumatoid Factor (RF), and Anti-CCP (ACPA) Antibodies [KU 25, 24, 22, 20, 19, 16, TU, RGU]",
+  "topicId": "medicine-t99",
+  "label": "1. Rheumatoid Arthritis (RA), Felty’s Syndrome, Rheumatoid Factor (RF), and Anti-CCP (ACPA) Antibodies [KU 25, 24, 22, 20, 19, 16, TU, RGU]"
+ },
+ {
+  "file": "medicine-fig-026.png",
+  "subject": "medicine",
+  "topic": "1. Rheumatoid Arthritis (RA), Felty’s Syndrome, Rheumatoid Factor (RF), and Anti-CCP (ACPA) Antibodies [KU 25, 24, 22, 20, 19, 16, TU, RGU]",
+  "topicId": "medicine-t99",
+  "label": "1. Rheumatoid Arthritis (RA), Felty’s Syndrome, Rheumatoid Factor (RF), and Anti-CCP (ACPA) Antibodies [KU 25, 24, 22, 20, 19, 16, TU, RGU]"
+ },
+ {
+  "file": "medicine-fig-027.png",
+  "subject": "medicine",
+  "topic": "2. Crystal Arthropathies: Gout and Calcium Pyrophosphate Deposition (CPPD) Disease [KU 24, 23, 22, 20, 19, 15, TU]",
+  "topicId": "medicine-t100",
+  "label": "2. Crystal Arthropathies: Gout and Calcium Pyrophosphate Deposition (CPPD) Disease [KU 24, 23, 22, 20, 19, 15, TU]"
+ },
+ {
+  "file": "medicine-fig-028.png",
+  "subject": "medicine",
+  "topic": "7. Metabolic Bone Diseases: Osteomalacia and Osteoporosis [KU 18, 17, 16]",
+  "topicId": "medicine-t105",
+  "label": "7. Metabolic Bone Diseases: Osteomalacia and Osteoporosis [KU 18, 17, 16]"
+ },
+ {
+  "file": "medicine-fig-029.png",
+  "subject": "medicine",
+  "topic": "1. Cross-Section of the Midbrain, Circle of Willis, and Crossed Hemiplegias [KU 25, 22, 19, TU]",
+  "topicId": "medicine-t106",
+  "label": "1. Cross-Section of the Midbrain, Circle of Willis, and Crossed Hemiplegias [KU 25, 22, 19, TU]"
+ },
+ {
+  "file": "medicine-fig-030.png",
+  "subject": "medicine",
+  "topic": "1. Cross-Section of the Midbrain, Circle of Willis, and Crossed Hemiplegias [KU 25, 22, 19, TU]",
+  "topicId": "medicine-t106",
+  "label": "1. Cross-Section of the Midbrain, Circle of Willis, and Crossed Hemiplegias [KU 25, 22, 19, TU]"
+ },
+ {
+  "file": "medicine-fig-031.png",
+  "subject": "medicine",
+  "topic": "1. Cross-Section of the Midbrain, Circle of Willis, and Crossed Hemiplegias [KU 25, 22, 19, TU]",
+  "topicId": "medicine-t106",
+  "label": "1. Cross-Section of the Midbrain, Circle of Willis, and Crossed Hemiplegias [KU 25, 22, 19, TU]"
+ },
+ {
+  "file": "medicine-fig-032.png",
+  "subject": "medicine",
+  "topic": "14. Myasthenia Gravis [KU 24, 23, 20, 17, TU, RGU]",
+  "topicId": "medicine-t119",
+  "label": "14. Myasthenia Gravis [KU 24, 23, 20, 17, TU, RGU]"
+ },
+ {
+  "file": "medicine-fig-033.png",
+  "subject": "medicine",
+  "topic": "16. Cerebrovascular Disease: Ischaemic Stroke, Haemorrhagic Stroke, Transient Ischaemic Attack (TIA), and Cerebral Venous Thrombosis [KU 25, 24, 23, 22, 21, 18, 16, TU, RGU]",
+  "topicId": "medicine-t121",
+  "label": "16. Cerebrovascular Disease: Ischaemic Stroke, Haemorrhagic Stroke, Transient Ischaemic Attack (TIA), and Cerebral Venous Thrombosis [KU 25, 24, 23, 22, 21, 18, 16, TU, RGU]"
+ },
+ {
+  "file": "medicine-fig-034.png",
+  "subject": "medicine",
+  "topic": "26.1 Hypertensive retinopathy [KU 21]",
+  "topicId": "medicine-t122",
+  "label": "26.1 Hypertensive retinopathy [KU 21]"
+ },
+ {
+  "file": "medicine-fig-035.png",
+  "subject": "medicine",
+  "topic": "27.1 Gestational diabetes mellitus [KU 17]",
+  "topicId": "medicine-t124",
+  "label": "27.1 Gestational diabetes mellitus [KU 17]"
+ },
+ {
+  "file": "medicine-fig-036.png",
+  "subject": "medicine",
+  "topic": "28.1 Causes of falls in elderly [KU 22, 20, 16, 15]",
+  "topicId": "medicine-t128",
+  "label": "28.1 Causes of falls in elderly [KU 22, 20, 16, 15]"
+ },
+ {
+  "file": "medicine-fig-037.png",
+  "subject": "medicine",
+  "topic": "1. Anatomy of the Skin, Generalised Pruritus, Nail Changes in Systemic Disease, and PUVA Therapy [KU 24, 17, TU, RGU]",
+  "topicId": "medicine-t131",
+  "label": "1. Anatomy of the Skin, Generalised Pruritus, Nail Changes in Systemic Disease, and PUVA Therapy [KU 24, 17, TU, RGU]"
+ },
+ {
+  "file": "medicine-fig-038.png",
+  "subject": "medicine",
+  "topic": "1. Anatomy of the Skin, Generalised Pruritus, Nail Changes in Systemic Disease, and PUVA Therapy [KU 24, 17, TU, RGU]",
+  "topicId": "medicine-t131",
+  "label": "1. Anatomy of the Skin, Generalised Pruritus, Nail Changes in Systemic Disease, and PUVA Therapy [KU 24, 17, TU, RGU]"
+ },
+ {
+  "file": "medicine-fig-039.png",
+  "subject": "medicine",
+  "topic": "7. Disorders of Pigmentation (Vitiligo, Hypopigmentation, Hyperpigmentation) [KU 22, 18, RGU]",
+  "topicId": "medicine-t137",
+  "label": "7. Disorders of Pigmentation (Vitiligo, Hypopigmentation, Hyperpigmentation) [KU 22, 18, RGU]"
+ },
+ {
+  "file": "gynecology-fig-001.png",
+  "subject": "gynecology",
+  "topic": "1.1 Lymphatic Drainage of the Cervix and Vulva",
+  "topicId": "gynecology-t01",
+  "label": "1.1 Lymphatic Drainage of the Cervix and Vulva"
+ },
+ {
+  "file": "gynecology-fig-002.png",
+  "subject": "gynecology",
+  "topic": "1.1 Lymphatic Drainage of the Cervix and Vulva",
+  "topicId": "gynecology-t01",
+  "label": "1.1 Lymphatic Drainage of the Cervix and Vulva"
+ },
+ {
+  "file": "gynecology-fig-003.png",
+  "subject": "gynecology",
+  "topic": "1.3 Pelvic Ureter",
+  "topicId": "gynecology-t03",
+  "label": "1.3 Pelvic Ureter"
+ },
+ {
+  "file": "gynecology-fig-004.png",
+  "subject": "gynecology",
+  "topic": "1.4 Pelvic Floor (Pelvic Diaphragm) and Levator Ani Muscle",
+  "topicId": "gynecology-t04",
+  "label": "1.4 Pelvic Floor (Pelvic Diaphragm) and Levator Ani Muscle"
+ },
+ {
+  "file": "gynecology-fig-005.png",
+  "subject": "gynecology",
+  "topic": "1.5 Normal Vaginal Epithelium & Structure of Vagina",
+  "topicId": "gynecology-t05",
+  "label": "1.5 Normal Vaginal Epithelium & Structure of Vagina"
+ },
+ {
+  "file": "gynecology-fig-006.png",
+  "subject": "gynecology",
+  "topic": "1.6 Internal Iliac Artery and Its Branches (Including Uterine Artery)",
+  "topicId": "gynecology-t06",
+  "label": "1.6 Internal Iliac Artery and Its Branches (Including Uterine Artery)"
+ },
+ {
+  "file": "gynecology-fig-007.png",
+  "subject": "gynecology",
+  "topic": "1.7 Fallopian Tube: Anatomy, Physiology & Surgical Application",
+  "topicId": "gynecology-t07",
+  "label": "1.7 Fallopian Tube: Anatomy, Physiology & Surgical Application"
+ },
+ {
+  "file": "gynecology-fig-008.png",
+  "subject": "gynecology",
+  "topic": "2.1 Normal Menstrual Cycle, Phases & Physiology of Menstruation",
+  "topicId": "gynecology-t09",
+  "label": "2.1 Normal Menstrual Cycle, Phases & Physiology of Menstruation"
+ },
+ {
+  "file": "gynecology-fig-009.png",
+  "subject": "gynecology",
+  "topic": "2.1 Normal Menstrual Cycle, Phases & Physiology of Menstruation",
+  "topicId": "gynecology-t09",
+  "label": "2.1 Normal Menstrual Cycle, Phases & Physiology of Menstruation"
+ },
+ {
+  "file": "gynecology-fig-010.png",
+  "subject": "gynecology",
+  "topic": "2.1 Normal Menstrual Cycle, Phases & Physiology of Menstruation",
+  "topicId": "gynecology-t09",
+  "label": "2.1 Normal Menstrual Cycle, Phases & Physiology of Menstruation"
+ },
+ {
+  "file": "gynecology-fig-011.png",
+  "subject": "gynecology",
+  "topic": "2.1 Normal Menstrual Cycle, Phases & Physiology of Menstruation",
+  "topicId": "gynecology-t09",
+  "label": "2.1 Normal Menstrual Cycle, Phases & Physiology of Menstruation"
+ },
+ {
+  "file": "gynecology-fig-012.png",
+  "subject": "gynecology",
+  "topic": "2.1 Normal Menstrual Cycle, Phases & Physiology of Menstruation",
+  "topicId": "gynecology-t09",
+  "label": "2.1 Normal Menstrual Cycle, Phases & Physiology of Menstruation"
+ },
+ {
+  "file": "gynecology-fig-013.png",
+  "subject": "gynecology",
+  "topic": "2.2 Structure of Mature Graafian Follicle",
+  "topicId": "gynecology-t10",
+  "label": "2.2 Structure of Mature Graafian Follicle"
+ },
+ {
+  "file": "gynecology-fig-014.png",
+  "subject": "gynecology",
+  "topic": "4.2 Puberty Menorrhagia (Adolescent AUB)",
+  "topicId": "gynecology-t16",
+  "label": "4.2 Puberty Menorrhagia (Adolescent AUB)"
+ },
+ {
+  "file": "gynecology-fig-015.png",
+  "subject": "gynecology",
+  "topic": "5.1 Primary Amenorrhoea & Cryptomenorrhoea",
+  "topicId": "gynecology-t17",
+  "label": "5.1 Primary Amenorrhoea & Cryptomenorrhoea"
+ },
+ {
+  "file": "gynecology-fig-016.png",
+  "subject": "gynecology",
+  "topic": "5.1 Primary Amenorrhoea & Cryptomenorrhoea",
+  "topicId": "gynecology-t17",
+  "label": "5.1 Primary Amenorrhoea & Cryptomenorrhoea"
+ },
+ {
+  "file": "gynecology-fig-017.png",
+  "subject": "gynecology",
+  "topic": "5.2 Secondary Amenorrhoea: Causes, Investigation & Management",
+  "topicId": "gynecology-t18",
+  "label": "5.2 Secondary Amenorrhoea: Causes, Investigation & Management"
+ },
+ {
+  "file": "gynecology-fig-018.png",
+  "subject": "gynecology",
+  "topic": "6.1 Development of Uterus, Classification of Müllerian Anomalies & MRKH Syndrome",
+  "topicId": "gynecology-t20",
+  "label": "6.1 Development of Uterus, Classification of Müllerian Anomalies & MRKH Syndrome"
+ },
+ {
+  "file": "gynecology-fig-019.png",
+  "subject": "gynecology",
+  "topic": "6.1 Development of Uterus, Classification of Müllerian Anomalies & MRKH Syndrome",
+  "topicId": "gynecology-t20",
+  "label": "6.1 Development of Uterus, Classification of Müllerian Anomalies & MRKH Syndrome"
+ },
+ {
+  "file": "gynecology-fig-020.png",
+  "subject": "gynecology",
+  "topic": "7A.1 Evaluation and Management of the Infertile Couple",
+  "topicId": "gynecology-t21",
+  "label": "7A.1 Evaluation and Management of the Infertile Couple"
+ },
+ {
+  "file": "gynecology-fig-021.png",
+  "subject": "gynecology",
+  "topic": "7A.1 Evaluation and Management of the Infertile Couple",
+  "topicId": "gynecology-t21",
+  "label": "7A.1 Evaluation and Management of the Infertile Couple"
+ },
+ {
+  "file": "gynecology-fig-022.png",
+  "subject": "gynecology",
+  "topic": "7A.1 Evaluation and Management of the Infertile Couple",
+  "topicId": "gynecology-t21",
+  "label": "7A.1 Evaluation and Management of the Infertile Couple"
+ },
+ {
+  "file": "gynecology-fig-023.png",
+  "subject": "gynecology",
+  "topic": "7A.1 Evaluation and Management of the Infertile Couple",
+  "topicId": "gynecology-t21",
+  "label": "7A.1 Evaluation and Management of the Infertile Couple"
+ },
+ {
+  "file": "gynecology-fig-024.png",
+  "subject": "gynecology",
+  "topic": "7A.1 Evaluation and Management of the Infertile Couple",
+  "topicId": "gynecology-t21",
+  "label": "7A.1 Evaluation and Management of the Infertile Couple"
+ },
+ {
+  "file": "gynecology-fig-025.png",
+  "subject": "gynecology",
+  "topic": "7A.2 Polycystic Ovarian Syndrome (PCOS) & Hirsutism",
+  "topicId": "gynecology-t22",
+  "label": "7A.2 Polycystic Ovarian Syndrome (PCOS) & Hirsutism"
+ },
+ {
+  "file": "gynecology-fig-026.png",
+  "subject": "gynecology",
+  "topic": "7A.2 Polycystic Ovarian Syndrome (PCOS) & Hirsutism",
+  "topicId": "gynecology-t22",
+  "label": "7A.2 Polycystic Ovarian Syndrome (PCOS) & Hirsutism"
+ },
+ {
+  "file": "gynecology-fig-027.png",
+  "subject": "gynecology",
+  "topic": "7A.2 Polycystic Ovarian Syndrome (PCOS) & Hirsutism",
+  "topicId": "gynecology-t22",
+  "label": "7A.2 Polycystic Ovarian Syndrome (PCOS) & Hirsutism"
+ },
+ {
+  "file": "gynecology-fig-028.png",
+  "subject": "gynecology",
+  "topic": "7B.1 Endometriosis",
+  "topicId": "gynecology-t24",
+  "label": "7B.1 Endometriosis"
+ },
+ {
+  "file": "gynecology-fig-029.png",
+  "subject": "gynecology",
+  "topic": "7B.1 Endometriosis",
+  "topicId": "gynecology-t24",
+  "label": "7B.1 Endometriosis"
+ },
+ {
+  "file": "gynecology-fig-030.png",
+  "subject": "gynecology",
+  "topic": "7C.1 Uterine Fibroid (Leiomyoma / Myoma)",
+  "topicId": "gynecology-t27",
+  "label": "7C.1 Uterine Fibroid (Leiomyoma / Myoma)"
+ },
+ {
+  "file": "gynecology-fig-031.png",
+  "subject": "gynecology",
+  "topic": "7C.1 Uterine Fibroid (Leiomyoma / Myoma)",
+  "topicId": "gynecology-t27",
+  "label": "7C.1 Uterine Fibroid (Leiomyoma / Myoma)"
+ },
+ {
+  "file": "gynecology-fig-032.png",
+  "subject": "gynecology",
+  "topic": "7C.1 Uterine Fibroid (Leiomyoma / Myoma)",
+  "topicId": "gynecology-t27",
+  "label": "7C.1 Uterine Fibroid (Leiomyoma / Myoma)"
+ },
+ {
+  "file": "gynecology-fig-033.png",
+  "subject": "gynecology",
+  "topic": "7C.1 Uterine Fibroid (Leiomyoma / Myoma)",
+  "topicId": "gynecology-t27",
+  "label": "7C.1 Uterine Fibroid (Leiomyoma / Myoma)"
+ },
+ {
+  "file": "gynecology-fig-034.png",
+  "subject": "gynecology",
+  "topic": "7C.3 Uterine Polyps (Endometrial & Fibroid Polyps)",
+  "topicId": "gynecology-t29",
+  "label": "7C.3 Uterine Polyps (Endometrial & Fibroid Polyps)"
+ },
+ {
+  "file": "gynecology-fig-035.png",
+  "subject": "gynecology",
+  "topic": "8.1 Benign Ovarian Cysts & Tumors: Classification, Dermoid, Brenner, & Complications",
+  "topicId": "gynecology-t31",
+  "label": "8.1 Benign Ovarian Cysts & Tumors: Classification, Dermoid, Brenner, & Complications"
+ },
+ {
+  "file": "gynecology-fig-036.png",
+  "subject": "gynecology",
+  "topic": "8.1 Benign Ovarian Cysts & Tumors: Classification, Dermoid, Brenner, & Complications",
+  "topicId": "gynecology-t31",
+  "label": "8.1 Benign Ovarian Cysts & Tumors: Classification, Dermoid, Brenner, & Complications"
+ },
+ {
+  "file": "gynecology-fig-037.png",
+  "subject": "gynecology",
+  "topic": "8.1 Benign Ovarian Cysts & Tumors: Classification, Dermoid, Brenner, & Complications",
+  "topicId": "gynecology-t31",
+  "label": "8.1 Benign Ovarian Cysts & Tumors: Classification, Dermoid, Brenner, & Complications"
+ },
+ {
+  "file": "gynecology-fig-038.png",
+  "subject": "gynecology",
+  "topic": "9.1 Painful Swollen Labium Majus: Bartholin’s Cyst and Abscess",
+  "topicId": "gynecology-t33",
+  "label": "9.1 Painful Swollen Labium Majus: Bartholin’s Cyst and Abscess"
+ },
+ {
+  "file": "gynecology-fig-039.png",
+  "subject": "gynecology",
+  "topic": "9.2 Urethral Caruncle",
+  "topicId": "gynecology-t34",
+  "label": "9.2 Urethral Caruncle"
+ },
+ {
+  "file": "gynecology-fig-040.png",
+  "subject": "gynecology",
+  "topic": "9.2 Urethral Caruncle",
+  "topicId": "gynecology-t34",
+  "label": "9.2 Urethral Caruncle"
+ },
+ {
+  "file": "gynecology-fig-041.png",
+  "subject": "gynecology",
+  "topic": "10.2 Vaginitis (Trichomoniasis, Candidiasis, Bacterial Vaginosis), Syndromic Management & TSS",
+  "topicId": "gynecology-t37",
+  "label": "10.2 Vaginitis (Trichomoniasis, Candidiasis, Bacterial Vaginosis), Syndromic Management & TSS"
+ },
+ {
+  "file": "gynecology-fig-042.png",
+  "subject": "gynecology",
+  "topic": "10.2 Vaginitis (Trichomoniasis, Candidiasis, Bacterial Vaginosis), Syndromic Management & TSS",
+  "topicId": "gynecology-t37",
+  "label": "10.2 Vaginitis (Trichomoniasis, Candidiasis, Bacterial Vaginosis), Syndromic Management & TSS"
+ },
+ {
+  "file": "gynecology-fig-043.png",
+  "subject": "gynecology",
+  "topic": "10.2 Vaginitis (Trichomoniasis, Candidiasis, Bacterial Vaginosis), Syndromic Management & TSS",
+  "topicId": "gynecology-t37",
+  "label": "10.2 Vaginitis (Trichomoniasis, Candidiasis, Bacterial Vaginosis), Syndromic Management & TSS"
+ },
+ {
+  "file": "gynecology-fig-044.png",
+  "subject": "gynecology",
+  "topic": "10.2 Vaginitis (Trichomoniasis, Candidiasis, Bacterial Vaginosis), Syndromic Management & TSS",
+  "topicId": "gynecology-t37",
+  "label": "10.2 Vaginitis (Trichomoniasis, Candidiasis, Bacterial Vaginosis), Syndromic Management & TSS"
+ },
+ {
+  "file": "gynecology-fig-045.png",
+  "subject": "gynecology",
+  "topic": "11.1 Female Genital Tuberculosis (FGTB)",
+  "topicId": "gynecology-t39",
+  "label": "11.1 Female Genital Tuberculosis (FGTB)"
+ },
+ {
+  "file": "gynecology-fig-046.png",
+  "subject": "gynecology",
+  "topic": "11.1 Female Genital Tuberculosis (FGTB)",
+  "topicId": "gynecology-t39",
+  "label": "11.1 Female Genital Tuberculosis (FGTB)"
+ },
+ {
+  "file": "gynecology-fig-047.png",
+  "subject": "gynecology",
+  "topic": "11.1 Female Genital Tuberculosis (FGTB)",
+  "topicId": "gynecology-t39",
+  "label": "11.1 Female Genital Tuberculosis (FGTB)"
+ },
+ {
+  "file": "gynecology-fig-048.png",
+  "subject": "gynecology",
+  "topic": "13.1 Cervical Intraepithelial Neoplasia (CIN) & Cervical Cancer Screening",
+  "topicId": "gynecology-t42",
+  "label": "13.1 Cervical Intraepithelial Neoplasia (CIN) & Cervical Cancer Screening"
+ },
+ {
+  "file": "gynecology-fig-049.png",
+  "subject": "gynecology",
+  "topic": "13.1 Cervical Intraepithelial Neoplasia (CIN) & Cervical Cancer Screening",
+  "topicId": "gynecology-t42",
+  "label": "13.1 Cervical Intraepithelial Neoplasia (CIN) & Cervical Cancer Screening"
+ },
+ {
+  "file": "gynecology-fig-050.png",
+  "subject": "gynecology",
+  "topic": "13.2 Invasive Carcinoma of the Cervix",
+  "topicId": "gynecology-t43",
+  "label": "13.2 Invasive Carcinoma of the Cervix"
+ },
+ {
+  "file": "gynecology-fig-051.png",
+  "subject": "gynecology",
+  "topic": "13.2 Invasive Carcinoma of the Cervix",
+  "topicId": "gynecology-t43",
+  "label": "13.2 Invasive Carcinoma of the Cervix"
+ },
+ {
+  "file": "gynecology-fig-052.png",
+  "subject": "gynecology",
+  "topic": "13.2 Invasive Carcinoma of the Cervix",
+  "topicId": "gynecology-t43",
+  "label": "13.2 Invasive Carcinoma of the Cervix"
+ },
+ {
+  "file": "gynecology-fig-053.png",
+  "subject": "gynecology",
+  "topic": "14.2 Germ Cell, Sex Cord-Stromal & Metastatic Ovarian Tumors (Short Notes)",
+  "topicId": "gynecology-t46",
+  "label": "14.2 Germ Cell, Sex Cord-Stromal & Metastatic Ovarian Tumors (Short Notes)"
+ },
+ {
+  "file": "gynecology-fig-054.png",
+  "subject": "gynecology",
+  "topic": "14.2 Germ Cell, Sex Cord-Stromal & Metastatic Ovarian Tumors (Short Notes)",
+  "topicId": "gynecology-t46",
+  "label": "14.2 Germ Cell, Sex Cord-Stromal & Metastatic Ovarian Tumors (Short Notes)"
+ },
+ {
+  "file": "gynecology-fig-055.png",
+  "subject": "gynecology",
+  "topic": "14.2 Germ Cell, Sex Cord-Stromal & Metastatic Ovarian Tumors (Short Notes)",
+  "topicId": "gynecology-t46",
+  "label": "14.2 Germ Cell, Sex Cord-Stromal & Metastatic Ovarian Tumors (Short Notes)"
+ },
+ {
+  "file": "gynecology-fig-056.png",
+  "subject": "gynecology",
+  "topic": "14.2 Germ Cell, Sex Cord-Stromal & Metastatic Ovarian Tumors (Short Notes)",
+  "topicId": "gynecology-t46",
+  "label": "14.2 Germ Cell, Sex Cord-Stromal & Metastatic Ovarian Tumors (Short Notes)"
+ },
+ {
+  "file": "gynecology-fig-057.png",
+  "subject": "gynecology",
+  "topic": "15.1 Classification, Follow-up of Molar Pregnancy, Invasive Mole & Choriocarcinoma",
+  "topicId": "gynecology-t48",
+  "label": "15.1 Classification, Follow-up of Molar Pregnancy, Invasive Mole & Choriocarcinoma"
+ },
+ {
+  "file": "gynecology-fig-058.png",
+  "subject": "gynecology",
+  "topic": "15.1 Classification, Follow-up of Molar Pregnancy, Invasive Mole & Choriocarcinoma",
+  "topicId": "gynecology-t48",
+  "label": "15.1 Classification, Follow-up of Molar Pregnancy, Invasive Mole & Choriocarcinoma"
+ },
+ {
+  "file": "gynecology-fig-059.png",
+  "subject": "gynecology",
+  "topic": "15.1 Classification, Follow-up of Molar Pregnancy, Invasive Mole & Choriocarcinoma",
+  "topicId": "gynecology-t48",
+  "label": "15.1 Classification, Follow-up of Molar Pregnancy, Invasive Mole & Choriocarcinoma"
+ },
+ {
+  "file": "gynecology-fig-060.png",
+  "subject": "gynecology",
+  "topic": "16.1 Supports of Uterus, Etiology, Classification (POP-Q), Clinical Features & Management of Prolapse",
+  "topicId": "gynecology-t50",
+  "label": "16.1 Supports of Uterus, Etiology, Classification (POP-Q), Clinical Features & Management of Prolapse"
+ },
+ {
+  "file": "gynecology-fig-061.png",
+  "subject": "gynecology",
+  "topic": "16.1 Supports of Uterus, Etiology, Classification (POP-Q), Clinical Features & Management of Prolapse",
+  "topicId": "gynecology-t50",
+  "label": "16.1 Supports of Uterus, Etiology, Classification (POP-Q), Clinical Features & Management of Prolapse"
+ },
+ {
+  "file": "gynecology-fig-062.png",
+  "subject": "gynecology",
+  "topic": "16.1 Supports of Uterus, Etiology, Classification (POP-Q), Clinical Features & Management of Prolapse",
+  "topicId": "gynecology-t50",
+  "label": "16.1 Supports of Uterus, Etiology, Classification (POP-Q), Clinical Features & Management of Prolapse"
+ },
+ {
+  "file": "gynecology-fig-063.png",
+  "subject": "gynecology",
+  "topic": "16.1 Supports of Uterus, Etiology, Classification (POP-Q), Clinical Features & Management of Prolapse",
+  "topicId": "gynecology-t50",
+  "label": "16.1 Supports of Uterus, Etiology, Classification (POP-Q), Clinical Features & Management of Prolapse"
+ },
+ {
+  "file": "gynecology-fig-064.png",
+  "subject": "gynecology",
+  "topic": "16.1 Supports of Uterus, Etiology, Classification (POP-Q), Clinical Features & Management of Prolapse",
+  "topicId": "gynecology-t50",
+  "label": "16.1 Supports of Uterus, Etiology, Classification (POP-Q), Clinical Features & Management of Prolapse"
+ },
+ {
+  "file": "gynecology-fig-065.png",
+  "subject": "gynecology",
+  "topic": "16.1 Supports of Uterus, Etiology, Classification (POP-Q), Clinical Features & Management of Prolapse",
+  "topicId": "gynecology-t50",
+  "label": "16.1 Supports of Uterus, Etiology, Classification (POP-Q), Clinical Features & Management of Prolapse"
+ },
+ {
+  "file": "gynecology-fig-066.png",
+  "subject": "gynecology",
+  "topic": "16.1 Supports of Uterus, Etiology, Classification (POP-Q), Clinical Features & Management of Prolapse",
+  "topicId": "gynecology-t50",
+  "label": "16.1 Supports of Uterus, Etiology, Classification (POP-Q), Clinical Features & Management of Prolapse"
+ },
+ {
+  "file": "gynecology-fig-067.png",
+  "subject": "gynecology",
+  "topic": "16.1 Supports of Uterus, Etiology, Classification (POP-Q), Clinical Features & Management of Prolapse",
+  "topicId": "gynecology-t50",
+  "label": "16.1 Supports of Uterus, Etiology, Classification (POP-Q), Clinical Features & Management of Prolapse"
+ },
+ {
+  "file": "gynecology-fig-068.png",
+  "subject": "gynecology",
+  "topic": "16.1 Supports of Uterus, Etiology, Classification (POP-Q), Clinical Features & Management of Prolapse",
+  "topicId": "gynecology-t50",
+  "label": "16.1 Supports of Uterus, Etiology, Classification (POP-Q), Clinical Features & Management of Prolapse"
+ },
+ {
+  "file": "gynecology-fig-069.png",
+  "subject": "gynecology",
+  "topic": "16.1 Supports of Uterus, Etiology, Classification (POP-Q), Clinical Features & Management of Prolapse",
+  "topicId": "gynecology-t50",
+  "label": "16.1 Supports of Uterus, Etiology, Classification (POP-Q), Clinical Features & Management of Prolapse"
+ },
+ {
+  "file": "gynecology-fig-070.png",
+  "subject": "gynecology",
+  "topic": "17.1 Genuine Stress Incontinence (GSI / SUI) & Urge Incontinence",
+  "topicId": "gynecology-t52",
+  "label": "17.1 Genuine Stress Incontinence (GSI / SUI) & Urge Incontinence"
+ },
+ {
+  "file": "gynecology-fig-071.png",
+  "subject": "gynecology",
+  "topic": "17.1 Genuine Stress Incontinence (GSI / SUI) & Urge Incontinence",
+  "topicId": "gynecology-t52",
+  "label": "17.1 Genuine Stress Incontinence (GSI / SUI) & Urge Incontinence"
+ },
+ {
+  "file": "gynecology-fig-072.png",
+  "subject": "gynecology",
+  "topic": "17.1 Genuine Stress Incontinence (GSI / SUI) & Urge Incontinence",
+  "topicId": "gynecology-t52",
+  "label": "17.1 Genuine Stress Incontinence (GSI / SUI) & Urge Incontinence"
+ },
+ {
+  "file": "gynecology-fig-073.png",
+  "subject": "gynecology",
+  "topic": "17.1 Genuine Stress Incontinence (GSI / SUI) & Urge Incontinence",
+  "topicId": "gynecology-t52",
+  "label": "17.1 Genuine Stress Incontinence (GSI / SUI) & Urge Incontinence"
+ },
+ {
+  "file": "gynecology-fig-074.png",
+  "subject": "gynecology",
+  "topic": "18.1 Classification of Genitourinary Fistulae & Vesicovaginal Fistula (VVF)",
+  "topicId": "gynecology-t55",
+  "label": "18.1 Classification of Genitourinary Fistulae & Vesicovaginal Fistula (VVF)"
+ },
+ {
+  "file": "gynecology-fig-075.png",
+  "subject": "gynecology",
+  "topic": "18.1 Classification of Genitourinary Fistulae & Vesicovaginal Fistula (VVF)",
+  "topicId": "gynecology-t55",
+  "label": "18.1 Classification of Genitourinary Fistulae & Vesicovaginal Fistula (VVF)"
+ },
+ {
+  "file": "gynecology-fig-076.png",
+  "subject": "gynecology",
+  "topic": "18.1 Classification of Genitourinary Fistulae & Vesicovaginal Fistula (VVF)",
+  "topicId": "gynecology-t55",
+  "label": "18.1 Classification of Genitourinary Fistulae & Vesicovaginal Fistula (VVF)"
+ },
+ {
+  "file": "gynecology-fig-077.png",
+  "subject": "gynecology",
+  "topic": "19.2 Barrier Methods of Contraception",
+  "topicId": "gynecology-t58",
+  "label": "19.2 Barrier Methods of Contraception"
+ },
+ {
+  "file": "gynecology-fig-078.png",
+  "subject": "gynecology",
+  "topic": "19.3 Intrauterine Contraceptive Devices (IUCDs) & Missing Thread",
+  "topicId": "gynecology-t59",
+  "label": "19.3 Intrauterine Contraceptive Devices (IUCDs) & Missing Thread"
+ },
+ {
+  "file": "gynecology-fig-079.png",
+  "subject": "gynecology",
+  "topic": "19.3 Intrauterine Contraceptive Devices (IUCDs) & Missing Thread",
+  "topicId": "gynecology-t59",
+  "label": "19.3 Intrauterine Contraceptive Devices (IUCDs) & Missing Thread"
+ },
+ {
+  "file": "gynecology-fig-080.png",
+  "subject": "gynecology",
+  "topic": "19.3 Intrauterine Contraceptive Devices (IUCDs) & Missing Thread",
+  "topicId": "gynecology-t59",
+  "label": "19.3 Intrauterine Contraceptive Devices (IUCDs) & Missing Thread"
+ },
+ {
+  "file": "gynecology-fig-081.png",
+  "subject": "gynecology",
+  "topic": "19.3 Intrauterine Contraceptive Devices (IUCDs) & Missing Thread",
+  "topicId": "gynecology-t59",
+  "label": "19.3 Intrauterine Contraceptive Devices (IUCDs) & Missing Thread"
+ },
+ {
+  "file": "gynecology-fig-082.png",
+  "subject": "gynecology",
+  "topic": "19.6 Permanent Surgical Sterilization (Tubectomy, Laparoscopic Ligation & Vasectomy)",
+  "topicId": "gynecology-t62",
+  "label": "19.6 Permanent Surgical Sterilization (Tubectomy, Laparoscopic Ligation & Vasectomy)"
+ },
+ {
+  "file": "gynecology-fig-083.png",
+  "subject": "gynecology",
+  "topic": "19.6 Permanent Surgical Sterilization (Tubectomy, Laparoscopic Ligation & Vasectomy)",
+  "topicId": "gynecology-t62",
+  "label": "19.6 Permanent Surgical Sterilization (Tubectomy, Laparoscopic Ligation & Vasectomy)"
+ },
+ {
+  "file": "gynecology-fig-084.png",
+  "subject": "gynecology",
+  "topic": "19.6 Permanent Surgical Sterilization (Tubectomy, Laparoscopic Ligation & Vasectomy)",
+  "topicId": "gynecology-t62",
+  "label": "19.6 Permanent Surgical Sterilization (Tubectomy, Laparoscopic Ligation & Vasectomy)"
+ },
+ {
+  "file": "gynecology-fig-085.png",
+  "subject": "gynecology",
+  "topic": "20.2 Role, Indications & Complications of Hysteroscopy in Gynecology",
+  "topicId": "gynecology-t66",
+  "label": "20.2 Role, Indications & Complications of Hysteroscopy in Gynecology"
+ },
+ {
+  "file": "gynecology-fig-086.png",
+  "subject": "gynecology",
+  "topic": "20.3 Laparoscopy in Gynecology",
+  "topicId": "gynecology-t67",
+  "label": "20.3 Laparoscopy in Gynecology"
+ },
+ {
+  "file": "gynecology-fig-087.png",
+  "subject": "gynecology",
+  "topic": "20.3 Laparoscopy in Gynecology",
+  "topicId": "gynecology-t67",
+  "label": "20.3 Laparoscopy in Gynecology"
+ },
+ {
+  "file": "gynecology-fig-088.png",
+  "subject": "gynecology",
+  "topic": "20.5 Hysterectomy: Types, Indications & Complications",
+  "topicId": "gynecology-t69",
+  "label": "20.5 Hysterectomy: Types, Indications & Complications"
+ },
+ {
+  "file": "gynecology-fig-089.png",
+  "subject": "gynecology",
+  "topic": "20.5 Hysterectomy: Types, Indications & Complications",
+  "topicId": "gynecology-t69",
+  "label": "20.5 Hysterectomy: Types, Indications & Complications"
+ },
+ {
+  "file": "gynecology-fig-090.png",
+  "subject": "gynecology",
+  "topic": "20.5 Hysterectomy: Types, Indications & Complications",
+  "topicId": "gynecology-t69",
+  "label": "20.5 Hysterectomy: Types, Indications & Complications"
+ },
+ {
+  "file": "gynecology-fig-091.png",
+  "subject": "gynecology",
+  "topic": "S4. Premenstrual Syndrome (PMS) & Retroversion of Uterus (Chapters 13 & 15)",
+  "topicId": "gynecology-t76",
+  "label": "S4. Premenstrual Syndrome (PMS) & Retroversion of Uterus (Chapters 13 & 15)"
+ },
+ {
+  "file": "gynecology-fig-092.png",
+  "subject": "gynecology",
+  "topic": "S5. Benign & Premalignant Lesions of Vulva, Vagina & Cervix (Chapters 17, 18 & 22)",
+  "topicId": "gynecology-t77",
+  "label": "S5. Benign & Premalignant Lesions of Vulva, Vagina & Cervix (Chapters 17, 18 & 22)"
+ },
+ {
+  "file": "gynecology-fig-093.png",
+  "subject": "gynecology",
+  "topic": "S5. Benign & Premalignant Lesions of Vulva, Vagina & Cervix (Chapters 17, 18 & 22)",
+  "topicId": "gynecology-t77",
+  "label": "S5. Benign & Premalignant Lesions of Vulva, Vagina & Cervix (Chapters 17, 18 & 22)"
+ },
+ {
+  "file": "gynecology-fig-094.png",
+  "subject": "gynecology",
+  "topic": "S6. Rare Gynecological Malignancies (Chapter 23)",
+  "topicId": "gynecology-t78",
+  "label": "S6. Rare Gynecological Malignancies (Chapter 23)"
+ },
+ {
+  "file": "gynecology-fig-095.png",
+  "subject": "gynecology",
+  "topic": "S8. Sexual Assault (Rape Victim), Genital Trauma & Foreign Bodies (Chapter 26)",
+  "topicId": "gynecology-t80",
+  "label": "S8. Sexual Assault (Rape Victim), Genital Trauma & Foreign Bodies (Chapter 26)"
+ },
+ {
+  "file": "gynecology-fig-096.png",
+  "subject": "gynecology",
+  "topic": "S10. Radiotherapy, Chemotherapy, Immunotherapy & Gene Therapy (Chapter 30)",
+  "topicId": "gynecology-t82",
+  "label": "S10. Radiotherapy, Chemotherapy, Immunotherapy & Gene Therapy (Chapter 30)"
+ },
+ {
+  "file": "gynecology-fig-097.png",
+  "subject": "gynecology",
+  "topic": "S10. Radiotherapy, Chemotherapy, Immunotherapy & Gene Therapy (Chapter 30)",
+  "topicId": "gynecology-t82",
+  "label": "S10. Radiotherapy, Chemotherapy, Immunotherapy & Gene Therapy (Chapter 30)"
+ },
+ {
+  "file": "gynecology-fig-098.png",
+  "subject": "gynecology",
+  "topic": "S11. Pediatric & Adolescent Gynecology (Chapter 32)",
+  "topicId": "gynecology-t83",
+  "label": "S11. Pediatric & Adolescent Gynecology (Chapter 32)"
+ },
+ {
+  "file": "gynecology-fig-099.png",
+  "subject": "gynecology",
+  "topic": "S12. Special Topics: Pruritus Vulvae, Residual Ovary, Breast & Psychosexual Disorders (Chapter 33)",
+  "topicId": "gynecology-t84",
+  "label": "S12. Special Topics: Pruritus Vulvae, Residual Ovary, Breast & Psychosexual Disorders (Chapter 33)"
+ },
+ {
+  "file": "ophthalmology-fig-001.png",
+  "subject": "ophthalmology",
+  "topic": "ESSAY 1 & 2: SENILE CATARACT (IMMATURE & MATURE)",
+  "topicId": "ophthalmology-t01",
+  "label": "ESSAY 1 & 2: SENILE CATARACT (IMMATURE & MATURE)"
+ },
+ {
+  "file": "ophthalmology-fig-002.png",
+  "subject": "ophthalmology",
+  "topic": "ESSAY 1 & 2: SENILE CATARACT (IMMATURE & MATURE)",
+  "topicId": "ophthalmology-t01",
+  "label": "ESSAY 1 & 2: SENILE CATARACT (IMMATURE & MATURE)"
+ },
+ {
+  "file": "ophthalmology-fig-003.png",
+  "subject": "ophthalmology",
+  "topic": "ESSAY 1 & 2: SENILE CATARACT (IMMATURE & MATURE)",
+  "topicId": "ophthalmology-t01",
+  "label": "ESSAY 1 & 2: SENILE CATARACT (IMMATURE & MATURE)"
+ },
+ {
+  "file": "ophthalmology-fig-004.png",
+  "subject": "ophthalmology",
+  "topic": "ESSAY 1 & 2: SENILE CATARACT (IMMATURE & MATURE)",
+  "topicId": "ophthalmology-t01",
+  "label": "ESSAY 1 & 2: SENILE CATARACT (IMMATURE & MATURE)"
+ },
+ {
+  "file": "ophthalmology-fig-005.png",
+  "subject": "ophthalmology",
+  "topic": "ESSAY 1 & 2: SENILE CATARACT (IMMATURE & MATURE)",
+  "topicId": "ophthalmology-t01",
+  "label": "ESSAY 1 & 2: SENILE CATARACT (IMMATURE & MATURE)"
+ },
+ {
+  "file": "ophthalmology-fig-006.png",
+  "subject": "ophthalmology",
+  "topic": "ESSAY 1 & 2: SENILE CATARACT (IMMATURE & MATURE)",
+  "topicId": "ophthalmology-t01",
+  "label": "ESSAY 1 & 2: SENILE CATARACT (IMMATURE & MATURE)"
+ },
+ {
+  "file": "ophthalmology-fig-007.png",
+  "subject": "ophthalmology",
+  "topic": "ESSAY 1 & 2: SENILE CATARACT (IMMATURE & MATURE)",
+  "topicId": "ophthalmology-t01",
+  "label": "ESSAY 1 & 2: SENILE CATARACT (IMMATURE & MATURE)"
+ },
+ {
+  "file": "ophthalmology-fig-008.png",
+  "subject": "ophthalmology",
+  "topic": "ESSAY 3: COMPLICATIONS OF CATARACT SURGERY & AFTER-CATARACT",
+  "topicId": "ophthalmology-t02",
+  "label": "ESSAY 3: COMPLICATIONS OF CATARACT SURGERY & AFTER-CATARACT"
+ },
+ {
+  "file": "ophthalmology-fig-009.png",
+  "subject": "ophthalmology",
+  "topic": "SHORT ESSAYS & SHORT ANSWERS ON LENS",
+  "topicId": "ophthalmology-t03",
+  "label": "SHORT ESSAYS & SHORT ANSWERS ON LENS"
+ },
+ {
+  "file": "ophthalmology-fig-010.png",
+  "subject": "ophthalmology",
+  "topic": "SHORT ESSAYS & SHORT ANSWERS ON LENS",
+  "topicId": "ophthalmology-t03",
+  "label": "SHORT ESSAYS & SHORT ANSWERS ON LENS"
+ },
+ {
+  "file": "ophthalmology-fig-011.png",
+  "subject": "ophthalmology",
+  "topic": "ESSAY 1 & 3: PRIMARY OPEN-ANGLE GLAUCOMA (POAG)",
+  "topicId": "ophthalmology-t04",
+  "label": "ESSAY 1 & 3: PRIMARY OPEN-ANGLE GLAUCOMA (POAG)"
+ },
+ {
+  "file": "ophthalmology-fig-012.png",
+  "subject": "ophthalmology",
+  "topic": "ESSAY 1 & 3: PRIMARY OPEN-ANGLE GLAUCOMA (POAG)",
+  "topicId": "ophthalmology-t04",
+  "label": "ESSAY 1 & 3: PRIMARY OPEN-ANGLE GLAUCOMA (POAG)"
+ },
+ {
+  "file": "ophthalmology-fig-013.png",
+  "subject": "ophthalmology",
+  "topic": "ESSAY 1 & 3: PRIMARY OPEN-ANGLE GLAUCOMA (POAG)",
+  "topicId": "ophthalmology-t04",
+  "label": "ESSAY 1 & 3: PRIMARY OPEN-ANGLE GLAUCOMA (POAG)"
+ },
+ {
+  "file": "ophthalmology-fig-014.png",
+  "subject": "ophthalmology",
+  "topic": "ESSAY 1 & 3: PRIMARY OPEN-ANGLE GLAUCOMA (POAG)",
+  "topicId": "ophthalmology-t04",
+  "label": "ESSAY 1 & 3: PRIMARY OPEN-ANGLE GLAUCOMA (POAG)"
+ },
+ {
+  "file": "ophthalmology-fig-015.png",
+  "subject": "ophthalmology",
+  "topic": "ESSAY 1 & 3: PRIMARY OPEN-ANGLE GLAUCOMA (POAG)",
+  "topicId": "ophthalmology-t04",
+  "label": "ESSAY 1 & 3: PRIMARY OPEN-ANGLE GLAUCOMA (POAG)"
+ },
+ {
+  "file": "ophthalmology-fig-016.png",
+  "subject": "ophthalmology",
+  "topic": "ESSAY 1 & 3: PRIMARY OPEN-ANGLE GLAUCOMA (POAG)",
+  "topicId": "ophthalmology-t04",
+  "label": "ESSAY 1 & 3: PRIMARY OPEN-ANGLE GLAUCOMA (POAG)"
+ },
+ {
+  "file": "ophthalmology-fig-017.png",
+  "subject": "ophthalmology",
+  "topic": "ESSAY 2, 4, 6, 7: PRIMARY ANGLE-CLOSURE DISEASE (PACD / ACUTE CONGESTIVE GLAUCOMA)",
+  "topicId": "ophthalmology-t05",
+  "label": "ESSAY 2, 4, 6, 7: PRIMARY ANGLE-CLOSURE DISEASE (PACD / ACUTE CONGESTIVE GLAUCOMA)"
+ },
+ {
+  "file": "ophthalmology-fig-018.png",
+  "subject": "ophthalmology",
+  "topic": "SHORT ANSWERS ON GLAUCOMA",
+  "topicId": "ophthalmology-t07",
+  "label": "SHORT ANSWERS ON GLAUCOMA"
+ },
+ {
+  "file": "ophthalmology-fig-019.png",
+  "subject": "ophthalmology",
+  "topic": "SHORT ANSWERS ON GLAUCOMA",
+  "topicId": "ophthalmology-t07",
+  "label": "SHORT ANSWERS ON GLAUCOMA"
+ },
+ {
+  "file": "ophthalmology-fig-020.png",
+  "subject": "ophthalmology",
+  "topic": "ESSAY 1: CENTRAL RETINAL ARTERY OCCLUSION (CRAO)",
+  "topicId": "ophthalmology-t08",
+  "label": "ESSAY 1: CENTRAL RETINAL ARTERY OCCLUSION (CRAO)"
+ },
+ {
+  "file": "ophthalmology-fig-021.png",
+  "subject": "ophthalmology",
+  "topic": "SHORT ESSAYS ON RETINA",
+  "topicId": "ophthalmology-t09",
+  "label": "SHORT ESSAYS ON RETINA"
+ },
+ {
+  "file": "ophthalmology-fig-022.png",
+  "subject": "ophthalmology",
+  "topic": "SHORT ESSAYS ON RETINA",
+  "topicId": "ophthalmology-t09",
+  "label": "SHORT ESSAYS ON RETINA"
+ },
+ {
+  "file": "ophthalmology-fig-023.png",
+  "subject": "ophthalmology",
+  "topic": "SHORT ESSAYS ON RETINA",
+  "topicId": "ophthalmology-t09",
+  "label": "SHORT ESSAYS ON RETINA"
+ },
+ {
+  "file": "ophthalmology-fig-024.png",
+  "subject": "ophthalmology",
+  "topic": "SHORT ESSAYS ON RETINA",
+  "topicId": "ophthalmology-t09",
+  "label": "SHORT ESSAYS ON RETINA"
+ },
+ {
+  "file": "ophthalmology-fig-025.png",
+  "subject": "ophthalmology",
+  "topic": "SHORT ESSAYS ON RETINA",
+  "topicId": "ophthalmology-t09",
+  "label": "SHORT ESSAYS ON RETINA"
+ },
+ {
+  "file": "ophthalmology-fig-026.png",
+  "subject": "ophthalmology",
+  "topic": "SHORT ESSAYS ON RETINA",
+  "topicId": "ophthalmology-t09",
+  "label": "SHORT ESSAYS ON RETINA"
+ },
+ {
+  "file": "ophthalmology-fig-027.png",
+  "subject": "ophthalmology",
+  "topic": "SHORT ESSAYS ON RETINA",
+  "topicId": "ophthalmology-t09",
+  "label": "SHORT ESSAYS ON RETINA"
+ },
+ {
+  "file": "ophthalmology-fig-028.png",
+  "subject": "ophthalmology",
+  "topic": "SHORT ESSAYS ON RETINA",
+  "topicId": "ophthalmology-t09",
+  "label": "SHORT ESSAYS ON RETINA"
+ },
+ {
+  "file": "ophthalmology-fig-029.png",
+  "subject": "ophthalmology",
+  "topic": "SHORT ESSAYS ON RETINA",
+  "topicId": "ophthalmology-t09",
+  "label": "SHORT ESSAYS ON RETINA"
+ },
+ {
+  "file": "ophthalmology-fig-030.png",
+  "subject": "ophthalmology",
+  "topic": "SHORT ANSWERS ON RETINA",
+  "topicId": "ophthalmology-t10",
+  "label": "SHORT ANSWERS ON RETINA"
+ },
+ {
+  "file": "ophthalmology-fig-031.png",
+  "subject": "ophthalmology",
+  "topic": "SHORT ANSWERS ON RETINA",
+  "topicId": "ophthalmology-t10",
+  "label": "SHORT ANSWERS ON RETINA"
+ },
+ {
+  "file": "ophthalmology-fig-032.png",
+  "subject": "ophthalmology",
+  "topic": "SHORT ANSWERS ON RETINA",
+  "topicId": "ophthalmology-t10",
+  "label": "SHORT ANSWERS ON RETINA"
+ },
+ {
+  "file": "ophthalmology-fig-033.png",
+  "subject": "ophthalmology",
+  "topic": "SHORT ANSWERS ON RETINA",
+  "topicId": "ophthalmology-t10",
+  "label": "SHORT ANSWERS ON RETINA"
+ },
+ {
+  "file": "ophthalmology-fig-034.png",
+  "subject": "ophthalmology",
+  "topic": "SHORT ESSAY 2: OPTIC NEURITIS & PAPILLOEDEMA",
+  "topicId": "ophthalmology-t12",
+  "label": "SHORT ESSAY 2: OPTIC NEURITIS & PAPILLOEDEMA"
+ },
+ {
+  "file": "ophthalmology-fig-035.png",
+  "subject": "ophthalmology",
+  "topic": "SHORT ESSAY 3: OPTIC ATROPHY & TOXIC OPTIC NEUROPATHY",
+  "topicId": "ophthalmology-t13",
+  "label": "SHORT ESSAY 3: OPTIC ATROPHY & TOXIC OPTIC NEUROPATHY"
+ },
+ {
+  "file": "ophthalmology-fig-036.png",
+  "subject": "ophthalmology",
+  "topic": "SHORT ANSWERS ON NEURO-OPHTHALMOLOGY",
+  "topicId": "ophthalmology-t14",
+  "label": "SHORT ANSWERS ON NEURO-OPHTHALMOLOGY"
+ },
+ {
+  "file": "ophthalmology-fig-037.png",
+  "subject": "ophthalmology",
+  "topic": "SHORT ANSWERS ON NEURO-OPHTHALMOLOGY",
+  "topicId": "ophthalmology-t14",
+  "label": "SHORT ANSWERS ON NEURO-OPHTHALMOLOGY"
+ },
+ {
+  "file": "ophthalmology-fig-038.png",
+  "subject": "ophthalmology",
+  "topic": "SHORT ESSAY 1 & 2: EXTRAOCULAR MUSCLES, SQUINT & ABDUCENS PALSY",
+  "topicId": "ophthalmology-t15",
+  "label": "SHORT ESSAY 1 & 2: EXTRAOCULAR MUSCLES, SQUINT & ABDUCENS PALSY"
+ },
+ {
+  "file": "ophthalmology-fig-039.png",
+  "subject": "ophthalmology",
+  "topic": "SHORT ESSAY 1 & 2: EXTRAOCULAR MUSCLES, SQUINT & ABDUCENS PALSY",
+  "topicId": "ophthalmology-t15",
+  "label": "SHORT ESSAY 1 & 2: EXTRAOCULAR MUSCLES, SQUINT & ABDUCENS PALSY"
+ },
+ {
+  "file": "ophthalmology-fig-040.png",
+  "subject": "ophthalmology",
+  "topic": "SHORT ESSAY 1 & 2: EXTRAOCULAR MUSCLES, SQUINT & ABDUCENS PALSY",
+  "topicId": "ophthalmology-t15",
+  "label": "SHORT ESSAY 1 & 2: EXTRAOCULAR MUSCLES, SQUINT & ABDUCENS PALSY"
+ },
+ {
+  "file": "ophthalmology-fig-041.png",
+  "subject": "ophthalmology",
+  "topic": "ESSAY 1: ORBITAL CELLULITIS",
+  "topicId": "ophthalmology-t16",
+  "label": "ESSAY 1: ORBITAL CELLULITIS"
+ },
+ {
+  "file": "ophthalmology-fig-042.png",
+  "subject": "ophthalmology",
+  "topic": "SHORT ANSWERS ON ORBIT",
+  "topicId": "ophthalmology-t17",
+  "label": "SHORT ANSWERS ON ORBIT"
+ },
+ {
+  "file": "ophthalmology-fig-043.png",
+  "subject": "ophthalmology",
+  "topic": "SHORT ANSWERS ON ORBIT",
+  "topicId": "ophthalmology-t17",
+  "label": "SHORT ANSWERS ON ORBIT"
+ },
+ {
+  "file": "ophthalmology-fig-044.png",
+  "subject": "ophthalmology",
+  "topic": "ESSAY 1: BLUNT OCULAR TRAUMA & ORBITAL BLOW-OUT FRACTURE",
+  "topicId": "ophthalmology-t18",
+  "label": "ESSAY 1: BLUNT OCULAR TRAUMA & ORBITAL BLOW-OUT FRACTURE"
+ },
+ {
+  "file": "ophthalmology-fig-045.png",
+  "subject": "ophthalmology",
+  "topic": "ESSAY 1: BLUNT OCULAR TRAUMA & ORBITAL BLOW-OUT FRACTURE",
+  "topicId": "ophthalmology-t18",
+  "label": "ESSAY 1: BLUNT OCULAR TRAUMA & ORBITAL BLOW-OUT FRACTURE"
+ },
+ {
+  "file": "ophthalmology-fig-046.png",
+  "subject": "ophthalmology",
+  "topic": "ESSAY 1: BLUNT OCULAR TRAUMA & ORBITAL BLOW-OUT FRACTURE",
+  "topicId": "ophthalmology-t18",
+  "label": "ESSAY 1: BLUNT OCULAR TRAUMA & ORBITAL BLOW-OUT FRACTURE"
+ },
+ {
+  "file": "ophthalmology-fig-047.png",
+  "subject": "ophthalmology",
+  "topic": "1. AGE-RELATED MACULAR DEGENERATION (ARMD)",
+  "topicId": "ophthalmology-t20",
+  "label": "1. AGE-RELATED MACULAR DEGENERATION (ARMD)"
+ },
+ {
+  "file": "ophthalmology-fig-048.png",
+  "subject": "ophthalmology",
+  "topic": "2. CYSTOID MACULAR OEDEMA (CME), MACULAR HOLE & SOLAR RETINOPATHY",
+  "topicId": "ophthalmology-t21",
+  "label": "2. CYSTOID MACULAR OEDEMA (CME), MACULAR HOLE & SOLAR RETINOPATHY"
+ },
+ {
+  "file": "ophthalmology-fig-049.png",
+  "subject": "ophthalmology",
+  "topic": "2. CYSTOID MACULAR OEDEMA (CME), MACULAR HOLE & SOLAR RETINOPATHY",
+  "topicId": "ophthalmology-t21",
+  "label": "2. CYSTOID MACULAR OEDEMA (CME), MACULAR HOLE & SOLAR RETINOPATHY"
+ },
+ {
+  "file": "ophthalmology-fig-050.png",
+  "subject": "ophthalmology",
+  "topic": "1. NORMAL TENSION GLAUCOMA (NTG) & SECONDARY OPEN-ANGLE GLAUCOMAS",
+  "topicId": "ophthalmology-t23",
+  "label": "1. NORMAL TENSION GLAUCOMA (NTG) & SECONDARY OPEN-ANGLE GLAUCOMAS"
+ },
+ {
+  "file": "ophthalmology-fig-051.png",
+  "subject": "ophthalmology",
+  "topic": "2. AUTOMATED PERIMETRY INTERPRETATION & RECENT GLAUCOMA SURGERIES",
+  "topicId": "ophthalmology-t24",
+  "label": "2. AUTOMATED PERIMETRY INTERPRETATION & RECENT GLAUCOMA SURGERIES"
+ },
+ {
+  "file": "ophthalmology-fig-052.png",
+  "subject": "ophthalmology",
+  "topic": "2. AUTOMATED PERIMETRY INTERPRETATION & RECENT GLAUCOMA SURGERIES",
+  "topicId": "ophthalmology-t24",
+  "label": "2. AUTOMATED PERIMETRY INTERPRETATION & RECENT GLAUCOMA SURGERIES"
+ },
+ {
+  "file": "ophthalmology-fig-053.png",
+  "subject": "ophthalmology",
+  "topic": "1. HETEROPHORIA (LATENT SQUINT) & CLINICAL TYPES OF CONCOMITANT SQUINT",
+  "topicId": "ophthalmology-t25",
+  "label": "1. HETEROPHORIA (LATENT SQUINT) & CLINICAL TYPES OF CONCOMITANT SQUINT"
+ },
+ {
+  "file": "ophthalmology-fig-054.png",
+  "subject": "ophthalmology",
+  "topic": "1. HETEROPHORIA (LATENT SQUINT) & CLINICAL TYPES OF CONCOMITANT SQUINT",
+  "topicId": "ophthalmology-t25",
+  "label": "1. HETEROPHORIA (LATENT SQUINT) & CLINICAL TYPES OF CONCOMITANT SQUINT"
+ },
+ {
+  "file": "ophthalmology-fig-055.png",
+  "subject": "ophthalmology",
+  "topic": "2. THIRD & FOURTH CRANIAL NERVE PALSIES, RESTRICTIVE SQUINTS & NYSTAGMUS",
+  "topicId": "ophthalmology-t26",
+  "label": "2. THIRD & FOURTH CRANIAL NERVE PALSIES, RESTRICTIVE SQUINTS & NYSTAGMUS"
+ },
+ {
+  "file": "ophthalmology-fig-056.png",
+  "subject": "ophthalmology",
+  "topic": "2. THIRD & FOURTH CRANIAL NERVE PALSIES, RESTRICTIVE SQUINTS & NYSTAGMUS",
+  "topicId": "ophthalmology-t26",
+  "label": "2. THIRD & FOURTH CRANIAL NERVE PALSIES, RESTRICTIVE SQUINTS & NYSTAGMUS"
+ },
+ {
+  "file": "ophthalmology-fig-057.png",
+  "subject": "ophthalmology",
+  "topic": "2. THIRD & FOURTH CRANIAL NERVE PALSIES, RESTRICTIVE SQUINTS & NYSTAGMUS",
+  "topicId": "ophthalmology-t26",
+  "label": "2. THIRD & FOURTH CRANIAL NERVE PALSIES, RESTRICTIVE SQUINTS & NYSTAGMUS"
+ },
+ {
+  "file": "ophthalmology-fig-058.png",
+  "subject": "ophthalmology",
+  "topic": "1. PRESEPTAL CELLULITIS, CAVERNOUS SINUS THROMBOSIS, MUCORMYCOSIS & PSEUDOTUMOUR",
+  "topicId": "ophthalmology-t27",
+  "label": "1. PRESEPTAL CELLULITIS, CAVERNOUS SINUS THROMBOSIS, MUCORMYCOSIS & PSEUDOTUMOUR"
+ },
+ {
+  "file": "ophthalmology-fig-059.png",
+  "subject": "ophthalmology",
+  "topic": "2. ORBITAL TUMOURS, CRANIOFACIAL DYSOSTOSES & ORBITAL SURGERY",
+  "topicId": "ophthalmology-t28",
+  "label": "2. ORBITAL TUMOURS, CRANIOFACIAL DYSOSTOSES & ORBITAL SURGERY"
+ },
+ {
+  "file": "ophthalmology-fig-060.png",
+  "subject": "ophthalmology",
+  "topic": "2. ORBITAL TUMOURS, CRANIOFACIAL DYSOSTOSES & ORBITAL SURGERY",
+  "topicId": "ophthalmology-t28",
+  "label": "2. ORBITAL TUMOURS, CRANIOFACIAL DYSOSTOSES & ORBITAL SURGERY"
+ },
+ {
+  "file": "ophthalmology-fig-061.png",
+  "subject": "ophthalmology",
+  "topic": "1. EXTRAOCULAR & INTRAOCULAR FOREIGN BODIES (IOFB)",
+  "topicId": "ophthalmology-t29",
+  "label": "1. EXTRAOCULAR & INTRAOCULAR FOREIGN BODIES (IOFB)"
+ },
+ {
+  "file": "ophthalmology-fig-062.png",
+  "subject": "ophthalmology",
+  "topic": "1. ANTERIOR ISCHAEMIC OPTIC NEUROPATHY (AION) & LEBER’S HEREDITARY OPTIC NEUROPATHY",
+  "topicId": "ophthalmology-t31",
+  "label": "1. ANTERIOR ISCHAEMIC OPTIC NEUROPATHY (AION) & LEBER’S HEREDITARY OPTIC NEUROPATHY"
+ },
+ {
+  "file": "ophthalmology-fig-063.png",
+  "subject": "ophthalmology",
+  "topic": "1. ANTERIOR ISCHAEMIC OPTIC NEUROPATHY (AION) & LEBER’S HEREDITARY OPTIC NEUROPATHY",
+  "topicId": "ophthalmology-t31",
+  "label": "1. ANTERIOR ISCHAEMIC OPTIC NEUROPATHY (AION) & LEBER’S HEREDITARY OPTIC NEUROPATHY"
+ },
+ {
+  "file": "ophthalmology-fig-064.png",
+  "subject": "ophthalmology",
+  "topic": "2. HIGHER VISUAL DYSFUNCTIONS, CORTICAL BLINDNESS, MALINGERING & ELECTROPHYSIOLOGY",
+  "topicId": "ophthalmology-t32",
+  "label": "2. HIGHER VISUAL DYSFUNCTIONS, CORTICAL BLINDNESS, MALINGERING & ELECTROPHYSIOLOGY"
+ },
+ {
+  "file": "ophthalmology-fig-065.png",
+  "subject": "ophthalmology",
+  "topic": "1. APHAKIA & CONGENITAL LENS ANOMALIES",
+  "topicId": "ophthalmology-t33",
+  "label": "1. APHAKIA & CONGENITAL LENS ANOMALIES"
+ },
+ {
+  "file": "ophthalmology-fig-066.png",
+  "subject": "ophthalmology",
+  "topic": "1. APHAKIA & CONGENITAL LENS ANOMALIES",
+  "topicId": "ophthalmology-t33",
+  "label": "1. APHAKIA & CONGENITAL LENS ANOMALIES"
+ },
+ {
+  "file": "ophthalmology-fig-067.png",
+  "subject": "ophthalmology",
+  "topic": "4. ORBIT & DARKROOM PROCEDURES: SYNDROMES & OPHTHALMOSCOPY",
+  "topicId": "ophthalmology-t37",
+  "label": "4. ORBIT & DARKROOM PROCEDURES: SYNDROMES & OPHTHALMOSCOPY"
+ },
+ {
+  "file": "ophthalmology-fig-068.png",
+  "subject": "ophthalmology",
+  "topic": "4. ORBIT & DARKROOM PROCEDURES: SYNDROMES & OPHTHALMOSCOPY",
+  "topicId": "ophthalmology-t37",
+  "label": "4. ORBIT & DARKROOM PROCEDURES: SYNDROMES & OPHTHALMOSCOPY"
+ },
+ {
+  "file": "pediatrics-fig-001.png",
+  "subject": "pediatrics",
+  "topic": "14.2 CONGENITAL HEART DISEASE (CHD)",
+  "topicId": "pediatrics-t02",
+  "label": "14.2 CONGENITAL HEART DISEASE (CHD)"
+ },
+ {
+  "file": "pediatrics-fig-002.png",
+  "subject": "pediatrics",
+  "topic": "14.2 CONGENITAL HEART DISEASE (CHD)",
+  "topicId": "pediatrics-t02",
+  "label": "14.2 CONGENITAL HEART DISEASE (CHD)"
+ },
+ {
+  "file": "pediatrics-fig-003.png",
+  "subject": "pediatrics",
+  "topic": "14.2 CONGENITAL HEART DISEASE (CHD)",
+  "topicId": "pediatrics-t02",
+  "label": "14.2 CONGENITAL HEART DISEASE (CHD)"
+ },
+ {
+  "file": "pediatrics-fig-004.png",
+  "subject": "pediatrics",
+  "topic": "14.2 CONGENITAL HEART DISEASE (CHD)",
+  "topicId": "pediatrics-t02",
+  "label": "14.2 CONGENITAL HEART DISEASE (CHD)"
+ },
+ {
+  "file": "pediatrics-fig-005.png",
+  "subject": "pediatrics",
+  "topic": "14.4 MISCELLANEOUS CARDIOVASCULAR TOPICS",
+  "topicId": "pediatrics-t04",
+  "label": "14.4 MISCELLANEOUS CARDIOVASCULAR TOPICS"
+ },
+ {
+  "file": "pediatrics-fig-006.png",
+  "subject": "pediatrics",
+  "topic": "14.4 MISCELLANEOUS CARDIOVASCULAR TOPICS",
+  "topicId": "pediatrics-t04",
+  "label": "14.4 MISCELLANEOUS CARDIOVASCULAR TOPICS"
+ },
+ {
+  "file": "pediatrics-fig-007.png",
+  "subject": "pediatrics",
+  "topic": "15.1 NEPHROTIC SYNDROME",
+  "topicId": "pediatrics-t05",
+  "label": "15.1 NEPHROTIC SYNDROME"
+ },
+ {
+  "file": "pediatrics-fig-008.png",
+  "subject": "pediatrics",
+  "topic": "15.2 ACUTE POST-STREPTOCOCCAL GLOMERULONEPHRITIS (PSGN) & HEMATURIA",
+  "topicId": "pediatrics-t06",
+  "label": "15.2 ACUTE POST-STREPTOCOCCAL GLOMERULONEPHRITIS (PSGN) & HEMATURIA"
+ },
+ {
+  "file": "pediatrics-fig-009.png",
+  "subject": "pediatrics",
+  "topic": "15.3 URINARY TRACT INFECTION (UTI) & MISCELLANEOUS RENAL TOPICS",
+  "topicId": "pediatrics-t07",
+  "label": "15.3 URINARY TRACT INFECTION (UTI) & MISCELLANEOUS RENAL TOPICS"
+ },
+ {
+  "file": "pediatrics-fig-010.png",
+  "subject": "pediatrics",
+  "topic": "20.2 VASCULITIDES: HENOCH-SCHÖNLEIN PURPURA (IgA VASCULITIS) & KAWASAKI DISEASE",
+  "topicId": "pediatrics-t11",
+  "label": "20.2 VASCULITIDES: HENOCH-SCHÖNLEIN PURPURA (IgA VASCULITIS) & KAWASAKI DISEASE"
+ },
+ {
+  "file": "pediatrics-fig-011.png",
+  "subject": "pediatrics",
+  "topic": "21.1 DOWN SYNDROME (TRISOMY 21)",
+  "topicId": "pediatrics-t12",
+  "label": "21.1 DOWN SYNDROME (TRISOMY 21)"
+ },
+ {
+  "file": "pediatrics-fig-012.png",
+  "subject": "pediatrics",
+  "topic": "21.2 TURNER SYNDROME, PATTERNS OF INHERITANCE & GENETIC COUNSELING",
+  "topicId": "pediatrics-t13",
+  "label": "21.2 TURNER SYNDROME, PATTERNS OF INHERITANCE & GENETIC COUNSELING"
+ },
+ {
+  "file": "pediatrics-fig-013.png",
+  "subject": "pediatrics",
+  "topic": "CHAPTER 24 (Q-Bank Ch 22): INBORN ERRORS OF METABOLISM — 2. Classical Galactosemia [TU]",
+  "topicId": "pediatrics-t15",
+  "label": "CHAPTER 24 (Q-Bank Ch 22): INBORN ERRORS OF METABOLISM — 2. Classical Galactosemia [TU]"
+ },
+ {
+  "file": "pediatrics-fig-014.png",
+  "subject": "pediatrics",
+  "topic": "CHAPTER 26 (Q-Bank Ch 23): OPHTHALMIC DISORDERS — 1. Extraocular Muscles & Nerve Supply [KU20]",
+  "topicId": "pediatrics-t17",
+  "label": "CHAPTER 26 (Q-Bank Ch 23): OPHTHALMIC DISORDERS — 1. Extraocular Muscles & Nerve Supply [KU20]"
+ },
+ {
+  "file": "pediatrics-fig-015.png",
+  "subject": "pediatrics",
+  "topic": "CHAPTER 26 (Q-Bank Ch 23): OPHTHALMIC DISORDERS — 2. Visual Pathway & Field Defects [KU 16, 18]",
+  "topicId": "pediatrics-t18",
+  "label": "CHAPTER 26 (Q-Bank Ch 23): OPHTHALMIC DISORDERS — 2. Visual Pathway & Field Defects [KU 16, 18]"
+ },
+ {
+  "file": "pediatrics-fig-016.png",
+  "subject": "pediatrics",
+  "topic": "Q-BANK CHAPTER 8: IMMUNIZATION AND IMMUNODEFICIENCY — 3. Cold Chain, VVM, Shake Test, AEFI & Counseling",
+  "topicId": "pediatrics-t22",
+  "label": "Q-BANK CHAPTER 8: IMMUNIZATION AND IMMUNODEFICIENCY — 3. Cold Chain, VVM, Shake Test, AEFI & Counseling"
+ },
+ {
+  "file": "pediatrics-fig-017.png",
+  "subject": "pediatrics",
+  "topic": "25.2 HYDROCARBON (KEROSENE) POISONING",
+  "topicId": "pediatrics-t26",
+  "label": "25.2 HYDROCARBON (KEROSENE) POISONING"
+ },
+ {
+  "file": "pediatrics-fig-018.png",
+  "subject": "pediatrics",
+  "topic": "25.4 PARACETAMOL (ACETAMINOPHEN) POISONING",
+  "topicId": "pediatrics-t28",
+  "label": "25.4 PARACETAMOL (ACETAMINOPHEN) POISONING"
+ },
+ {
+  "file": "pediatrics-fig-019.png",
+  "subject": "pediatrics",
+  "topic": "25.5 SNAKE ENVENOMATION, SCORPION STING, LEAD POISONING & DROWNING",
+  "topicId": "pediatrics-t29",
+  "label": "25.5 SNAKE ENVENOMATION, SCORPION STING, LEAD POISONING & DROWNING"
+ },
+ {
+  "file": "pediatrics-fig-020.png",
+  "subject": "pediatrics",
+  "topic": "26.2 FOREIGN BODY ASPIRATION, HEIMLICH MANEUVER & HANDWASHING",
+  "topicId": "pediatrics-t31",
+  "label": "26.2 FOREIGN BODY ASPIRATION, HEIMLICH MANEUVER & HANDWASHING"
+ },
+ {
+  "file": "pediatrics-fig-021.png",
+  "subject": "pediatrics",
+  "topic": "26.2 FOREIGN BODY ASPIRATION, HEIMLICH MANEUVER & HANDWASHING",
+  "topicId": "pediatrics-t31",
+  "label": "26.2 FOREIGN BODY ASPIRATION, HEIMLICH MANEUVER & HANDWASHING"
+ },
+ {
+  "file": "pediatrics-fig-022.png",
+  "subject": "pediatrics",
+  "topic": "1. IMNCI Overview & Role in Reducing Child Morbidity and Mortality [KU 16, 18]",
+  "topicId": "pediatrics-t33",
+  "label": "1. IMNCI Overview & Role in Reducing Child Morbidity and Mortality [KU 16, 18]"
+ },
+ {
+  "file": "pediatrics-fig-023.png",
+  "subject": "pediatrics",
+  "topic": "16.3 CONGENITAL HEART DISEASE: GENERAL CONCEPTS (Pages 454–464)",
+  "topicId": "pediatrics-t39",
+  "label": "16.3 CONGENITAL HEART DISEASE: GENERAL CONCEPTS (Pages 454–464)"
+ },
+ {
+  "file": "pediatrics-fig-024.png",
+  "subject": "pediatrics",
+  "topic": "16.3 CONGENITAL HEART DISEASE: GENERAL CONCEPTS (Pages 454–464)",
+  "topicId": "pediatrics-t39",
+  "label": "16.3 CONGENITAL HEART DISEASE: GENERAL CONCEPTS (Pages 454–464)"
+ },
+ {
+  "file": "pediatrics-fig-025.png",
+  "subject": "pediatrics",
+  "topic": "16.4 ACYANOTIC CONGENITAL HEART DEFECTS (Pages 464–471)",
+  "topicId": "pediatrics-t40",
+  "label": "16.4 ACYANOTIC CONGENITAL HEART DEFECTS (Pages 464–471)"
+ },
+ {
+  "file": "pediatrics-fig-026.png",
+  "subject": "pediatrics",
+  "topic": "16.4 ACYANOTIC CONGENITAL HEART DEFECTS (Pages 464–471)",
+  "topicId": "pediatrics-t40",
+  "label": "16.4 ACYANOTIC CONGENITAL HEART DEFECTS (Pages 464–471)"
+ },
+ {
+  "file": "pediatrics-fig-027.png",
+  "subject": "pediatrics",
+  "topic": "16.5 CYANOTIC CONGENITAL HEART DISEASES (Pages 471–480)",
+  "topicId": "pediatrics-t41",
+  "label": "16.5 CYANOTIC CONGENITAL HEART DISEASES (Pages 471–480)"
+ },
+ {
+  "file": "pediatrics-fig-028.png",
+  "subject": "pediatrics",
+  "topic": "17.2 HEMATURIA, PROTEINURIA & GLOMERULONEPHRITIS (Pages 520–527, 533–534)",
+  "topicId": "pediatrics-t46",
+  "label": "17.2 HEMATURIA, PROTEINURIA & GLOMERULONEPHRITIS (Pages 520–527, 533–534)"
+ },
+ {
+  "file": "pediatrics-fig-029.png",
+  "subject": "pediatrics",
+  "topic": "17.3 NEPHROTIC SYNDROME: SSNS, SRNS & CONGENITAL NS (Pages 527–533)",
+  "topicId": "pediatrics-t47",
+  "label": "17.3 NEPHROTIC SYNDROME: SSNS, SRNS & CONGENITAL NS (Pages 527–533)"
+ },
+ {
+  "file": "pediatrics-fig-030.png",
+  "subject": "pediatrics",
+  "topic": "17.4 UTI, BBD, VESICOURETERIC REFLUX (VUR) & ANTENATAL HYDRONEPHROSIS (Pages 534–538, 555–557)",
+  "topicId": "pediatrics-t48",
+  "label": "17.4 UTI, BBD, VESICOURETERIC REFLUX (VUR) & ANTENATAL HYDRONEPHROSIS (Pages 534–538, 555–557)"
+ },
+ {
+  "file": "pediatrics-fig-031.png",
+  "subject": "pediatrics",
+  "topic": "24.2 SPECIFIC INBORN ERRORS OF METABOLISM (Pages 709–722)",
+  "topicId": "pediatrics-t58",
+  "label": "24.2 SPECIFIC INBORN ERRORS OF METABOLISM (Pages 709–722)"
+ },
+ {
+  "file": "pediatrics-fig-032.png",
+  "subject": "pediatrics",
+  "topic": "29.2 SEPTIC SHOCK, SEDATION, HAI BUNDLES & BLOOD TRANSFUSION (Pages 794–802)",
+  "topicId": "pediatrics-t65",
+  "label": "29.2 SEPTIC SHOCK, SEDATION, HAI BUNDLES & BLOOD TRANSFUSION (Pages 794–802)"
+ },
+ {
+  "file": "pediatrics-fig-033.png",
+  "subject": "pediatrics",
+  "topic": "29.2 SEPTIC SHOCK, SEDATION, HAI BUNDLES & BLOOD TRANSFUSION (Pages 794–802)",
+  "topicId": "pediatrics-t65",
+  "label": "29.2 SEPTIC SHOCK, SEDATION, HAI BUNDLES & BLOOD TRANSFUSION (Pages 794–802)"
+ }
+]

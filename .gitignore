@@ -1,0 +1,7 @@
+# Sessional Arena ship hygiene: the push ships ONLY the site.
+# Everything below is builder/worker material and must never ship.
+_extract/
+_builder/
+__pycache__/
+*.pyc
+quiz-sample/

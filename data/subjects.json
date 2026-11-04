@@ -1,0 +1,8 @@
+[
+ { "id": "surgery", "name": "Surgery" },
+ { "id": "ent", "name": "ENT" },
+ { "id": "medicine", "name": "Medicine" },
+ { "id": "gynecology", "name": "Gynecology" },
+ { "id": "ophthalmology", "name": "Ophthalmology" },
+ { "id": "pediatrics", "name": "Pediatrics" }
+]
