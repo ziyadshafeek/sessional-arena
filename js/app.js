@@ -75,10 +75,13 @@
 
   /* ---------- Settings helpers ---------- */
   function getSettings() {
-    if (!window.OphthSettings) window.OphthSettings = { mode: 'browser', autoRead: true, rate: 1.0, sounds: true, muted: false };
+    if (!window.OphthSettings) window.OphthSettings = { mode: 'browser', autoRead: true, rate: 1.0, sounds: true, muted: false, fontSize: 16, theme: 'dark' };
     var s = window.OphthSettings;
     if (s.rate == null || isNaN(Number(s.rate))) s.rate = 1.0;
     if (s.mode == null) s.mode = 'browser';
+    var fs = parseInt(s.fontSize, 10);
+    s.fontSize = isNaN(fs) ? 16 : Math.max(12, Math.min(24, fs));
+    if (s.theme !== 'light' && s.theme !== 'dark') s.theme = 'dark';
     return s;
   }
   function saveSettings() {
@@ -99,6 +102,21 @@
     var v = Number(r).toFixed(2).replace(/0+$/, '').replace(/\.$/, '');
     return v + '×';
   }
+  function setFontSize(v) {
+    var st = getSettings();
+    var n = parseInt(v, 10);
+    st.fontSize = isNaN(n) ? 16 : Math.max(12, Math.min(24, n));
+    saveSettings();
+    try { if (window.OphthVoice && OphthVoice.applyDisplay) OphthVoice.applyDisplay(); } catch (e) {}
+    syncSettingsUI();
+  }
+  function setTheme(t) {
+    var st = getSettings();
+    st.theme = (t === 'light') ? 'light' : 'dark';
+    saveSettings();
+    try { if (window.OphthVoice && OphthVoice.applyDisplay) OphthVoice.applyDisplay(); } catch (e) {}
+    syncSettingsUI();
+  }
   function syncSettingsUI() {
     try {
       var st = getSettings();
@@ -108,6 +126,10 @@
       var sv = $('voiceSpeedVal'); if (sv) sv.textContent = fmtRate(st.rate);
       var so = $('soundsOn'); if (so) so.checked = !!st.sounds;
       var mb = $('muteBtn'); if (mb) mb.textContent = st.muted ? '🔇 VOICE: OFF' : '🎙️ VOICE: ON';
+      var fz = $('fontSize'); if (fz) fz.value = st.fontSize;
+      var fzv = $('fontSizeVal'); if (fzv) fzv.textContent = st.fontSize + 'px';
+      var td = $('themeDark'); if (td) td.classList.toggle('active', st.theme !== 'light');
+      var tl = $('themeLight'); if (tl) tl.classList.toggle('active', st.theme === 'light');
       if (window.OphthVoice && OphthVoice.updateVoiceStatus) OphthVoice.updateVoiceStatus();
     } catch (e) {}
   }
@@ -198,6 +220,17 @@
       setRate(parseFloat(this.value));
       $('voiceSpeedVal').textContent = fmtRate(parseFloat(this.value));
     };
+    if ($('fontSize')) $('fontSize').oninput = function () {
+      setFontSize(parseInt(this.value, 10));
+    };
+    if ($('fontDown')) $('fontDown').onclick = function () {
+      setFontSize(getSettings().fontSize - 1);
+    };
+    if ($('fontUp')) $('fontUp').onclick = function () {
+      setFontSize(getSettings().fontSize + 1);
+    };
+    if ($('themeDark')) $('themeDark').onclick = function () { setTheme('dark'); };
+    if ($('themeLight')) $('themeLight').onclick = function () { setTheme('light'); };
     document.querySelectorAll('.presetBtn').forEach(function (b) {
       b.onclick = function () {
         var r = parseFloat(b.dataset.rate);
@@ -240,5 +273,5 @@
       try { OphthVoice.speakFullText('Voice test. This is the Sessional Arena voice. If you can hear this, voice is working.'); } catch (e2) {}
     };
   });
-  window.OphthApp = { syncSettingsUI: syncSettingsUI, toggleFullscreen: toggleFullscreen, setRate: setRate, getSettings: getSettings, getSubject: getSubject, goToSubject: goToSubject, showChooser: showChooser, subjectNameFor: subjectNameFor };
+  window.OphthApp = { syncSettingsUI: syncSettingsUI, toggleFullscreen: toggleFullscreen, setRate: setRate, setFontSize: setFontSize, setTheme: setTheme, getSettings: getSettings, getSubject: getSubject, goToSubject: goToSubject, showChooser: showChooser, subjectNameFor: subjectNameFor };
 })();

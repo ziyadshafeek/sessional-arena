@@ -12,9 +12,10 @@
 <link rel="manifest" href="manifest.webmanifest"/>
 <link rel="icon" href="data:,">
 <title>Sessional Arena</title>
+<script>try{var _s=JSON.parse(localStorage.getItem('sessional-arena-settings')||'{}');var _fs=parseInt(_s.fontSize,10);if(isNaN(_fs))_fs=16;_fs=Math.max(12,Math.min(24,_fs));document.documentElement.setAttribute('data-theme',_s.theme==='light'?'light':'dark');document.documentElement.style.setProperty('--fscale',(_fs/16).toFixed(3));}catch(e){}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=Sora:wght@400;600;700;800&family=Share+Tech+Mono&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css?v=3">
+<link rel="stylesheet" href="css/style.css?v=4">
 </head>
 <body>
 <main class="wrap" id="mainWrap">
@@ -24,7 +25,7 @@
 <div class="kicker">SESSIONAL · ARENA</div>
 <h1 class="gameTitle">SESSIONAL<br><span>ARENA</span></h1>
 <p class="oneLine">6 subjects · Learn + Quiz</p>
-<p class="oneLine" id="appVersion">Sessional Arena v1</p>
+<p class="oneLine" id="appVersion">Sessional Arena v1.1</p>
 <p class="oneLine" id="homeVoiceLine">Browser voice</p>
 <p class="oneLine" id="voiceWarn" style="display:none;color:#ffb3b3">⚠️ Voice is not available in this browser — open this link in Chrome for voice.</p>
 <p class="oneLine">Choose a subject to start.</p>
@@ -174,6 +175,8 @@
 <label class="setRow"><span>Auto-read</span><input type="checkbox" id="autoRead"></label>
 <label class="setRow"><span>Voice speed</span><span class="speedRow"><input type="range" id="voiceSpeed" min="0.5" max="2.0" step="0.05"><strong id="voiceSpeedVal"></strong></span></label>
 <div class="setRow"><span>Speed presets</span><span class="speedRow presetRow"><button class="btn ghost presetBtn" data-rate="0.75">0.75×</button><button class="btn ghost presetBtn" data-rate="1">1×</button><button class="btn ghost presetBtn" data-rate="1.25">1.25×</button><button class="btn ghost presetBtn" data-rate="1.5">1.5×</button></span></div>
+<div class="setRow"><span>Text size</span><span class="speedRow"><button class="btn ghost" id="fontDown">A−</button><input type="range" id="fontSize" min="12" max="24" step="1"><strong id="fontSizeVal"></strong><button class="btn ghost" id="fontUp">A+</button></span></div>
+<div class="setRow"><span>Theme</span><span class="speedRow"><button class="btn ghost themeBtn" id="themeDark">🌙 Dark</button><button class="btn ghost themeBtn" id="themeLight">☀️ Light</button></span></div>
 <label class="setRow"><span>Sounds</span><input type="checkbox" id="soundsOn"></label>
 <div class="setRow"><span>Mute voice</span><button class="btn ghost" id="muteBtn">🎙️ VOICE: ON</button></div>
 <div class="setRow"><span>Test voice</span><button class="btn ghost" id="testVoiceBtn">🔊 TEST VOICE</button></div>
@@ -183,11 +186,11 @@
 </div>
 </section>
 </main>
-<script src="js/voice.js?v=2"></script>
+<script src="js/voice.js?v=3"></script>
 <script src="js/audio.js?v=1"></script>
 <script src="js/data.js?v=3"></script>
 <script src="js/tables.js?v=3"></script>
-<script src="js/app.js?v=2"></script>
+<script src="js/app.js?v=3"></script>
 <script src="js/game.js?v=3"></script>
 <script src="js/learn.js?v=3"></script>
 <script src="js/library.js?v=3"></script>

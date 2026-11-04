@@ -13,7 +13,9 @@
     autoRead: true,
     rate: 1.0,
     sounds: true,
-    muted: false
+    muted: false,
+    fontSize: 16,
+    theme: 'dark'
   };
 
   function isObject(value) {
@@ -32,6 +34,24 @@
       return 2.0;
     }
     return r;
+  }
+
+  function clampFontSize(value) {
+    var n = parseInt(value, 10);
+    if (isNaN(n)) {
+      return 16;
+    }
+    if (n < 12) {
+      return 12;
+    }
+    if (n > 24) {
+      return 24;
+    }
+    return n;
+  }
+
+  function clampTheme(value) {
+    return value === 'light' ? 'light' : 'dark';
   }
 
   function loadSettings() {
@@ -62,6 +82,12 @@
           if (parsed.rate !== undefined && parsed.rate !== null) {
             settings.rate = clampRate(parsed.rate);
           }
+          if (parsed.fontSize !== undefined && parsed.fontSize !== null) {
+            settings.fontSize = clampFontSize(parsed.fontSize);
+          }
+          if (typeof parsed.theme === 'string') {
+            settings.theme = clampTheme(parsed.theme);
+          }
         }
       }
     } catch (e) {
@@ -83,6 +109,31 @@
     return settings;
   }
 
+  /* Display settings (font size + theme) live in the same settings
+     object so one save covers voice and display. Applied here and
+     from the head inline script (no-flash) using the same key. */
+  function applyDisplay() {
+    var current = readSettings();
+    try {
+      var fs = clampFontSize(current.fontSize);
+      current.fontSize = fs;
+      var th = clampTheme(current.theme);
+      current.theme = th;
+      document.documentElement.setAttribute('data-theme', th);
+      document.documentElement.style.setProperty('--fscale', (fs / 16).toFixed(3));
+      var tc = document.querySelector('meta[name="theme-color"]');
+      if (tc) {
+        tc.setAttribute('content', th === 'light' ? '#f2f6fb' : '#020610');
+      }
+      var cs = document.querySelector('meta[name="color-scheme"]');
+      if (cs) {
+        cs.setAttribute('content', th);
+      }
+    } catch (e) {
+      /* Display keeps defaults if the DOM is not ready. */
+    }
+  }
+
   function saveSettings() {
     var current = readSettings();
     try {
@@ -102,10 +153,16 @@
     } catch (e) {
       /* Storage may be unavailable; settings still apply in memory. */
     }
+    try {
+      applyDisplay();
+    } catch (e) {
+      /* Ignore. */
+    }
   }
 
   window.OphthSettings = settings;
   window.saveOphthSettings = saveSettings;
+  applyDisplay();
 
   function hasSpeech() {
     try {
@@ -692,6 +749,7 @@
     updateVoiceStatus: updateVoiceStatus,
     voiceStatusText: voiceStatusText,
     setRate: setRate,
+    applyDisplay: applyDisplay,
     setSpeaking: setSpeaking
   };
 
