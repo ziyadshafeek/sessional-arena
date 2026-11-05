@@ -52,7 +52,14 @@ h2{font-family:"Chakra Petch"}.qClue{color:var(--text);line-height:1.6;font-size
 .opt{display:flex;gap:10px;align-items:center;text-align:left;background:var(--panel);border:1px solid var(--line);color:var(--text);padding:14px;clip-path:var(--cut);font-size:calc(var(--fscale) * 15px);line-height:1.45;transition:border-color .15s,background .15s,transform .1s}.opt:active{transform:scale(.985)}
 .opt:hover{border-color:var(--neon)}.opt.correct{border-color:var(--green);background:#06351f}.opt.wrong{border-color:var(--red);background:#3a0a18}.opt.eliminated{opacity:.25}
 .opt .key{font-family:"Chakra Petch";color:var(--neon);border:1px solid var(--line);padding:4px 9px;flex:none}
-.feedback{display:none;border:1px solid var(--line);background:var(--panel);clip-path:var(--cut);padding:16px;margin:14px 0;line-height:1.6}
+.feedback{display:none;border:1px solid var(--line);background:var(--panel);padding:16px;margin:14px 0;line-height:1.6}
+/* NO clip-path here, ever: the panel's cut-corner clip used to slice the
+   FIXED NEXT bar below (the bar is a descendant of this panel, and a
+   clip-path clips fixed descendants too), so on a phone NEXT was cut off
+   at the panel's bottom edge and taps at its centre hit the page
+   underneath — the quiz looked frozen after answering. Same trap as the
+   transform animation above, different property. The panel simply has
+   square corners now; the bar stays viewport-fixed and tappable. */
 .feedback.on{display:block;animation:fbIn .28s ease both}
 @keyframes fbIn{from{opacity:0}to{opacity:1}}/* Fade only, NO translateY:
    a transform animation on .feedback (even with fill both) makes the
