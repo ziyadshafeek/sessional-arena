@@ -8,13 +8,21 @@
    DATA CONTRACT (exact shapes the content team write; see
    DATA_CONTRACT.md):
    - data/subjects.json:  [{id, name}]  (6 subjects)
-   - data/topics.json:    [{id, subject, title, pages, text}]
-                          (text may carry [[TABLE:<id>]] marker lines)
+   - data/topics.json:    [{id, subject, title, pages, text, html}]
+                          (text may carry [[TABLE:<id>]] marker lines;
+                           html is the same text with Word formatting
+                           preserved -- <b>/<i>/<u>/<s>/<sub>/<sup> runs
+                           and list labels (bullets + numbers). Display
+                           uses html; quiz, voice, search and the timer
+                           keep using plain text.)
    - data/questions.json: [{id, subject, topicId, question, options[4],
                             answerIndex, passage}]
    - data/figures.json:   [{file, subject, topic, topicId, label}]
    - data/tables.json:    [{id, topicId, subject, caption, columns,
-                            rows, note}]
+                            rows, note, columnsHtml, rowsHtml}]
+                           (columnsHtml/rowsHtml are the same cells with
+                           Word bold/italic/sub/superscript preserved;
+                           plain columns/rows stay for quiz validation.)
    Compatibility: every record is normalised on load so that BOTH
    `subject` and `section` are present (section = subject). Old code
    reading `.section` therefore keeps working, and new code may read

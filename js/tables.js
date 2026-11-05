@@ -3,12 +3,18 @@
    the builder skips any table that fails that check, so a missing table
    here simply falls back to the original flowing text). applyTo()
    builds the table BEFORE touching the element, so a failure leaves
-   the text untouched.
+   the text untouched. Cells render columnsHtml/rowsHtml when present
+   (Word bold/italic/sub/superscript preserved); plain columns/rows stay
+   the quiz-validation source and the fallback.
    MARKER MODEL (primary for Sessional Arena): a topic's text may carry
    [[TABLE:<tableId>]] on its own line. renderInto()/applyTo() then
    render text segments (pre-wrap divs) and real <table> grids in
    document order, instead of a single table for the whole topic.
    Multiple tables per topic are supported (one marker each).
+   FORMATTED PATH (v1.7): applyTo(topicId, el, htmlText) renders the
+   topic's html (Word formatting + list labels) with markers resolved
+   the same way (renderHtmlWithTables); without htmlText the plain path
+   below is used unchanged.
    LEGACY PATH (kept): a table entry with non-empty before/after text
    renders exactly as in v1.1 (before + grid + after, replacing the
    element). A legacy entry with neither before/after nor markers gets
@@ -55,17 +61,23 @@
     cap.textContent = tab.caption || 'Table'; wrap.appendChild(cap);
     var table = document.createElement('table'); table.className = 'tbl';
     var thead = document.createElement('thead'); var hr = document.createElement('tr');
-    (tab.columns || []).forEach(function (c) {
-      var th = document.createElement('th'); th.textContent = c; hr.appendChild(th);
+    var colsH = tab.columnsHtml || [];
+    (tab.columns || []).forEach(function (c, i) {
+      var th = document.createElement('th');
+      if (colsH[i] != null) th.innerHTML = colsH[i]; else th.textContent = c;
+      hr.appendChild(th);
     });
     thead.appendChild(hr); table.appendChild(thead);
     var tb = document.createElement('tbody');
-    (tab.rows || []).forEach(function (r) {
+    (tab.rows || []).forEach(function (r, ri) {
       var tr = document.createElement('tr');
       r.forEach(function (cell, ci) {
         var el = document.createElement(ci === 0 ? 'th' : 'td');
         if (ci === 0) el.scope = 'row';
-        el.textContent = cell; tr.appendChild(el);
+        var h = (tab.rowsHtml && tab.rowsHtml[ri] && tab.rowsHtml[ri][ci] != null)
+          ? tab.rowsHtml[ri][ci] : null;
+        if (h != null) el.innerHTML = h; else el.textContent = cell;
+        tr.appendChild(el);
       });
       tb.appendChild(tr);
     });
@@ -108,15 +120,53 @@
     el.appendChild(frag);
     return true;
   }
+  function renderHtmlWithTables(el, html) {
+    /* Same as renderTextWithTables, but the segments are the topic's html
+       (Word formatting + list labels, builder-escaped, tags b/i/u/s/sub/
+       sup only), so bold/italics survive next to the grids. */
+    var frag = document.createDocumentFragment();
+    var last = 0, m, found = false;
+    MARKER_RE.lastIndex = 0;
+    while ((m = MARKER_RE.exec(html)) !== null) {
+      found = true;
+      var seg = html.slice(last, m.index);
+      if (seg && !/^\s*$/.test(seg.replace(/<[^>]+>/g, ''))) {
+        var d = document.createElement('div'); d.className = 'tblText';
+        d.innerHTML = seg; frag.appendChild(d);
+      }
+      var tab = getById(m[1]) || get(m[1]);
+      if (tab) frag.appendChild(buildTable(tab));
+      last = MARKER_RE.lastIndex;
+    }
+    var tail = html.slice(last);
+    if (tail && !/^\s*$/.test(tail.replace(/<[^>]+>/g, ''))) {
+      var td = document.createElement('div'); td.className = 'tblText';
+      td.innerHTML = tail; frag.appendChild(td);
+    }
+    if (!found) return false;
+    el.textContent = '';
+    el.appendChild(frag);
+    return true;
+  }
   function renderInto(el, text) {
     if (!el || text == null) return false;
     MARKER_RE.lastIndex = 0;
     if (!MARKER_RE.test(String(text))) return false;
     return renderTextWithTables(el, String(text));
   }
-  function applyTo(topicId, el) {
+  function applyTo(topicId, el, htmlText) {
     try {
       if (!el) return false;
+      if (htmlText != null) {
+        /* Formatted path: markers live in the html; render segments +
+           grids from it. Without markers, leave the element's html
+           exactly as the caller set it. */
+        MARKER_RE.lastIndex = 0;
+        if (MARKER_RE.test(String(htmlText))) {
+          return renderHtmlWithTables(el, String(htmlText));
+        }
+        return false;
+      }
       /* Primary: the element already holds the topic text; if it
          carries markers, render segments + grids in order. */
       var current = el.textContent || '';
@@ -149,6 +199,7 @@
     load: load, get: get, getById: getById,
     getAllForTopic: getAllForTopic, applyTo: applyTo,
     buildTable: buildTable, stripMarkers: stripMarkers,
-    renderTextWithTables: renderTextWithTables, renderInto: renderInto
+    renderTextWithTables: renderTextWithTables,
+    renderHtmlWithTables: renderHtmlWithTables, renderInto: renderInto
   };
 })();

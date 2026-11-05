@@ -233,8 +233,9 @@
         });
         d.appendChild(ph);
       }
-      var tx = document.createElement('div'); tx.className = 'libText'; tx.textContent = t.text || '';
-      try { OphthTables.applyTo(t.id, tx); } catch (e) {}
+      var tx = document.createElement('div'); tx.className = 'libText';
+      if (t.html) { tx.innerHTML = t.html; } else { tx.textContent = t.text || ''; }
+      try { OphthTables.applyTo(t.id, tx, t.html || null); } catch (e) {}
       d.appendChild(tx);
       d.addEventListener('toggle', function () {
         if (!d.open) {

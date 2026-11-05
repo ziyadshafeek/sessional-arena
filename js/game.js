@@ -332,6 +332,126 @@
     if (t && t.text) return t.text;
     return 'No supporting passage supplied for this question yet.';
   }
+  /* Formatted reveal passage (v1.7): a passage is a verbatim span of the
+     topic's plain text; clip the same span out of the topic's html so the
+     reveal reads with the notes' bold/italics/list labels. Any doubt at
+     all -> null, and the caller falls back to plain text. */
+  function unescHtml(s) {
+    return String(s).replace(/&lt;/g, '<').replace(/&gt;/g, '>')
+      .replace(/&amp;/g, '&');
+  }
+  function escHtml(s) {
+    return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;');
+  }
+  function clipBlock(htmlBlock, plainBlock, cs, ce) {
+    /* Clip plain range [cs, ce) out of one block's html. Returns
+       {html, plain} (plain = the exact plain substring covered, for the
+       caller's verification), or null on any surprise. */
+    var parts = String(htmlBlock).split(/(<[^>]+>)/g);
+    /* Synthesised list label: raw text at the block start (bullets /
+       numbers the plain text does not have). A literal label (plain text
+       starts with the same characters) is NOT a label. */
+    var labelLen = 0, labelText = '';
+    if (parts.length && parts[0]) {
+      var lm = parts[0].match(/^((?: )*(?:•|–|◦|\d+\.) )/);
+      if (lm) {
+        var core = lm[1].replace(/ /g, '');
+        if (String(plainBlock).indexOf(core) !== 0) {
+          labelLen = lm[1].length;
+          labelText = lm[1];
+        }
+      }
+    }
+    var stack = [], out = [], plainPos = 0, started = false;
+    function openTags() {
+      for (var i = 0; i < stack.length; i++) out.push('<' + stack[i] + '>');
+    }
+    function closeTags() {
+      for (var i = stack.length - 1; i >= 0; i--) out.push('</' + stack[i] + '>');
+    }
+    for (var pi = 0; pi < parts.length; pi++) {
+      var part = parts[pi];
+      if (!part) continue;
+      var tm = part.match(/^<\/?([a-z]+)>$/);
+      if (tm) {
+        var name = tm[1];
+        if (['b', 'i', 'u', 's', 'sub', 'sup'].indexOf(name) < 0) return null;
+        if (part.charAt(1) === '/') {
+          var idx = stack.lastIndexOf(name);
+          if (idx < 0) return null;
+          stack.splice(idx, 1);
+          if (started) out.push(part);
+        } else {
+          stack.push(name);
+          if (started) out.push(part);
+        }
+        continue;
+      }
+      /* Text part: measure in plain characters (unescaped), skipping the
+         synthesised label at the block start. */
+      var raw = part, skip = 0;
+      if (pi === 0 && labelLen) { skip = labelLen; }
+      var u = unescHtml(raw.slice(skip));
+      var p0 = plainPos, p1 = plainPos + u.length;
+      plainPos = p1;
+      var s0 = Math.max(cs, p0), s1 = Math.min(ce, p1);
+      if (s1 <= s0) continue;
+      if (!started) {
+        started = true;
+        if (cs === 0 && labelText) out.push(labelText);
+        openTags();
+      }
+      out.push(escHtml(u.slice(s0 - p0, s1 - p0)));
+    }
+    if (!started) return null;
+    closeTags();
+    return { html: out.join(''), plain: String(plainBlock).slice(cs, ce) };
+  }
+  function excerptHtml(topicHtml, topicText, start, len) {
+    try {
+      var plainBlocks = String(topicText).split('\n\n');
+      var htmlBlocks = String(topicHtml).split('\n\n');
+      if (plainBlocks.length !== htmlBlocks.length) return null;
+      var off = 0, starts = [];
+      for (var i = 0; i < plainBlocks.length; i++) {
+        starts.push(off);
+        off += plainBlocks[i].length + 2;
+      }
+      var end = start + len, out = [], covered = [];
+      for (var b = 0; b < plainBlocks.length; b++) {
+        var bs = starts[b], be = bs + plainBlocks[b].length;
+        if (be <= start || bs >= end) continue;
+        var frag = clipBlock(htmlBlocks[b], plainBlocks[b],
+          Math.max(start, bs) - bs, Math.min(end, be) - bs);
+        if (frag == null) return null;
+        out.push(frag.html);
+        covered.push(frag.plain);
+      }
+      if (!out.length) return null;
+      /* Verify the clip covers exactly the requested plain span; any
+         block-boundary surprise (e.g. a paragraph ending in a line
+         break) fails safe to plain text instead of a wrong passage. */
+      if (covered.join('\n\n') !== String(topicText).slice(start, end)) {
+        return null;
+      }
+      return out.join('\n\n');
+    } catch (e) { return null; }
+  }
+  function setFormattedPassage(q) {
+    try {
+      var p = passageFor(q);
+      if (!p || /\[\[TABLE:/.test(p)) return false;
+      var t = topicFor(q);
+      if (!t || !t.html || !t.text) return false;
+      var start = t.text.indexOf(p);
+      if (start < 0) return false;
+      var frag = excerptHtml(t.html, t.text, start, p.length);
+      if (frag == null) return false;
+      $('fbPassage').innerHTML = frag;
+      return true;
+    } catch (e) { return false; }
+  }
   function cleanSpeech(s) {
     try { if (window.OphthTables && OphthTables.stripMarkers) return OphthTables.stripMarkers(s || ''); } catch (e) {}
     return s || '';
@@ -384,8 +504,10 @@
       fb.className = 'feedback on bad';
       $('fbTitle').textContent = prefix + 'Correct answer: ' + correctTxt;
     }
-    /* FULL passage, never truncated, as plain text (pre-wrap in css). */
-    $('fbPassage').textContent = passageFor(q);
+    /* FULL passage, never truncated (pre-wrap in css). Formatted like
+       the notes when it is a verbatim span of the topic; plain text
+       otherwise (table passages, paraphrases, any doubt). */
+    if (!setFormattedPassage(q)) $('fbPassage').textContent = passageFor(q);
     try {
       var fp = $('fbPassage');
       if (OphthTables.renderInto && /\[\[TABLE:/.test(passageFor(q))) { OphthTables.renderInto(fp, passageFor(q)); }
