@@ -2340,156 +2340,156 @@
  {
   "file": "ophthalmology-fig-047.png",
   "subject": "ophthalmology",
-  "topic": "1. AGE-RELATED MACULAR DEGENERATION (ARMD)",
+  "topic": "1. AGE-RELATED MACULAR DEGENERATION (ARMD / AMD)",
   "topicId": "ophthalmology-t20",
-  "label": "1. AGE-RELATED MACULAR DEGENERATION (ARMD)"
+  "label": "1. AGE-RELATED MACULAR DEGENERATION (ARMD / AMD)"
  },
  {
   "file": "ophthalmology-fig-048.png",
   "subject": "ophthalmology",
-  "topic": "2. CYSTOID MACULAR OEDEMA (CME), MACULAR HOLE & SOLAR RETINOPATHY",
+  "topic": "2. CYSTOID MACULAR OEDEMA (CME), MACULAR HOLE & TOXIC/HEREDITARY MACULOPATHIES",
   "topicId": "ophthalmology-t21",
-  "label": "2. CYSTOID MACULAR OEDEMA (CME), MACULAR HOLE & SOLAR RETINOPATHY"
+  "label": "2. CYSTOID MACULAR OEDEMA (CME), MACULAR HOLE & TOXIC/HEREDITARY MACULOPATHIES"
  },
  {
   "file": "ophthalmology-fig-049.png",
   "subject": "ophthalmology",
-  "topic": "2. CYSTOID MACULAR OEDEMA (CME), MACULAR HOLE & SOLAR RETINOPATHY",
+  "topic": "2. CYSTOID MACULAR OEDEMA (CME), MACULAR HOLE & TOXIC/HEREDITARY MACULOPATHIES",
   "topicId": "ophthalmology-t21",
-  "label": "2. CYSTOID MACULAR OEDEMA (CME), MACULAR HOLE & SOLAR RETINOPATHY"
+  "label": "2. CYSTOID MACULAR OEDEMA (CME), MACULAR HOLE & TOXIC/HEREDITARY MACULOPATHIES"
  },
  {
   "file": "ophthalmology-fig-050.png",
   "subject": "ophthalmology",
-  "topic": "1. NORMAL TENSION GLAUCOMA (NTG) & SECONDARY OPEN-ANGLE GLAUCOMAS",
-  "topicId": "ophthalmology-t23",
-  "label": "1. NORMAL TENSION GLAUCOMA (NTG) & SECONDARY OPEN-ANGLE GLAUCOMAS"
+  "topic": "1. NORMAL TENSION GLAUCOMA (NTG) & SECONDARY GLAUCOMAS",
+  "topicId": "ophthalmology-t24",
+  "label": "1. NORMAL TENSION GLAUCOMA (NTG) & SECONDARY GLAUCOMAS"
  },
  {
   "file": "ophthalmology-fig-051.png",
   "subject": "ophthalmology",
   "topic": "2. AUTOMATED PERIMETRY INTERPRETATION & RECENT GLAUCOMA SURGERIES",
-  "topicId": "ophthalmology-t24",
+  "topicId": "ophthalmology-t25",
   "label": "2. AUTOMATED PERIMETRY INTERPRETATION & RECENT GLAUCOMA SURGERIES"
  },
  {
   "file": "ophthalmology-fig-052.png",
   "subject": "ophthalmology",
   "topic": "2. AUTOMATED PERIMETRY INTERPRETATION & RECENT GLAUCOMA SURGERIES",
-  "topicId": "ophthalmology-t24",
+  "topicId": "ophthalmology-t25",
   "label": "2. AUTOMATED PERIMETRY INTERPRETATION & RECENT GLAUCOMA SURGERIES"
  },
  {
   "file": "ophthalmology-fig-053.png",
   "subject": "ophthalmology",
-  "topic": "1. HETEROPHORIA (LATENT SQUINT) & CLINICAL TYPES OF CONCOMITANT SQUINT",
-  "topicId": "ophthalmology-t25",
-  "label": "1. HETEROPHORIA (LATENT SQUINT) & CLINICAL TYPES OF CONCOMITANT SQUINT"
+  "topic": "1. HETEROPHORIA (LATENT SQUINT) & CLINICAL VARIETIES OF CONCOMITANT SQUINT",
+  "topicId": "ophthalmology-t26",
+  "label": "1. HETEROPHORIA (LATENT SQUINT) & CLINICAL VARIETIES OF CONCOMITANT SQUINT"
  },
  {
   "file": "ophthalmology-fig-054.png",
   "subject": "ophthalmology",
-  "topic": "1. HETEROPHORIA (LATENT SQUINT) & CLINICAL TYPES OF CONCOMITANT SQUINT",
-  "topicId": "ophthalmology-t25",
-  "label": "1. HETEROPHORIA (LATENT SQUINT) & CLINICAL TYPES OF CONCOMITANT SQUINT"
+  "topic": "1. HETEROPHORIA (LATENT SQUINT) & CLINICAL VARIETIES OF CONCOMITANT SQUINT",
+  "topicId": "ophthalmology-t26",
+  "label": "1. HETEROPHORIA (LATENT SQUINT) & CLINICAL VARIETIES OF CONCOMITANT SQUINT"
  },
  {
   "file": "ophthalmology-fig-055.png",
   "subject": "ophthalmology",
   "topic": "2. THIRD & FOURTH CRANIAL NERVE PALSIES, RESTRICTIVE SQUINTS & NYSTAGMUS",
-  "topicId": "ophthalmology-t26",
+  "topicId": "ophthalmology-t27",
   "label": "2. THIRD & FOURTH CRANIAL NERVE PALSIES, RESTRICTIVE SQUINTS & NYSTAGMUS"
  },
  {
   "file": "ophthalmology-fig-056.png",
   "subject": "ophthalmology",
   "topic": "2. THIRD & FOURTH CRANIAL NERVE PALSIES, RESTRICTIVE SQUINTS & NYSTAGMUS",
-  "topicId": "ophthalmology-t26",
+  "topicId": "ophthalmology-t27",
   "label": "2. THIRD & FOURTH CRANIAL NERVE PALSIES, RESTRICTIVE SQUINTS & NYSTAGMUS"
  },
  {
   "file": "ophthalmology-fig-057.png",
   "subject": "ophthalmology",
   "topic": "2. THIRD & FOURTH CRANIAL NERVE PALSIES, RESTRICTIVE SQUINTS & NYSTAGMUS",
-  "topicId": "ophthalmology-t26",
+  "topicId": "ophthalmology-t27",
   "label": "2. THIRD & FOURTH CRANIAL NERVE PALSIES, RESTRICTIVE SQUINTS & NYSTAGMUS"
  },
  {
   "file": "ophthalmology-fig-058.png",
   "subject": "ophthalmology",
-  "topic": "1. PRESEPTAL CELLULITIS, CAVERNOUS SINUS THROMBOSIS, MUCORMYCOSIS & PSEUDOTUMOUR",
-  "topicId": "ophthalmology-t27",
-  "label": "1. PRESEPTAL CELLULITIS, CAVERNOUS SINUS THROMBOSIS, MUCORMYCOSIS & PSEUDOTUMOUR"
+  "topic": "1. ACUTE INFLAMMATORY ORBITAL SWELLINGS, MUCORMYCOSIS & PSEUDOTUMOUR",
+  "topicId": "ophthalmology-t28",
+  "label": "1. ACUTE INFLAMMATORY ORBITAL SWELLINGS, MUCORMYCOSIS & PSEUDOTUMOUR"
  },
  {
   "file": "ophthalmology-fig-059.png",
   "subject": "ophthalmology",
-  "topic": "2. ORBITAL TUMOURS, CRANIOFACIAL DYSOSTOSES & ORBITAL SURGERY",
+  "topic": "1. ACUTE INFLAMMATORY ORBITAL SWELLINGS, MUCORMYCOSIS & PSEUDOTUMOUR",
   "topicId": "ophthalmology-t28",
-  "label": "2. ORBITAL TUMOURS, CRANIOFACIAL DYSOSTOSES & ORBITAL SURGERY"
+  "label": "1. ACUTE INFLAMMATORY ORBITAL SWELLINGS, MUCORMYCOSIS & PSEUDOTUMOUR"
  },
  {
   "file": "ophthalmology-fig-060.png",
   "subject": "ophthalmology",
-  "topic": "2. ORBITAL TUMOURS, CRANIOFACIAL DYSOSTOSES & ORBITAL SURGERY",
-  "topicId": "ophthalmology-t28",
-  "label": "2. ORBITAL TUMOURS, CRANIOFACIAL DYSOSTOSES & ORBITAL SURGERY"
+  "topic": "2. ORBITAL TUMOURS, CRANIOFACIAL DYSOSTOSES & ORBITAL SURGERIES",
+  "topicId": "ophthalmology-t29",
+  "label": "2. ORBITAL TUMOURS, CRANIOFACIAL DYSOSTOSES & ORBITAL SURGERIES"
  },
  {
   "file": "ophthalmology-fig-061.png",
   "subject": "ophthalmology",
-  "topic": "1. EXTRAOCULAR & INTRAOCULAR FOREIGN BODIES (IOFB)",
-  "topicId": "ophthalmology-t29",
-  "label": "1. EXTRAOCULAR & INTRAOCULAR FOREIGN BODIES (IOFB)"
+  "topic": "1. EXTRAOCULAR (CORNEAL) & INTRAOCULAR FOREIGN BODIES (IOFB)",
+  "topicId": "ophthalmology-t30",
+  "label": "1. EXTRAOCULAR (CORNEAL) & INTRAOCULAR FOREIGN BODIES (IOFB)"
  },
  {
   "file": "ophthalmology-fig-062.png",
   "subject": "ophthalmology",
-  "topic": "1. ANTERIOR ISCHAEMIC OPTIC NEUROPATHY (AION) & LEBER’S HEREDITARY OPTIC NEUROPATHY",
-  "topicId": "ophthalmology-t31",
-  "label": "1. ANTERIOR ISCHAEMIC OPTIC NEUROPATHY (AION) & LEBER’S HEREDITARY OPTIC NEUROPATHY"
+  "topic": "1. ANTERIOR ISCHAEMIC OPTIC NEUROPATHY (AION) & LEBER'S HEREDITARY OPTIC NEUROPATHY",
+  "topicId": "ophthalmology-t32",
+  "label": "1. ANTERIOR ISCHAEMIC OPTIC NEUROPATHY (AION) & LEBER'S HEREDITARY OPTIC NEUROPATHY"
  },
  {
   "file": "ophthalmology-fig-063.png",
   "subject": "ophthalmology",
-  "topic": "1. ANTERIOR ISCHAEMIC OPTIC NEUROPATHY (AION) & LEBER’S HEREDITARY OPTIC NEUROPATHY",
-  "topicId": "ophthalmology-t31",
-  "label": "1. ANTERIOR ISCHAEMIC OPTIC NEUROPATHY (AION) & LEBER’S HEREDITARY OPTIC NEUROPATHY"
+  "topic": "1. ANTERIOR ISCHAEMIC OPTIC NEUROPATHY (AION) & LEBER'S HEREDITARY OPTIC NEUROPATHY",
+  "topicId": "ophthalmology-t32",
+  "label": "1. ANTERIOR ISCHAEMIC OPTIC NEUROPATHY (AION) & LEBER'S HEREDITARY OPTIC NEUROPATHY"
  },
  {
   "file": "ophthalmology-fig-064.png",
   "subject": "ophthalmology",
   "topic": "2. HIGHER VISUAL DYSFUNCTIONS, CORTICAL BLINDNESS, MALINGERING & ELECTROPHYSIOLOGY",
-  "topicId": "ophthalmology-t32",
+  "topicId": "ophthalmology-t33",
   "label": "2. HIGHER VISUAL DYSFUNCTIONS, CORTICAL BLINDNESS, MALINGERING & ELECTROPHYSIOLOGY"
  },
  {
   "file": "ophthalmology-fig-065.png",
   "subject": "ophthalmology",
-  "topic": "1. APHAKIA & CONGENITAL LENS ANOMALIES",
-  "topicId": "ophthalmology-t33",
-  "label": "1. APHAKIA & CONGENITAL LENS ANOMALIES"
+  "topic": "1. APHAKIA, CONGENITAL LENS ANOMALIES & ICCE vs. ECCE",
+  "topicId": "ophthalmology-t34",
+  "label": "1. APHAKIA, CONGENITAL LENS ANOMALIES & ICCE vs. ECCE"
  },
  {
   "file": "ophthalmology-fig-066.png",
   "subject": "ophthalmology",
-  "topic": "1. APHAKIA & CONGENITAL LENS ANOMALIES",
-  "topicId": "ophthalmology-t33",
-  "label": "1. APHAKIA & CONGENITAL LENS ANOMALIES"
+  "topic": "1. APHAKIA, CONGENITAL LENS ANOMALIES & ICCE vs. ECCE",
+  "topicId": "ophthalmology-t34",
+  "label": "1. APHAKIA, CONGENITAL LENS ANOMALIES & ICCE vs. ECCE"
  },
  {
   "file": "ophthalmology-fig-067.png",
   "subject": "ophthalmology",
-  "topic": "4. ORBIT & DARKROOM PROCEDURES: SYNDROMES & OPHTHALMOSCOPY",
-  "topicId": "ophthalmology-t37",
-  "label": "4. ORBIT & DARKROOM PROCEDURES: SYNDROMES & OPHTHALMOSCOPY"
+  "topic": "4. ORBIT & DARKROOM PROCEDURES: APEX SYNDROMES & OPHTHALMOSCOPY",
+  "topicId": "ophthalmology-t38",
+  "label": "4. ORBIT & DARKROOM PROCEDURES: APEX SYNDROMES & OPHTHALMOSCOPY"
  },
  {
   "file": "ophthalmology-fig-068.png",
   "subject": "ophthalmology",
-  "topic": "4. ORBIT & DARKROOM PROCEDURES: SYNDROMES & OPHTHALMOSCOPY",
-  "topicId": "ophthalmology-t37",
-  "label": "4. ORBIT & DARKROOM PROCEDURES: SYNDROMES & OPHTHALMOSCOPY"
+  "topic": "4. ORBIT & DARKROOM PROCEDURES: APEX SYNDROMES & OPHTHALMOSCOPY",
+  "topicId": "ophthalmology-t38",
+  "label": "4. ORBIT & DARKROOM PROCEDURES: APEX SYNDROMES & OPHTHALMOSCOPY"
  },
  {
   "file": "pediatrics-fig-001.png",

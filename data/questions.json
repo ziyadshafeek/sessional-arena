@@ -9310,1684 +9310,1726 @@
   "passage": "Totipotent (fertilized zygote/morula up to 8-cell stage  forms embryo + placenta), Pluripotent (Embryonic stem cells from inner cell mass of blastocyst  form all 3 germ layers, carry teratoma/oncogenic risk), and Multipotent (umbilical cord blood, amniotic fluid, bone marrow mesenchymal stem cells)."
  },
  {
+  "answerIndex": 1,
   "id": "ophthalmology-q001",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t01",
-  "question": "Which cataract stage shows a visible iris shadow because clear cortex is still present anterior to the opacity?",
   "options": [
    "Nuclear Cataract",
+   "Immature Senile Cataract",
    "Mature Senile Cataract",
-   "Hypermature Senile Cataract",
-   "Immature Senile Cataract"
+   "Hypermature Senile Cataract"
   ],
-  "answerIndex": 3,
-  "passage": "clear cortex is still present anterior to the opacity, so iris shadow is visible"
+  "passage": "Immature Senile Cataract (ISC): Opacification spreads diffusely, turning the lens greyish-white. However, the superficial anterior cortex is still transparent, so shining a torchlight from the side casts a dark crescentic iris shadow onto the deeper opacity.",
+  "question": "Which cataract stage shows a visible iris shadow because clear cortex is still present anterior to the opacity?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t01"
  },
  {
+  "answerIndex": 0,
   "id": "ophthalmology-q002",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t01",
-  "question": "In mature senile cataract, what colour does the lens become?",
   "options": [
+   "Pearly-white",
    "Amber",
    "Greyish-white",
-   "Brown",
-   "Pearly white"
+   "Brown"
   ],
-  "answerIndex": 3,
-  "passage": "Mature Senile Cataract (MSC): Opacification is complete (entire cortex involved); lens becomes pearly white"
+  "passage": "Mature Senile Cataract (MSC): Opacification involves the entire thickness of the cortex right up to the anterior capsule. The lens looks uniformly pearly-white (\"ripe cataract\" ready for extraction), vision drops to hand movements/light perception, and no iris shadow is formed (because the opacity touches the back of the iris, leaving zero gap for a shadow).",
+  "question": "In mature senile cataract, what colour does the lens become?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t01"
  },
  {
+  "answerIndex": 3,
   "id": "ophthalmology-q003",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t01",
-  "question": "What is the size of the clear corneal incision in phacoemulsification?",
   "options": [
    "5.5–7.5 mm",
    "Less than 2 mm",
    "10–12 mm",
    "2.8–3.2 mm"
   ],
-  "answerIndex": 3,
-  "passage": "Clear corneal incision (2.8–3.2 mm) + side-port entry"
+  "passage": "Tiny 2.8–3.2 mm sutureless incision causes virtually zero Surgically Induced Astigmatism (SIA).",
+  "question": "What is the size of the clear corneal incision in phacoemulsification?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t01"
  },
  {
+  "answerIndex": 2,
   "id": "ophthalmology-q004",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t01",
-  "question": "Which type of incipient cataract causes early marked loss of vision, glare, and day blindness?",
   "options": [
    "Cuneiform",
    "Cortical",
-   "Nuclear",
-   "Cupuliform"
+   "Cupuliform",
+   "Nuclear"
   ],
-  "answerIndex": 3,
-  "passage": "Cupuliform (5%): Saucer-shaped posterior subcapsular plaque right in the axial pathway; causes early marked loss of vision, glare, and day blindness"
+  "passage": "Cupuliform Cataract (5%): A saucer-shaped plaque of granular opacity located in the central posterior subcapsular cortex, sitting directly on the eye's nodal point (visual axis). Because all light rays must pass through the nodal point, it causes early, severe loss of vision, intense glare, and day blindness (hemaralopia)—meaning vision is much worse in bright sunlight (when the pupil constricts/miosis and forces all light right through the central plaque) and improves in dim light (when the pupil dilates around the central opacity).",
+  "question": "Which type of incipient cataract causes early marked loss of vision, glare, and day blindness?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t01"
  },
  {
+  "answerIndex": 1,
   "id": "ophthalmology-q005",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t02",
-  "question": "A patient 6 months after uneventful cataract surgery now has painless progressive diminution of vision. What is the most likely diagnosis?",
   "options": [
    "Late-onset Chronic Endophthalmitis",
+   "After-Cataract / Posterior Capsular Opacification (PCO)",
    "Pseudophakic Bullous Keratopathy",
-   "Cystoid Macular Oedema",
-   "After-Cataract / Posterior Capsular Opacification (PCO)"
+   "Cystoid Macular Oedema"
   ],
-  "answerIndex": 3,
-  "passage": "65-year-old male, 6 months post-uneventful cataract surgery with good initial recovery, now presents with painless progressive diminution of vision  After-Cataract / Posterior Capsular Opacification (PCO)"
+  "passage": "Case (KU21): A 65-year-old male who had uneventful cataract surgery 6 months ago with excellent initial vision now returns with painless, gradually progressive blurring of vision and glare in the operated eye → After-Cataract / Posterior Capsular Opacification (PCO) (Why?",
+  "question": "A patient 6 months after uneventful cataract surgery now has painless progressive diminution of vision. What is the most likely diagnosis?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t02"
  },
  {
+  "answerIndex": 0,
   "id": "ophthalmology-q006",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t02",
-  "question": "What is the treatment of choice for thin membranous posterior capsular opacification and Elschnig pearls?",
   "options": [
+   "Nd:YAG Laser Posterior Capsulotomy",
    "Surgical Membranectomy",
    "Intravitreal Vancomycin",
-   "Topical NSAIDs",
-   "Nd:YAG Laser Posterior Capsulotomy"
+   "Topical NSAIDs"
   ],
-  "answerIndex": 3,
-  "passage": "Nd:YAG Laser Posterior Capsulotomy: Treatment of choice for thin membranous PCO and Elschnig’s pearls (photodisruption creates a central opening in the visual axis)."
+  "passage": "Nd:YAG Laser Posterior Capsulotomy (Treatment of Choice):",
+  "question": "What is the treatment of choice for thin membranous posterior capsular opacification and Elschnig pearls?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t02"
  },
  {
+  "answerIndex": 3,
   "id": "ophthalmology-q007",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t02",
-  "question": "Acute bacterial endophthalmitis after cataract surgery most commonly involves which organism?",
   "options": [
    "Staphylococcus aureus",
    "Fungi",
    "Propionibacterium acnes",
    "Staphylococcus epidermidis"
   ],
-  "answerIndex": 3,
-  "passage": "Acute Bacterial Endophthalmitis: Presents within 48–72 hours with severe ocular pain, loss of vision, lid oedema, chemosis, corneal haze, hypopyon, and loss of red glow. Commonest organism: Staphylococcus epidermidis."
+  "passage": "Commonest Causative Organisms: Staphylococcus epidermidis (coagulase-negative staph from patient's own eyelids/lashes — most common!), Staphylococcus aureus, Streptococcus, and Pseudomonas aeruginosa.",
+  "question": "Acute bacterial endophthalmitis after cataract surgery most commonly involves which organism?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t02"
  },
  {
+  "answerIndex": 2,
   "id": "ophthalmology-q008",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t03",
-  "question": "Which is the most common type of congenital cataract presenting with visual impairment?",
   "options": [
    "Anterior polar cataract",
    "Coronary cataract",
-   "Posterior polar cataract",
-   "Zonular (Lamellar) Cataract"
+   "Zonular (Lamellar) Cataract",
+   "Posterior polar cataract"
   ],
-  "answerIndex": 3,
-  "passage": "Zonular (Lamellar) Cataract [KU14, TU]: Most common type presenting with visual impairment (50%)"
+  "passage": "Zonular (Lamellar) Cataract [KU14, TU] (Most Common Type Presenting with Visual Impairment — 50%):",
+  "question": "Which is the most common type of congenital cataract presenting with visual impairment?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t03"
  },
  {
+  "answerIndex": 1,
   "id": "ophthalmology-q009",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t03",
-  "question": "In Marfan syndrome, in which direction is the lens typically subluxated?",
   "options": [
    "Superonasal",
+   "Superotemporal",
    "Inferonasal",
-   "Inferotemporal",
-   "Superotemporal"
+   "Inferotemporal"
   ],
-  "answerIndex": 3,
-  "passage": "Marfan’s syndrome (autosomal dominant; bilateral superotemporal subluxation + arachnodactyly + aortic aneurysm),"
+  "passage": "Marfan's Syndrome (Most Common): Autosomal Dominant mutation in the Fibrillin-1 (FBN1) gene (fibrillin is the main structural protein of ciliary zonules!). Features: Bilateral Superotemporal (Upward and Outward) Subluxation (Zonules remain intact and taut, so accommodation is preserved) + Tall marfanoid habitus, Arachnodactyly (spider-like long fingers), high-arched palate, and life-threatening dissecting aortic root aneurysm.",
+  "question": "In Marfan syndrome, in which direction is the lens typically subluxated?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t03"
  },
  {
+  "answerIndex": 0,
   "id": "ophthalmology-q010",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t03",
-  "question": "What is the classic appearance of a traumatic rosette cataract?",
   "options": [
+   "Feathery, star-shaped Rosette Cataract",
    "Oil-droplet opacity",
    "Sunflower cataract",
-   "Snowflake opacities",
-   "feathery, star-shaped “Rosette cataract”"
+   "Snowflake opacities"
   ],
-  "answerIndex": 3,
-  "passage": "Concussion injury causes imbibition of aqueous and mechanical disruption of fibres, classically producing a feathery, star-shaped “Rosette cataract” [RGU] in the posterior cortex"
+  "passage": "This produces a pathognomonic feathery, star- or petal-shaped \"Rosette Cataract\" [RGU] in the posterior cortex (either an early rosette within days or a late rosette 1–2 years later), often accompanied by a circular brown pigment stamp on the anterior capsule (Vossius ring). Managed by phacoemulsification/aspiration with PCIOL implantation once traumatic uveitis and IOP settle.",
+  "question": "What is the classic appearance of a traumatic rosette cataract?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t03"
  },
  {
+  "answerIndex": 3,
   "id": "ophthalmology-q011",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t03",
-  "question": "Which cataract is described as bilateral snowflake or snowstorm cortical opacities in young Type 1 diabetics?",
   "options": [
    "Complicated cataract",
    "Galactosaemic cataract",
    "Wilson disease cataract",
    "Diabetic Cataract"
   ],
-  "answerIndex": 3,
-  "passage": "Diabetic Cataract: True diabetic cataract in young Type 1 diabetics due to aldose reductase converting glucose to sorbitol  osmotic hydration  bilateral “snowflake” or “snowstorm” cortical opacities."
+  "passage": "True Diabetic Cataract (\"Snowflake / Snowstorm Cataract\"): Occurs in adolescents/young adults with uncontrolled Type 1 Diabetes. High aqueous glucose enters the lens → metabolized by the enzyme Aldose Reductase into Sorbitol → Sorbitol cannot exit lens cell membranes, creating a massive osmotic pull that draws water into the lens → Bilateral subcapsular fluid vacuoles and flaky white \"snowflake\" cortical opacities that rapidly mature into a total white cataract within days.",
+  "question": "Which cataract is described as bilateral snowflake or snowstorm cortical opacities in young Type 1 diabetics?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t03"
  },
  {
+  "answerIndex": 2,
   "id": "ophthalmology-q012",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t04",
-  "question": "What is the normal range of intraocular pressure stated in the notes?",
   "options": [
    ">21 mmHg",
    "52 mmHg",
-   "<12 mmHg",
-   "10–21 mmHg"
+   "10 to 21 mmHg",
+   "<12 mmHg"
   ],
-  "answerIndex": 3,
-  "passage": "Normal IOP: 10–21 mmHg (Mean  mmHg)."
+  "passage": "Normal IOP: 10 to 21 mmHg (Mean 16 ± 2.5 mmHg).",
+  "question": "What is the normal range of intraocular pressure stated in the notes?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t04"
  },
  {
+  "answerIndex": 1,
   "id": "ophthalmology-q013",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t04",
-  "question": "Which pathway carries most aqueous humour outflow?",
   "options": [
    "Uveoscleral (Unconventional) Outflow",
+   "Trabecular (Conventional) Outflow",
    "Episcleral veins",
-   "Collector channels",
-   "Trabecular (Conventional) Outflow"
+   "Collector channels"
   ],
-  "answerIndex": 3,
-  "passage": "Trabecular (Conventional) Outflow (70–80%): Uveal meshwork  Corneoscleral meshwork  Juxtacanalicular meshwork (main site of resistance)"
+  "passage": "Trabecular (Conventional) Outflow Pathway (Accounts for 70–80% of drainage — Pressure-Dependent):",
+  "question": "Which pathway carries most aqueous humour outflow?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t04"
  },
  {
+  "answerIndex": 0,
   "id": "ophthalmology-q014",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t04",
-  "question": "Which is the earliest clinically significant visual field defect in primary open-angle glaucoma?",
   "options": [
+   "Small wing-shaped Paracentral Scotoma",
    "Ring Scotoma",
    "Arcuate Scotoma",
-   "Small wing-shaped Paracentral Scotoma",
    "Tubular Vision"
   ],
-  "answerIndex": 2,
-  "passage": "Small wing-shaped Paracentral Scotoma: Earliest clinically significant defect, appearing in Bjerrum’s area (10°–20° from fixation)."
+  "passage": "Small Wing-Shaped Paracentral Scotoma (Earliest Clinically Significant Glaucomatous Defect!): A small isolated island of blindness appearing within Bjerrum's area (an arcuate zone located 10° to 20° from the central fixation point), either above or below fixation.",
+  "question": "Which is the earliest clinically significant visual field defect in primary open-angle glaucoma?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t04"
  },
  {
+  "answerIndex": 3,
   "id": "ophthalmology-q015",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t04",
-  "question": "What is the gold standard method of tonometry in primary open-angle glaucoma assessment?",
   "options": [
    "Perkins tonometry",
-   "Goldmann Applanation Tonometry",
    "Digital tonometry",
-   "Schiotz tonometry"
+   "Schiotz tonometry",
+   "Goldmann Applanation Tonometry"
   ],
-  "answerIndex": 1,
-  "passage": "Tonometry: Goldmann Applanation Tonometry (gold standard)"
+  "passage": "Tonometry: Goldmann Applanation Tonometry (GAT) mounted on a slit-lamp is the gold standard (based on the Imbert-Fick Law: Pressure = Force required to flatten a fixed 3.06 mm diameter circle of cornea divided by Area).",
+  "question": "What is the gold standard method of tonometry in primary open-angle glaucoma assessment?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t04"
  },
  {
+  "answerIndex": 2,
   "id": "ophthalmology-q016",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t05",
-  "question": "In acute primary angle closure, what is the typical range of markedly elevated intraocular pressure?",
   "options": [
    ">21 mmHg",
-   "40–70 mmHg",
    "52 mmHg",
+   "40–70 mmHg",
    "10–21 mmHg"
   ],
-  "answerIndex": 1,
-  "passage": "IOP is markedly elevated (40–70 mmHg) — eyeball feels stony hard on digital tonometry."
+  "passage": "8. Intraocular Pressure (IOP) | Markedly raised (40–70 mmHg — stony hard) | Usually normal or low (raised only in hypertensive uveitis) | Normal",
+  "question": "In acute primary angle closure, what is the typical range of markedly elevated intraocular pressure?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t05"
  },
  {
+  "answerIndex": 1,
   "id": "ophthalmology-q017",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t05",
-  "question": "What is the characteristic pupil in acute primary angle closure?",
   "options": [
    "Small irregular pupil",
    "Mid-dilated, vertically oval, and fixed pupil",
    "Normal pupil",
    "Dilated pupil reacting to light"
   ],
-  "answerIndex": 1,
-  "passage": "Pupil is mid-dilated, vertically oval, and fixed (non-reactive to light and accommodation due to sphincter ischaemia)"
+  "passage": "Pupil: Mid-dilated, vertically oval, and completely fixed (non-reactive to both direct light and accommodation) (Why vertically oval and fixed? Because the IOP of 60 mmHg exceeds the perfusion pressure of the iris arterioles, causing acute ischaemic paralysis/infarction of the pupillary sphincter muscle, particularly in the superior and inferior sectors!).",
+  "question": "What is the characteristic pupil in acute primary angle closure?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t05"
  },
  {
+  "answerIndex": 0,
   "id": "ophthalmology-q018",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t05",
-  "question": "Which laser procedure is the definitive treatment that bypasses pupillary block in primary angle closure?",
   "options": [
-   "Selective Laser Trabeculoplasty",
    "Nd:YAG Laser Peripheral Iridotomy (LPI)",
+   "Selective Laser Trabeculoplasty",
    "Panretinal Photocoagulation",
    "Corneal Indentation (Compressive Gonioscopy)"
   ],
-  "answerIndex": 1,
-  "passage": "Nd:YAG Laser Peripheral Iridotomy (LPI) [RGU] or Surgical Peripheral Iridectomy [KU18, RGU, TU]: Performed once cornea clears and PAS involve <270° (or <50%) of the angle."
+  "passage": "Nd:YAG Laser Peripheral Iridotomy (LPI) [RGU] — Definitive Treatment of Choice (If PAS involve <180°–270° [<50%–75%] of the angle):",
+  "question": "Which laser procedure is the definitive treatment that bypasses pupillary block in primary angle closure?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t05"
  },
  {
+  "answerIndex": 3,
   "id": "ophthalmology-q019",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t05",
-  "question": "Which triad is a sequela of an acute primary angle-closure attack?",
   "options": [
    "Hoyt-Spencer Triad",
    "Foster-Kennedy Triad",
    "Classic Triad of Symptoms",
    "Vogt’s Triad"
   ],
-  "answerIndex": 3,
-  "passage": "Sequelae of Acute Attack: Vogt’s Triad = (1) Glaukomflecken [KU20, RGU, TU] (greyish-white anterior subcapsular necrotic lens opacities), (2) Patches of sectoral irisstromal atrophy with spiral-like iris fibres, and (3) Slightly dilated, irregular, sluggish pupil."
+  "passage": "Sequelae of a Resolved Acute Attack — Classic \"Vogt's Triad\":\n(Even years after an acute attack has subsided, three permanent stigmata remain in the anterior segment proving the patient once had an acute angle-closure attack):",
+  "question": "Which triad is a sequela of an acute primary angle-closure attack?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t05"
  },
  {
+  "answerIndex": 2,
   "id": "ophthalmology-q020",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t06",
-  "question": "In phacomorphic glaucoma, what does the swollen intumescent lens do to the angle?",
   "options": [
    "Clogs the trabecular meshwork with macrophages",
    "Causes granulomatous uveitis",
    "Pushes the iris forward, obliterating the angle directly",
    "Opens the trabecular meshwork"
   ],
-  "answerIndex": 2,
-  "passage": "Phacomorphic Glaucoma [RGU]: Caused by a swollen, intumescent cataractous lens (mature or immature) or traumatic lens swelling. The anteroposteriorly enlarged lens pushes the iris forward, obliterating the angle directly and causing secondary pupillary block + iris bombe"
+  "passage": "Mechanism: The anteroposteriorly swollen, ballooned lens physically pushes the iris forward against the cornea (direct mechanical crowding of the angle) AND presses tightly against the pupillary margin (secondary pupillary block + iris bombe), causing acute secondary angle-closure glaucoma.",
+  "question": "In phacomorphic glaucoma, what does the swollen intumescent lens do to the angle?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t06"
  },
  {
+  "answerIndex": 1,
   "id": "ophthalmology-q021",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t06",
-  "question": "In phacomorphic glaucoma, which drug class is strictly contraindicated?",
   "options": [
-   "Pilocarpine",
    "Topical Brimonidine",
+   "Pilocarpine",
    "Topical Prednisolone",
    "Topical Timolol"
   ],
-  "answerIndex": 0,
-  "passage": "Immediate Medical Management: Identical to Acute PACG EXCEPT Pilocarpine is strictly CONTRAINDICATED (miotics contract the ciliary muscle, relax zonules, shift the lens-iris diaphragm further anteriorly, and worsen phacomorphic block or inflammation)"
+  "passage": "STRICT CONTRAINDICATION — NEVER GIVE PILOCARPINE (MIOTICS)!\n(Why is Pilocarpine strictly contraindicated in Phacomorphic and Phacolytic glaucoma? Because pilocarpine contracts the ciliary muscle, which loosens the lens zonules and shifts the huge swollen lens even further forward, worsening the pupillary/angle block and increasing iris-lens inflammation!).",
+  "question": "In phacomorphic glaucoma, which drug class is strictly contraindicated?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t06"
  },
  {
+  "answerIndex": 0,
   "id": "ophthalmology-q022",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t06",
-  "question": "Phacolytic glaucoma occurs in which type of cataract?",
   "options": [
+   "Hypermature Morgagnian cataract",
    "Traumatic cataract",
    "Immature senile cataract",
-   "Intumescent cataract",
-   "Hypermature Morgagnian cataract"
+   "Intumescent cataract"
   ],
-  "answerIndex": 3,
-  "passage": "Phacolytic Glaucoma (Lens Protein Glaucoma) [KU16, RGU, TU]: Occurs in Hypermature Morgagnian cataract"
+  "passage": "Cause: Occurs exclusively in a Hypermature Morgagnian Cataract with a liquefied milky cortex.",
+  "question": "Phacolytic glaucoma occurs in which type of cataract?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t06"
  },
  {
+  "answerIndex": 3,
   "id": "ophthalmology-q023",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t07",
-  "question": "What is the classic triad of symptoms in primary congenital glaucoma?",
   "options": [
    "Pain, redness, photophobia",
    "Headache, vomiting, halos",
    "Diplopia, ptosis, proptosis",
    "Epiphora, Photophobia, and Blepharospasm"
   ],
-  "answerIndex": 3,
-  "passage": "Classic Triad of Symptoms: Epiphora (lacrimation), Photophobia, and Blepharospasm (often with eye rubbing)"
+  "passage": "Epiphora (Profuse watery tearing without discharge)\n\nMarked Photophobia (child buries their face in the mother's shoulder or pillow to avoid light)\n\nBlepharospasm (squeezing eyelids shut, accompanied by frequent eye rubbing).",
+  "question": "What is the classic triad of symptoms in primary congenital glaucoma?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t07"
  },
  {
+  "answerIndex": 2,
   "id": "ophthalmology-q024",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t07",
-  "question": "In neovascular glaucoma, what is the first stage described in the notes?",
   "options": [
    "Secondary Angle-Closure stage",
    "Secondary Open-Angle stage",
-   "Preglaucomatous stage (Rubeosis iridis)",
+   "Pre-Glaucomatous Stage (Rubeosis Iridis)",
    "Absolute glaucoma stage"
   ],
-  "answerIndex": 2,
-  "passage": "Stages: (1) Preglaucomatous stage (Rubeosis iridis), (2) Secondary Open-Angle stage (pretrabecular fibrovascular membrane), (3) Secondary Angle-Closure stage (contracture of membrane pulls iris over trabeculum like a zipper)"
+  "passage": "Pre-Glaucomatous Stage (Rubeosis Iridis): Tiny tufts of dilated, leaky capillaries appear at the pupillary ruff (and occasionally at the angle); IOP is still normal.",
+  "question": "In neovascular glaucoma, what is the first stage described in the notes?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t07"
  },
  {
+  "answerIndex": 1,
   "id": "ophthalmology-q025",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t07",
-  "question": "Ocular hypertension is defined by consistently elevated intraocular pressure above what value with a normal disc and fields?",
   "options": [
    "40 mmHg",
-   "30 mmHg",
    "21 mmHg",
+   "30 mmHg",
    "10 mmHg"
   ],
-  "answerIndex": 2,
-  "passage": "Ocular Hypertension [RGU]: Consistently elevated IOP >21 mmHg in an adult with an open angle, normal optic disc, and normal visual fields"
+  "passage": "Definition: A clinical state in which the Intraocular Pressure is consistently elevated >21 mmHg on repeated measurements in an adult eye that has a completely normal optic nerve head (no cupping/RNFL loss), normal visual fields on perimetry, a wide-open angle on gonioscopy, and no secondary ocular/systemic cause for raised pressure.",
+  "question": "Ocular hypertension is defined by consistently elevated intraocular pressure above what value with a normal disc and fields?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t07"
  },
  {
+  "answerIndex": 0,
   "id": "ophthalmology-q026",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t08",
-  "question": "What is the classic fundus finding at the fovea in central retinal artery occlusion?",
   "options": [
+   "Cherry-Red Spot",
    "Cotton-wool spots only",
    "Blood and thunder fundus",
-   "Macular star",
-   "Cherry-Red Spot at the Fovea"
+   "Macular star"
   ],
-  "answerIndex": 3,
-  "passage": "Cherry-Red Spot at the Fovea: The central foveola is extremely thin, devoid of inner retinal layers and ganglion cells, allowing the normal vascular choroid and RPE to shine through as a bright red spot in stark contrast to the surrounding milky-white oedematous retina"
+  "passage": "Bright \"Cherry-Red Spot\" at the Centre of the Macula (Foveola):",
+  "question": "What is the classic fundus finding at the fovea in central retinal artery occlusion?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t08"
  },
  {
+  "answerIndex": 3,
   "id": "ophthalmology-q027",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t08",
-  "question": "After how long does the retina suffer irreversible infarction in complete ischaemia in central retinal artery occlusion?",
   "options": [
    "4–6 weeks",
    "24 hours",
-   "90–100 minutes",
-   "15 seconds"
+   "15 seconds",
+   "90 to 100 minutes"
   ],
-  "answerIndex": 2,
-  "passage": "Retina suffers irreversible infarction after 90–100 minutes of complete ischaemia, but aggressive treatment must be attempted in all cases presenting within 24 hours to dislodge the embolus peripherally):"
+  "passage": "(Golden Window Rule: Experimental studies by Hayreh proved that the primate retina tolerates complete ischaemia for only 90 to 100 minutes before suffering irreversible infarction! However, because occlusion in humans is rarely 100% total, aggressive emergency treatment MUST be attempted immediately in every patient presenting within 24 hours to drop the intraocular pressure and dilate the artery so the embolus slips downstream into a harmless peripheral branch!):",
+  "question": "After how long does the retina suffer irreversible infarction in complete ischaemia in central retinal artery occlusion?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t08"
  },
  {
+  "answerIndex": 2,
   "id": "ophthalmology-q028",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t08",
-  "question": "Which is the most common cause of central retinal artery occlusion?",
   "options": [
-   "Embolism",
    "Raised intraocular pressure",
    "Thrombophilia",
+   "Embolism",
    "Vasculitis"
   ],
-  "answerIndex": 0,
-  "passage": "Embolism (Most Common):"
+  "passage": "Embolism (Most Common Cause): An embolus breaks off from the heart or carotid artery and lodges at the lamina cribrosa or a major bifurcation:",
+  "question": "Which is the most common cause of central retinal artery occlusion?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t08"
  },
  {
+  "answerIndex": 1,
   "id": "ophthalmology-q029",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t09",
-  "question": "What is the earliest clinical lesion of diabetic retinopathy?",
   "options": [
    "Cotton-wool spots",
    "Microaneurysms",
    "Hard exudates",
    "Venous beading"
   ],
-  "answerIndex": 1,
-  "passage": "Weakened capillary wall  Microaneurysms (earliest clinical lesion)"
+  "passage": "Loss of Pericytes → Weakened Capillary Wall Outpouchings → Microaneurysms: Because the supporting pericytes have died, the weakened capillary wall balloons out into tiny saccular pouches (20–100 μm) in the Inner Nuclear Layer—these Microaneurysms are the earliest clinically detectable fundus lesion of Diabetic Retinopathy (seen as tiny red pinpoint dots on ophthalmoscopy and hyperfluorescent pinpoint dots on FFA).",
+  "question": "What is the earliest clinical lesion of diabetic retinopathy?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t09"
  },
  {
+  "answerIndex": 0,
   "id": "ophthalmology-q030",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t09",
-  "question": "Severe non-proliferative diabetic retinopathy follows which rule?",
   "options": [
-   "ETDRS Classification",
    "4–2–1 Rule",
+   "ETDRS Classification",
    "Goldberg’s 5 Stages",
    "Keith-Wagener-Barker Classification"
   ],
-  "answerIndex": 1,
-  "passage": "Severe NPDR (Follows the 4–2–1 Rule — ANY ONE of the following):"
+  "passage": "Severe NPDR (Defined by the Classic \"4–2–1 Rule\" — Presence of ANY ONE of the following):",
+  "question": "Severe non-proliferative diabetic retinopathy follows which rule?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t09"
  },
  {
+  "answerIndex": 3,
   "id": "ophthalmology-q031",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t09",
-  "question": "Which grade of hypertensive retinopathy is marked by papilloedema as its hallmark?",
   "options": [
    "Grade III",
-   "Grade IV (Malignant Hypertensive Retinopathy)",
    "Grade II",
-   "Grade I"
+   "Grade I",
+   "Grade IV (Malignant Hypertensive Retinopathy)"
   ],
-  "answerIndex": 1,
-  "passage": "Grade IV (Malignant Hypertensive Retinopathy) [TU]: All changes of Grade III + Silver-wiring of arterioles and Papilloedema / Optic disc oedema (hallmark of Grade IV)"
+  "passage": "Grade IV (Malignant Hypertensive Retinopathy) [TU]: All features of Grade III + Silver-wiring of arterioles PLUS Bilateral Optic Disc Oedema / Swelling (Papilloedema) (Carries a grave systemic prognosis of renal failure/stroke/encephalopathy if untreated).",
+  "question": "Which grade of hypertensive retinopathy is marked by papilloedema as its hallmark?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t09"
  },
  {
+  "answerIndex": 2,
   "id": "ophthalmology-q032",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t09",
-  "question": "What is the classic fundus triad finding of retinitis pigmentosa regarding pigment?",
   "options": [
    "Cherry-red spot",
-   "Bone-spicule retinal pigmentary clumps",
    "Sea-fan neovascularization",
+   "Bone-spicule retinal pigmentary clumps",
    "Macular star"
   ],
-  "answerIndex": 1,
-  "passage": "Jet-black “Bone-spicule” (Bone-corpuscle) retinal pigmentary clumps arranged in a perivascular distribution, starting in the equatorial (mid-peripheral) zone and spreading anteriorly and posteriorly."
+  "passage": "Jet-Black \"Bone-Spicule\" (Bone-Corpuscle) Retinal Pigmentary Clumps:",
+  "question": "What is the classic fundus triad finding of retinitis pigmentosa regarding pigment?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t09"
  },
  {
+  "answerIndex": 1,
   "id": "ophthalmology-q033",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t09",
-  "question": "Which tumour-suppressor gene is mutated in retinoblastoma?",
   "options": [
    "MYOC",
-   "RB1 gene on chromosome 13q14",
+   "Retinoblastoma Tumour-Suppressor Gene (RB1)",
    "VHL gene",
    "NF1 gene"
   ],
-  "answerIndex": 1,
-  "passage": "Caused by mutation/deletion of both alleles of the tumour-suppressor RB1 gene on chromosome 13q14 (Knudson’s “Two-Hit” Hypothesis)."
+  "passage": "Genetics: Caused by mutation or deletion of BOTH alleles of the Retinoblastoma Tumour-Suppressor Gene (RB1) located on the long arm of Chromosome 13 at band 13q14. Because one normal allele is enough to suppress tumour growth, two mutational \"hits\" (Knudson's Two-Hit Hypothesis) are required to trigger a tumour:",
+  "question": "Which tumour-suppressor gene is mutated in retinoblastoma?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t09"
  },
  {
+  "answerIndex": 0,
   "id": "ophthalmology-q034",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t09",
-  "question": "What is the commonest presenting sign of retinoblastoma?",
   "options": [
+   "Leukocoria",
    "Strabismus",
    "Painful red eye",
-   "Proptosis",
-   "Leukocoria"
+   "Proptosis"
   ],
-  "answerIndex": 3,
-  "passage": "Leukocoria (60%) is the commonest presenting sign"
+  "passage": "Leukocoria (\"White / Yellowish Amaurotic Cat's-Eye Reflex\" — 60%): Single most common presenting sign!",
+  "question": "What is the commonest presenting sign of retinoblastoma?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t09"
  },
  {
+  "answerIndex": 3,
   "id": "ophthalmology-q035",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t10",
-  "question": "In retinopathy of prematurity, what does plus disease refer to?",
   "options": [
-   "Dilatation of veins and tortuosity of arterioles at the posterior pole",
    "Optic disc swelling",
    "Macular oedema",
-   "Retinal detachment"
+   "Retinal detachment",
+   "Marked venous dilatation and arteriolar tortuosity of the posterior pole vessels"
   ],
-  "answerIndex": 0,
-  "passage": "Plus Disease (+): Dilatation of veins and tortuosity of arterioles at the posterior pole"
+  "passage": "Defined by marked venous dilatation and arteriolar tortuosity of the posterior pole vessels in at least 2 quadrants (+ iris vascular engorgement, poor pupil dilation, and vitreous haze).",
+  "question": "In retinopathy of prematurity, what does plus disease refer to?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t10"
  },
  {
+  "answerIndex": 2,
   "id": "ophthalmology-q036",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t10",
-  "question": "On fluorescein angiography, what is the classic pattern of central serous chorioretinopathy seen in 80% of cases?",
   "options": [
    "Flower-petal pattern",
-   "“Ink-blot” pattern",
    "Smoke-stack pattern",
+   "\"Ink-Blot\" Pattern",
    "Lacy cartwheel pattern"
   ],
-  "answerIndex": 1,
-  "passage": "FFA shows classic “Ink-blot” pattern (80%) or “Smoke-stack” (mushroom/umbrella) pattern (20%) of hyperfluorescent leakage;"
+  "passage": "\"Ink-Blot\" Pattern (80% — Most Common): A tiny pinpoint hyperfluorescent dot appears in the early phase and gradually expands concentrically in all directions like a drop of ink on blotting paper.",
+  "question": "On fluorescein angiography, what is the classic pattern of central serous chorioretinopathy seen in 80% of cases?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t10"
  },
  {
+  "answerIndex": 1,
   "id": "ophthalmology-q037",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t10",
-  "question": "Which condition is defined by superficial retinal haemorrhages with a pale white centre?",
   "options": [
-   "Roth’s Spots",
    "Eales disease",
+   "Roth’s Spots",
    "Cystoid macular oedema",
    "Retinitis pigmentosa"
   ],
-  "answerIndex": 0,
-  "passage": "Roth’s Spots [TU]: Superficial retinal haemorrhages with a pale white centre (composed of fibrin-platelet thrombi, leukaemic cells, or septic emboli)."
+  "passage": "Definition & Pathology: Superficial, oval or flame-shaped retinal haemorrhages with a pale, whitish-yellow central core. Histopathologically, the pale white centre consists of a fibrin-platelet plug sealing a ruptured capillary, a cluster of neoplastic leukaemic white blood cells, or a septic micro-embolus/focal nerve fibre ischaemia.",
+  "question": "Which condition is defined by superficial retinal haemorrhages with a pale white centre?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t10"
  },
  {
+  "answerIndex": 0,
   "id": "ophthalmology-q038",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t11",
-  "question": "Which type of amblyopia is the most common?",
   "options": [
+   "Strabismic Amblyopia",
    "Isoametropic Amblyopia",
    "Anisometropic Amblyopia",
-   "Strabismic Amblyopia",
    "Stimulus Deprivation Amblyopia"
   ],
-  "answerIndex": 2,
-  "passage": "Strabismic Amblyopia (Most Common): Results from prolonged chronic monocular suppression of the deviating eye in children with constant unilateral squint (more common in esotropia than exotropia)"
+  "passage": "Strabismic Amblyopia (Most Common Type!):",
+  "question": "Which type of amblyopia is the most common?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t11"
  },
  {
+  "answerIndex": 3,
   "id": "ophthalmology-q039",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t11",
-  "question": "What is the gold standard treatment for amblyopia after full optical correction?",
   "options": [
    "Levodopa therapy",
-   "Occlusion Therapy (patching the sound eye)",
    "Pleoptics",
-   "Atropine penalization"
+   "Atropine penalization",
+   "Occlusion Therapy (patching the sound eye)"
   ],
-  "answerIndex": 1,
-  "passage": "Occlusion Therapy (Gold Standard): Patching the sound (normal) eye to force the brain to use the amblyopic eye"
+  "passage": "Step 3: Occlusion Therapy (Patching the Sound Eye — The Gold Standard Mainstay!):",
+  "question": "What is the gold standard treatment for amblyopia after full optical correction?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t11"
  },
  {
+  "answerIndex": 2,
   "id": "ophthalmology-q040",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t11",
-  "question": "Amblyopia develops during which critical period of visual development?",
   "options": [
    "Adulthood",
    "Age 6 years",
    "Birth to 6–8 years of age",
    "Age 2 years"
   ],
-  "answerIndex": 2,
-  "passage": "during the critical period of visual development (birth to 6–8 years of age), in the absence of any organic lesion of the ocular media, retina, or visual pathway."
+  "passage": "Definition: Amblyopia is a unilateral (or rarely bilateral) reduction of best-corrected visual acuity (not improvable immediately by glasses alone) caused by abnormal visual experience—either form vision deprivation (blurred/blocked retinal image) or abnormal binocular interaction (conflicting images from the two eyes)—occurring during the critical sensitive period of visual development (from birth up to 6–8 years of age), in the complete absence of any organic structural lesion of the eye or visual pathway.",
+  "question": "Amblyopia develops during which critical period of visual development?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t11"
  },
  {
+  "answerIndex": 1,
   "id": "ophthalmology-q041",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t12",
-  "question": "In optic neuritis, what pupillary sign is always present in unilateral or asymmetric cases?",
   "options": [
-   "Relative Afferent Pupillary Defect (RAPD / Marcus Gunn pupil)",
    "Horner syndrome pupil",
+   "Relative Afferent Pupillary Defect (RAPD / Marcus Gunn pupil)",
    "Argyll Robertson pupil",
    "Adie tonic pupil"
   ],
-  "answerIndex": 0,
-  "passage": "Relative Afferent Pupillary Defect (RAPD / Marcus Gunn pupil) is always present in unilateral/asymmetric cases"
+  "passage": "Pupillary Reactions: Relative Afferent Pupillary Defect (RAPD / Marcus Gunn Pupil) is ALWAYS present in unilateral or asymmetric optic neuritis!",
+  "question": "In optic neuritis, what pupillary sign is always present in unilateral or asymmetric cases?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t12"
  },
  {
+  "answerIndex": 0,
   "id": "ophthalmology-q042",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t12",
-  "question": "According to the Optic Neuritis Treatment Trial protocol, what is strictly contraindicated as sole therapy?",
   "options": [
-   "Immunomodulatory therapy",
    "Oral prednisolone alone (in standard doses)",
+   "Immunomodulatory therapy",
    "Intravenous methylprednisolone",
    "Intravenous Methylprednisolone followed by Oral Prednisolone"
   ],
-  "answerIndex": 1,
-  "passage": "Important Rule: Oral prednisolone alone (in standard doses) is strictly CONTRAINDICATED, as ONTT proved it is ineffective and doubles the risk of recurrence!"
+  "passage": "The ONTT proved that treating acute optic neuritis with standard-dose Oral Prednisolone (1 mg/kg/day) ALONE (without prior high-dose IV Methylprednisolone) is strictly CONTRAINDICATED because it provides zero benefit AND nearly DOUBLES the rate of recurrent optic neuritis attacks in both eyes!",
+  "question": "According to the Optic Neuritis Treatment Trial protocol, what is strictly contraindicated as sole therapy?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t12"
  },
  {
+  "answerIndex": 3,
   "id": "ophthalmology-q043",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t12",
-  "question": "Papilloedema is bilateral swelling of the optic nerve head secondary to what?",
   "options": [
    "Giant cell arteritis",
    "Diabetes",
-   "Raised intracranial pressure (ICP)",
-   "Multiple sclerosis"
+   "Multiple sclerosis",
+   "Raised intracranial pressure (ICP)"
   ],
-  "answerIndex": 2,
-  "passage": "Bilateral passive, non-inflammatory hydrostatic swelling of the optic nerve head secondary to raised intracranial pressure (ICP), caused by axoplasmic flow stasis at the lamina cribrosa (Hayreh’s theory)."
+  "passage": "Definition: Passive, non-inflammatory hydrostatic swelling of the optic nerve head almost always Bilateral, occurring specifically secondary to Raised Intracranial Pressure (ICP) (Note: Disc swelling from other local causes like central retinal vein occlusion or hypotony is called \"Optic Disc Oedema\", whereas the term \"Papilloedema\" is reserved strictly for disc swelling caused by raised Intracranial Pressure!).",
+  "question": "Papilloedema is bilateral swelling of the optic nerve head secondary to what?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t12"
  },
  {
+  "answerIndex": 2,
   "id": "ophthalmology-q044",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t13",
-  "question": "Which drug is the most common drug cause of toxic optic neuropathy?",
   "options": [
    "Isoniazid",
    "Amiodarone",
    "Ethambutol",
    "Chloramphenicol"
   ],
-  "answerIndex": 2,
-  "passage": "Drugs [TU]: Ethambutol (most common drug cause — dose ; causes red-green dyschromatopsia and central/bitemporal scotomas), Isoniazid, Chloramphenicol, Linezolid, Quinine (causes acute blindness with extreme arteriolar spasm), Amiodarone, Vigabatrin."
+  "passage": "Ethambutol (Anti-Tubercular Drug — Single Most Common Drug Cause in India!):",
+  "question": "Which drug is the most common drug cause of toxic optic neuropathy?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t13"
  },
  {
+  "answerIndex": 1,
   "id": "ophthalmology-q045",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t13",
-  "question": "Methanol poisoning causes acute bilateral blindness through which metabolite-related mechanism stated in the notes?",
   "options": [
-   "Formic acid and formaldehyde causing ganglion cell necrosis",
    "Copper deposition",
+   "Formic acid inhibiting mitochondrial cytochrome oxidase in Retinal Ganglion Cells",
    "Sorbinol accumulation",
    "Cyanide accumulation"
   ],
-  "answerIndex": 0,
-  "passage": "Methanol (Methyl alcohol) (adulterated liquor; metabolized by alcohol dehydrogenase to formic acid and formaldehyde  severe metabolic acidosis, ganglion cell necrosis, and acute bilateral blindness"
+  "passage": "Formic acid causes 1. Severe, life-threatening High-Anion-Gap Metabolic Acidosis and 2. Direct inhibition of mitochondrial cytochrome oxidase in Retinal Ganglion Cells and the Optic Nerve, causing acute bilateral optic disc hyperaemia/oedema followed rapidly by complete, irreversible bilateral chalky-white Primary Optic Atrophy and total blindness!",
+  "question": "Methanol poisoning causes acute bilateral blindness through which metabolite-related mechanism stated in the notes?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t13"
  },
  {
+  "answerIndex": 0,
   "id": "ophthalmology-q046",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t14",
-  "question": "A lesion of the central optic chiasma, for example a pituitary adenoma, causes which field defect?",
   "options": [
+   "Bitemporal Heteronymous Hemianopia",
    "Junctional Scotoma",
-   "Bitemporal Hemianopia",
    "Homonymous Hemianopia",
    "Binasal Hemianopia"
   ],
-  "answerIndex": 1,
-  "passage": "Central Optic Chiasma (e.g., Pituitary Adenoma, Craniopharyngioma): Bitemporal Hemianopia (damage to crossing nasal fibres)"
+  "passage": "Result: Bitemporal Heteronymous Hemianopia (loss of both temporal [outer] visual fields—\"horse-blinders vision\"—due to destruction of the crossing nasal retinal fibres of both eyes).",
+  "question": "A lesion of the central optic chiasma, for example a pituitary adenoma, causes which field defect?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t14"
  },
  {
+  "answerIndex": 3,
   "id": "ophthalmology-q047",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t14",
-  "question": "A temporal lobe lesion affecting Meyer loop causes which field defect?",
   "options": [
    "Contralateral Inferior Homonymous Quadrantanopia",
-   "Contralateral Superior Homonymous Quadrantanopia",
    "Bitemporal Hemianopia",
-   "Central Scotoma"
+   "Central Scotoma",
+   "Contralateral Homonymous Superior Quadrantanopia"
   ],
-  "answerIndex": 1,
-  "passage": "Temporal Lobe Lesion (Meyer’s Loop): Contralateral Superior Homonymous Quadrantanopia (“Pie in the Sky”)."
+  "passage": "Result: Contralateral Homonymous Superior Quadrantanopia (\"Pie in the Sky\" Defect) (Why Superior? Because Meyer's loop carries the inferior retinal fibres, which view the superior skyward visual field!). Associated with complex formed visual/auditory hallucinations and receptive aphasia.",
+  "question": "A temporal lobe lesion affecting Meyer loop causes which field defect?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t14"
  },
  {
+  "answerIndex": 2,
   "id": "ophthalmology-q048",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t14",
-  "question": "Adie tonic pupil constricts with which confirmatory test concentration of pilocarpine?",
   "options": [
    "1% Hydroxyamphetamine",
    "2% Pilocarpine",
    "0.125% Pilocarpine",
    "1% Pilocarpine"
   ],
-  "answerIndex": 2,
-  "passage": "Confirmatory test: Constricts with weak 0.125% Pilocarpine (denervation supersensitivity)"
+  "passage": "Confirmatory Pharmacological Test (Denervation Supersensitivity): Instil a drop of very weak 0.125% Pilocarpine into both eyes. A normal pupil will not react to such a dilute solution, whereas Adie's tonic pupil constricts intensely due to cholinergic denervation supersensitivity of the sphincter muscle!",
+  "question": "Adie tonic pupil constricts with which confirmatory test concentration of pilocarpine?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t14"
  },
  {
+  "answerIndex": 1,
   "id": "ophthalmology-q049",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t15",
-  "question": "Which nerve supplies the lateral rectus muscle?",
   "options": [
    "7th Nerve",
+   "6th Nerve (Abducens)",
    "3rd Nerve",
-   "4th Nerve",
-   "6th Nerve (Abducens)"
+   "4th Nerve"
   ],
-  "answerIndex": 3,
-  "passage": "Lateral Rectus (LR) [TU] | 6th Nerve (Abducens) | Abduction | — | —"
+  "passage": "2. Lateral Rectus (LR) [TU] | 6th Nerve (Abducens) | Abduction | None | None | Pure horizontal outward gaze (Abduction)",
+  "question": "Which nerve supplies the lateral rectus muscle?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t15"
  },
  {
+  "answerIndex": 0,
   "id": "ophthalmology-q050",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t15",
-  "question": "In concomitant squint, how does the angle of deviation behave in different directions of gaze?",
   "options": [
    "Constant and equal in all directions of gaze",
    "Limited in direction of paralysed muscle",
    "Varies in different directions of gaze",
    "Increases only on downgaze"
   ],
-  "answerIndex": 0,
-  "passage": "4. Angle of Deviation | Constant and equal in all directions of gaze | Varies in different directions of gaze"
+  "passage": "4. Angle of Squint in Different Gazes | Constant and equal in all directions of gaze | Varies with direction of gaze (largest in the field of the paralysed muscle, zero in the opposite field)",
+  "question": "In concomitant squint, how does the angle of deviation behave in different directions of gaze?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t15"
  },
  {
+  "answerIndex": 3,
   "id": "ophthalmology-q051",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t15",
-  "question": "In abducens nerve palsy, in which direction is diplopia worse?",
   "options": [
    "Near vision only",
-   "Distance and in lateral gaze toward the affected side",
    "Upgaze only",
-   "Downgaze only"
+   "Downgaze only",
+   "Distance and in lateral gaze toward the affected side"
   ],
-  "answerIndex": 1,
-  "passage": "Uncrossed (Homonymous) Horizontal Diplopia, worse for distance and in lateral gaze toward the affected side"
+  "passage": "Horizontal Uncrossed (Homonymous) Binocular Diplopia: Because the paralysed Lateral Rectus normally diverges the eyes for distance vision, the double vision is worse for DISTANCE than for near, and maximally separated when looking horizontally toward the affected (Right) side!",
+  "question": "In abducens nerve palsy, in which direction is diplopia worse?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t15"
  },
  {
+  "answerIndex": 2,
   "id": "ophthalmology-q052",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t15",
-  "question": "What is Worth grade III of binocular single vision?",
   "options": [
    "Fusion",
    "Suppression",
    "Stereopsis",
    "Simultaneous Macular Perception"
   ],
-  "answerIndex": 2,
-  "passage": "Grade III: Stereopsis: Highest grade; ability to perceive depth (third dimension) due to slight horizontal retinal disparity"
+  "passage": "Grade III — Stereopsis (Depth Perception — Highest Grade of BSV):",
+  "question": "What is Worth grade III of binocular single vision?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t15"
  },
  {
+  "answerIndex": 1,
   "id": "ophthalmology-q053",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t16",
-  "question": "What is the commonest cause of orbital cellulitis?",
   "options": [
    "Septicaemia",
+   "Ethmoidal sinusitis",
    "Dental abscess",
-   "Penetrating trauma",
-   "Ethmoidal sinusitis"
+   "Penetrating trauma"
   ],
-  "answerIndex": 3,
-  "passage": "Paranasal Sinusitis: Ethmoidal sinusitis is the commonest cause (especially in children) because the medial orbital wall (lamina papyracea) is paper-thin with congenital bony dehiscences and valveless ethmoidal veins"
+  "passage": "Paranasal Sinusitis (Accounts for >70–80% of all cases — Especially ETHMOIDAL SINUSITIS!)",
+  "question": "What is the commonest cause of orbital cellulitis?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t16"
  },
  {
+  "answerIndex": 0,
   "id": "ophthalmology-q054",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t16",
-  "question": "What is the gold standard investigation for orbital cellulitis?",
   "options": [
+   "High-Resolution Contrast-Enhanced CT Scan of Orbits, Paranasal Sinuses and Brain",
    "B-scan ultrasonography",
    "MRI orbit alone",
-   "High-Resolution Contrast-Enhanced CT Scan of Orbits, Paranasal Sinuses and Brain",
    "Blood culture alone"
   ],
-  "answerIndex": 2,
-  "passage": "High-Resolution Contrast-Enhanced CT Scan of Orbits, Paranasal Sinuses & Brain (Gold Standard): Differentiates preseptal from postseptal cellulitis, identifies Subperiosteal Abscess (lentiform collection along lamina papyracea) or Intraorbital Abscess, detects sinusitis, and rules out intracranial complications"
+  "passage": "High-Resolution Contrast-Enhanced CT Scan of Orbits, Paranasal Sinuses, & Brain (Axial and Coronal Cuts — Gold Standard Investigation of Choice!):",
+  "question": "What is the gold standard investigation for orbital cellulitis?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t16"
  },
  {
+  "answerIndex": 3,
   "id": "ophthalmology-q055",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t16",
-  "question": "Preseptal cellulitis differs from orbital cellulitis in that it has what ocular movement finding?",
   "options": [
-   "Full painless ocular movements",
    "Limited abduction only",
    "Complete ophthalmoplegia",
-   "Restricted and painful movements"
+   "Restricted and painful movements",
+   "Full painless ocular movements"
   ],
-  "answerIndex": 0,
-  "passage": "Preseptal Cellulitis: Infection anterior to orbital septum — periorbital lid oedema and erythema are present, but there is NO proptosis, NO chemosis, FULL painless ocular movements, normal vision (6/6), and normal pupils."
+  "passage": "Preseptal Cellulitis: Eyelids are swollen and red, but there is NO proptosis, NO chemosis, FULL painless ocular movements, 6/6 visual acuity, and normal brisk pupils.",
+  "question": "Preseptal cellulitis differs from orbital cellulitis in that it has what ocular movement finding?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t16"
  },
  {
+  "answerIndex": 2,
   "id": "ophthalmology-q056",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t17",
-  "question": "Which is the largest and thinnest part of the medial orbital wall?",
   "options": [
-   "Orbital plate of Ethmoid (Lamina papyracea)",
    "Lacrimal bone",
    "Body of Sphenoid",
+   "Orbital plate of Ethmoid (Lamina papyracea)",
    "Frontal process of Maxilla"
   ],
-  "answerIndex": 0,
-  "passage": "Orbital plate of Ethmoid (Lamina papyracea) — largest and thinnest part"
+  "passage": "Orbital Plate of the Ethmoid Bone (\"Lamina Papyracea\") — forms the largest central portion of the medial wall; it is paper-thin (0.2–0.4 mm), separating the orbit from the ethmoidal air sinuses (hence the #1 site of spread in orbital cellulitis and the 2nd commonest wall fractured in orbital blow-out fractures!).",
+  "question": "Which is the largest and thinnest part of the medial orbital wall?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t17"
  },
  {
+  "answerIndex": 1,
   "id": "ophthalmology-q057",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t17",
-  "question": "In thyroid eye disease, which extraocular muscle is most commonly involved first?",
   "options": [
-   "Inferior Rectus",
    "Superior Rectus",
+   "Inferior Rectus",
    "Lateral Rectus",
    "Medial Rectus"
   ],
-  "answerIndex": 0,
-  "passage": "Restrictive Myopathy (Order of Muscle Involvement — Mnemonic ‘I’M SLOW’): Inferior Rectus (commonest — causes restriction of elevation and hypotropia)  Medial Rectus  Superior Rectus  Lateral Rectus;"
+  "passage": "I — Inferior Rectus (Most Commonly Affected Muscle!): A tight, fibrotic Inferior Rectus tethers the eyeball down so the eye cannot look UP (Defective Elevation + Hypotropia)—mimicking a Superior Rectus palsy, except FDT is strongly positive!",
+  "question": "In thyroid eye disease, which extraocular muscle is most commonly involved first?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t17"
  },
  {
+  "answerIndex": 0,
   "id": "ophthalmology-q058",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t17",
-  "question": "What is the characteristic CT finding in thyroid eye disease regarding extraocular muscles?",
   "options": [
+   "Fusiform enlargement of extraocular muscle bellies characteristically sparing the tendons",
    "Enlargement including tendons",
    "Atrophy of all muscles",
-   "Calcification of tendons",
-   "Fusiform enlargement of extraocular muscle bellies characteristically sparing the tendons"
+   "Calcification of tendons"
   ],
-  "answerIndex": 3,
-  "passage": "CT Scan Finding: Fusiform enlargement of extraocular muscle bellies characteristically sparing the tendons (“Coca-Cola bottle sign”)."
+  "passage": "Secrete massive amounts of hydrophilic Glycosaminoglycans (GAGs — especially Hyaluronic Acid), which bind water like a sponge and cause intense osmotic oedema and fusiform enlargement of the Extraocular Muscle Bellies (characteristically SPARING the tendons!).",
+  "question": "What is the characteristic CT finding in thyroid eye disease regarding extraocular muscles?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t17"
  },
  {
+  "answerIndex": 3,
   "id": "ophthalmology-q059",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t18",
-  "question": "In orbital blow-out fracture, what is the radiological tear-drop sign?",
   "options": [
    "Fracture of the orbital rim",
-   "Prolapsed orbital fat and inferior rectus hanging down from the roof of the maxillary antrum",
    "Enlarged optic foramen",
-   "Air in the orbit only"
+   "Air in the orbit only",
+   "Prolapsed orbital fat and inferior rectus hanging down from the roof of the maxillary antrum"
   ],
-  "answerIndex": 1,
-  "passage": "Radiological Sign (Waters’ View X-ray & Coronal CT Scan): “Tear-Drop” or “Hanging-Drop” Sign — prolapsed orbital fat and inferior rectus hanging down from the roof of the maxillary antrum."
+  "passage": "On Waters' View (Occipitomental 45°) Plain X-ray and Coronal CT Scan of the Orbits (2 mm bone-window cuts — Gold Standard!), prolapsed orbital fat and the Inferior Rectus muscle are seen hanging down from the fractured orbital floor into the dark air-filled roof of the Maxillary Antrum like a hanging water drop or polyp (often with blood filling the maxillary sinus — haemo-antrum).",
+  "question": "In orbital blow-out fracture, what is the radiological tear-drop sign?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t18"
  },
  {
+  "answerIndex": 2,
   "id": "ophthalmology-q060",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t18",
-  "question": "After blunt trauma, secondary re-bleed of traumatic hyphaema typically occurs on which days?",
   "options": [
-   "Day 3–5",
    "7–10 days",
    "5–7 days",
+   "Day 3 to Day 5",
    "10–14 days"
   ],
-  "answerIndex": 0,
-  "passage": "Secondary Re-bleed (occurs on Day 3–5 due to clot lysis — much more severe than primary bleed!),"
+  "passage": "Secondary Haemorrhage (\"Re-Bleed\" — Occurs on Day 3 to Day 5 Post-Injury!): Occurs in 15–20% of patients when the initial fibrin clot retracts and lyses (fibrinolysis). A secondary re-bleed is ALWAYS much more massive and dangerous than the primary bleed, frequently converting a mild Grade I hyphaema into a blinding Grade IV total hyphaema!",
+  "question": "After blunt trauma, secondary re-bleed of traumatic hyphaema typically occurs on which days?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t18"
  },
  {
+  "answerIndex": 1,
   "id": "ophthalmology-q061",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t18",
-  "question": "Commotio retinae (Berlin oedema) usually resolves spontaneously in what time frame?",
   "options": [
    "6 months",
+   "2 to 4 weeks",
    "4–6 weeks",
-   "24–48 hours",
-   "2–4 weeks"
+   "24–48 hours"
   ],
-  "answerIndex": 3,
-  "passage": "Treatment: Usually resolves spontaneously in 2–4 weeks (oral/topical steroids may be given), or leaves permanent macular pigmentary mottling / traumatic macular hole."
+  "passage": "Prognosis & Treatment: In most mild cases, Berlin's oedema resolves completely and spontaneously within 2 to 4 weeks with full return of 6/6 vision (short course of oral/topical corticosteroids may be given); in severe blows, photoreceptor death leaves permanent macular RPE pigmentary mottling (salt-and-pepper scar) or evolves into a Traumatic Macular Hole!",
+  "question": "Commotio retinae (Berlin oedema) usually resolves spontaneously in what time frame?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t18"
  },
  {
+  "answerIndex": 0,
   "id": "ophthalmology-q062",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t19",
-  "question": "Why are alkali burns more severe than acid burns?",
   "options": [
+   "Alkalies cause liquefactive necrosis and penetrate rapidly and deeply",
    "Acids cause saponification",
    "Acids penetrate deeper",
-   "Alkalies cause liquefactive necrosis and penetrate rapidly and deeply",
    "Alkalies form an eschar barrier"
   ],
-  "answerIndex": 2,
-  "passage": "Mechanism of Severe Damage: Alkalies dissociate and saponify cellular membrane fatty acids, extract water (hygroscopic), and combine with stromal mucopolysaccharides/collagen to cause liquefactive necrosis. Hence, alkalies penetrate rapidly and deeply into the corneal stroma, limbal stem cells, anterior chamber, iris, ciliary body, and lens, continuing damage for days"
+  "passage": "Because liquefactive necrosis turns tissue into a soft jelly rather than a solid barrier, alkalies do NOT stop at the surface—they penetrate rapidly and deeply through the corneal stroma, destroy the Limbal Stem Cells (Palisades of Vogt), and enter the Anterior Chamber, destroying the trabecular meshwork, iris, ciliary body, and lens for days afterward!",
+  "question": "Why are alkali burns more severe than acid burns?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t19"
  },
  {
+  "answerIndex": 3,
   "id": "ophthalmology-q063",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t19",
-  "question": "What is the immediate first-aid for a chemical eye injury?",
   "options": [
    "Apply topical steroids first",
-   "Immediate, Copious Irrigation with 2–3 Litres of Normal Saline, Ringer’s Lactate, or clean tap water for at least 30 minutes",
    "Patch the eye without irrigation",
-   "Take detailed history first"
+   "Take detailed history first",
+   "Continuous irrigation with 2 to 3 litres of Normal Saline, Ringer's Lactate, or clean tap water for at least 30 minutes"
   ],
-  "answerIndex": 1,
-  "passage": "Immediate, Copious Irrigation: Instill topical anaesthetic drops, apply a lid speculum, and irrigate thoroughly with 2–3 Litres of Normal Saline, Ringer’s Lactate, or clean tap water for at least 30 minutes until conjunctival sac pH normalizes to 7.0–7.4 (checked with litmus paper)."
+  "passage": "Instil a drop of Topical Anaesthetic (0.5% Proparacaine / 4% Lignocaine) to relieve blepharospasm, insert a wire lid speculum (or hold lids open with fingers), and irrigate the eye continuously with 2 to 3 Litres of Normal Saline, Ringer's Lactate, Balanced Salt Solution, or clean tap water via an IV tubing set for at least 30 minutes until the conjunctival sac pH (tested with a litmus paper strip in the inferior fornix 5 minutes after stopping fluid) returns to neutral pH 7.0 to 7.4!",
+  "question": "What is the immediate first-aid for a chemical eye injury?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t19"
  },
  {
+  "answerIndex": 2,
   "id": "ophthalmology-q064",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t19",
-  "question": "Sympathetic ophthalmitis typically develops how long after penetrating ocular trauma?",
   "options": [
    "9 days",
    "Immediately",
-   "Within 24 hours",
-   "4 to 8 weeks after trauma"
+   "4 to 8 weeks after trauma",
+   "Within 24 hours"
   ],
-  "answerIndex": 3,
-  "passage": "Typically develops 4 to 8 weeks after trauma (earliest 9 days; 90% within 1 year)"
+  "passage": "Incubation / Latent Period: Almost never occurs before 2 weeks (earliest recorded is 9 days); 80% of cases develop within 4 to 8 weeks (1–2 months) after injury, and 90% within the first 1 year (though rare cases have erupted decades later!).",
+  "question": "Sympathetic ophthalmitis typically develops how long after penetrating ocular trauma?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t19"
  },
  {
+  "answerIndex": 1,
   "id": "ophthalmology-q065",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t19",
-  "question": "Which investigation is strictly contraindicated in suspected metallic intraocular foreign body?",
   "options": [
-   "Plain X-ray Orbit",
-   "Thin-slice CT Scan of Orbit",
-   "MRI",
-   "B-scan Ultrasonography"
+   "Grade I",
+   "Grade IV",
+   "Grade II",
+   "Grade III"
   ],
-  "answerIndex": 2,
-  "passage": "Localization & Removal of IOFB: Thin-slice CT Scan of Orbit is the investigation of choice; MRI is strictly contraindicated in suspected metallic IOFB!"
+  "passage": "Grade IV | Completely Opaque (\"Porcelain-White / Cooked-Fish\") Cornea; NO view of iris or pupil | > 1/2 of the limbal circumference (>6 clock hours) | Very Poor (High risk of corneal melting, perforation, and LSCD)",
+  "question": "In the Roper-Hall classification of chemical burns, which grade has a completely opaque porcelain-white cornea, limbal ischaemia over more than half the circumference, and a very poor prognosis?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t19"
  },
  {
+  "answerIndex": 0,
   "id": "ophthalmology-q066",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t20",
-  "question": "Dry age-related macular degeneration accounts for what proportion of ARMD cases?",
   "options": [
-   "90%",
+   "85–90%",
    "60%",
    "25%",
    "10%"
   ],
-  "answerIndex": 0,
-  "passage": "Non-Exudative (Dry / Atrophic / Geographic) ARMD (90% of cases)"
+  "passage": "Non-Exudative (\"Dry\" / Atrophic / Geographic) ARMD (Accounts for 85–90% of Cases — Slow, Mild-to-Moderate Visual Loss):",
+  "question": "Dry age-related macular degeneration accounts for what proportion of ARMD cases?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t20"
  },
  {
+  "answerIndex": 3,
   "id": "ophthalmology-q067",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t20",
-  "question": "What is the treatment of first choice for choroidal neovascular membranes in wet ARMD?",
   "options": [
    "Photodynamic therapy",
    "Direct thermal laser",
-   "Intravitreal Anti-VEGF Therapy",
-   "AREDS-2 supplements"
+   "AREDS-2 supplements",
+   "Intravitreal Anti-VEGF Injections"
   ],
-  "answerIndex": 2,
-  "passage": "Intravitreal Anti-VEGF Therapy (Treatment of First Choice for all CNVMs): Monthly or treat-and-extend intravitreal injections of Ranibizumab (0.5 mg), Bevacizumab (1.25 mg), Aflibercept (2 mg — VEGF-Trap), or Brolucizumab (6 mg)."
+  "passage": "Intravitreal Anti-VEGF Injections (Gold-Standard Treatment of First Choice for All Subfoveal, Juxtafoveal, & Extrafoveal CNVMs!):",
+  "question": "What is the treatment of first choice for choroidal neovascular membranes in wet ARMD?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t20"
  },
  {
+  "answerIndex": 2,
   "id": "ophthalmology-q068",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t20",
-  "question": "Which test detects early metamorphopsia and scotomas in ARMD monitoring?",
   "options": [
    "Optical coherence tomography alone",
    "Electroretinography",
    "Amsler Grid Chart",
    "Humphrey perimetry"
   ],
-  "answerIndex": 2,
-  "passage": "Amsler Grid Chart: Home-monitoring and office test detecting early metamorphopsia (wavy lines) and scotomas (missing squares) in the central 20° field."
+  "passage": "Amsler Grid Chart (10 × 10 cm Square Grid with 5 mm Squares — Tested at 33 cm Reading Distance with One Eye at a Time):",
+  "question": "Which test detects early metamorphopsia and scotomas in ARMD monitoring?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t20"
  },
  {
+  "answerIndex": 1,
   "id": "ophthalmology-q069",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t21",
-  "question": "On fluorescein angiography, cystoid macular oedema shows which characteristic appearance?",
   "options": [
    "Smoke-stack pattern",
+   "\"Flower-Petal\" Appearance",
    "Ink-blot pattern",
-   "“Flower-Petal” appearance",
    "Lacy cartwheel pattern"
   ],
-  "answerIndex": 2,
-  "passage": "FFA: Characteristic “Flower-Petal” appearance in late phases due to dye pooling in radially arranged Henle’s fibres."
+  "passage": "Fundus Fluorescein Angiography (FFA): Early perifoveal capillary leakage pooling in the late phase (10–15 minutes) into the pathognomonic \"Flower-Petal\" Appearance at the macula (with optic disc hyperfluorescence in Irvine-Gass syndrome).",
+  "question": "On fluorescein angiography, cystoid macular oedema shows which characteristic appearance?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t21"
  },
  {
+  "answerIndex": 0,
   "id": "ophthalmology-q070",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t21",
-  "question": "Which stage of macular hole is described as a small full-thickness retinal defect less than 400 micrometres in diameter?",
   "options": [
    "Stage 2",
    "Stage 1",
    "Stage 4",
    "Stage 3"
   ],
-  "answerIndex": 0,
-  "passage": "Stage 2: Small full-thickness retinal defect <400 μm in diameter (centric or eccentric)."
+  "passage": "Stage 2 — Early Small Full-Thickness Macular Hole (<400 μm in Diameter): A tiny centric or eccentric full-thickness break opens in the roof of the pseudocyst, with the posterior hyaloid still attached to the flap/operculum.",
+  "question": "Which stage of macular hole is described as a small full-thickness retinal defect less than 400 micrometres in diameter?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t21"
  },
  {
+  "answerIndex": 3,
   "id": "ophthalmology-q071",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t21",
-  "question": "What is the classic fundus finding of chloroquine maculopathy?",
   "options": [
-   "“Bull’s-Eye Maculopathy”",
    "Sunny-side-up egg-yolk lesion",
    "Sea-fan neovascularization",
-   "Dark choroid"
+   "Dark choroid",
+   "Bull's-Eye Maculopathy"
   ],
-  "answerIndex": 0,
-  "passage": "Causes paracentral scotoma and classic “Bull’s-Eye Maculopathy” (central foveolar pigmentation surrounded by a concentric ring of RPE depigmentation, encircled by another hyperpigmented ring) + Cornea verticillata (vortex keratopathy)."
+  "passage": "Classic \"Bull's-Eye Maculopathy\": A central pigmented foveolar island surrounded by a concentric ring of parafoveal RPE depigmentation (atrophy), which is encircled by an outer ring of RPE mottling—looking just like an archery target!",
+  "question": "What is the classic fundus finding of chloroquine maculopathy?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t21"
  },
  {
+  "answerIndex": 2,
   "id": "ophthalmology-q072",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t22",
-  "question": "Branch retinal vein occlusion most commonly occurs in which quadrant?",
   "options": [
    "Inferonasal quadrant",
    "Inferotemporal quadrant",
    "Superotemporal quadrant",
    "Superonasal quadrant"
   ],
-  "answerIndex": 2,
-  "passage": "BRVO: Three times more common than CRVO; occurs at an arteriovenous crossing where a thick-walled arteriole compresses the vein (most common site: Superotemporal quadrant [60%])"
+  "passage": "Epidemiology & Site: Three times more common than CRVO! Almost always occurs at an Arteriovenous (A-V) Crossing where a thick, rigid arteriole (in systemic hypertension/atherosclerosis) compresses the underlying branch vein inside their shared adventitial sheath. The Superotemporal Quadrant is the most common site (60–65%) because it has the highest number of A-V crossings (and immediately affects the superior half of the macula!).",
+  "question": "Branch retinal vein occlusion most commonly occurs in which quadrant?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t22"
  },
  {
+  "answerIndex": 1,
   "id": "ophthalmology-q073",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t22",
-  "question": "What is the hallmark neovascularization stage of proliferative sickle-cell retinopathy?",
   "options": [
    "Light-bulb telangiectasia",
+   "\"Sea-Fan\" Neovascularization",
    "Salmon-patch haemorrhages",
-   "“Sea-Fan” Neovascularization",
    "Tomato-catsup fundus"
   ],
-  "answerIndex": 2,
-  "passage": "Stage III: “Sea-Fan” Neovascularization at the junction of perfused and non-perfused retina (hallmark);"
+  "passage": "Stage III — \"Sea-Fan Neovascularization\" (Pathognomonic Hallmark!): Flat, fan-shaped fronds of new vessels sprouting from the A-V shunts toward the avascular periphery, looking exactly like the marine coral Gorgonia flabellum!",
+  "question": "What is the hallmark neovascularization stage of proliferative sickle-cell retinopathy?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t22"
  },
  {
+  "answerIndex": 0,
   "id": "ophthalmology-q074",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t22",
-  "question": "In neurofibromatosis type 1, iris Lisch nodules are seen in what proportion after age 16?",
   "options": [
    "More than 95%",
    "Less than 50%",
    "About 60%",
    "About 30%"
   ],
-  "answerIndex": 0,
-  "passage": "Lisch nodules of iris (melanocytic hamartomas — seen in >95% after age 16),"
+  "passage": "Lisch Nodules of the Iris (Most Common Ocular Sign — Present in >95% of Patients After Age 16!): Multiple, bilateral, smooth, dome-shaped tan-brown melanocytic hamartomas projecting from the anterior iris surface.",
+  "question": "In neurofibromatosis type 1, iris Lisch nodules are seen in what proportion after age 16?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t22"
  },
  {
+  "answerIndex": 3,
   "id": "ophthalmology-q075",
+  "options": [
+   "Shaffer's Tobacco Dust",
+   "Retinal Horse-Shoe Tear",
+   "Synchysis Scintillans",
+   "Weiss Ring"
+  ],
+  "passage": "Presents with acute onset of Photopsia (flashes of light) in the temporal field and Floaters (especially a single large ring- or cobweb-shaped floater representing the detached glial ring that used to surround the optic disc—called a \"Weiss Ring\", which is pathognomonic of complete PVD!).",
+  "question": "What finding is pathognomonic of a complete posterior vitreous detachment?",
   "subject": "ophthalmology",
-  "topicId": "ophthalmology-t23",
-  "question": "In normal tension glaucoma, by at least how much should intraocular pressure be lowered from baseline?",
+  "topicId": "ophthalmology-t23"
+ },
+ {
+  "answerIndex": 2,
+  "id": "ophthalmology-q076",
+  "options": [
+   "50–70%",
+   "75–80%",
+   "10% to 15%",
+   "30% to 40%"
+  ],
+  "passage": "Because 10% to 15% of patients with an acute symptomatic PVD have torn a full-thickness Retinal Horse-Shoe Tear",
+  "question": "What proportion of patients with an acute symptomatic posterior vitreous detachment have torn a full-thickness retinal horse-shoe tear?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t23"
+ },
+ {
+  "answerIndex": 1,
+  "id": "ophthalmology-q077",
+  "options": [
+   "Flat, Crystalline Cholesterol Crystals",
+   "Calcium-containing Lipid Soaps",
+   "Hundreds of small, discrete, creamy-white spherical bodies",
+   "Flat, angular, refringent golden crystals"
+  ],
+  "passage": "1. Chemical Composition | Calcium-containing Lipid Soaps (Calcium pyrophosphate, phospholipids, and sphingomyelin bound to vitreous collagen fibrils). | Flat, Crystalline Cholesterol Crystals.",
+  "question": "In asteroid hyalosis, what is the chemical composition of the vitreous opacities?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t23"
+ },
+ {
+  "answerIndex": 0,
+  "id": "ophthalmology-q078",
   "options": [
    "30%",
    "20–30%",
    "10–12 mmHg",
    "90–95%"
   ],
-  "answerIndex": 0,
-  "passage": "Lower IOP by at least 30% from baseline (target IOP 10–12 mmHg) using Prostaglandin analogues (Latanoprost), Brimonidine (neuroprotective), or Betaxolol (improves optic nerve head blood flow)."
+  "passage": "Lower IOP by at least 30% from baseline (Target IOP = 10 to 12 mmHg!):",
+  "question": "In normal tension glaucoma, by at least how much should intraocular pressure be lowered from baseline?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t24"
  },
  {
-  "id": "ophthalmology-q076",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t23",
-  "question": "Which is the classic triad sign on corneal endothelium in pigmentary glaucoma?",
+  "answerIndex": 3,
+  "id": "ophthalmology-q079",
   "options": [
    "Kayser-Fleischer ring",
    "Haab striae",
-   "Krukenberg’s Spindle",
-   "Vogt triad"
+   "Vogt triad",
+   "Krukenberg’s Spindle"
   ],
-  "answerIndex": 2,
-  "passage": "Classic Triad of Signs: (1) Krukenberg’s Spindle (vertical spindle-shaped pigment deposition on central corneal endothelium), (2) Mid-peripheral radial slit-like iris transillumination defects, and (3) Dense homogeneous dark pigment band (Grade 4) over 360° of the trabecular meshwork on gonioscopy."
+  "passage": "Cornea — \"Krukenberg's Spindle\": A vertical, spindle-shaped deposition of brown pigment granules on the central/inferior posterior corneal endothelium (Why is it shaped like a vertical spindle? Because warm aqueous rises at the back of the iris and cool aqueous sinks down the back of the cornea—these thermal convection currents deposit pigment vertically along the central endothelium, where endothelial cells phagocytose it!).",
+  "question": "Which is the classic triad sign on corneal endothelium in pigmentary glaucoma?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t24"
  },
  {
-  "id": "ophthalmology-q077",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t23",
-  "question": "In malignant (ciliary block) glaucoma, miotics are what?",
+  "answerIndex": 2,
+  "id": "ophthalmology-q080",
   "options": [
-   "Strictly CONTRAINDICATED",
    "Used only topically",
    "First-line treatment",
+   "Strictly CONTRAINDICATED",
    "Used with atropine"
   ],
-  "answerIndex": 0,
-  "passage": "Management: Miotics are strictly CONTRAINDICATED (worsen ciliolenticular block!)"
+  "passage": "• CRITICAL RULE — PILOCARPINE (MIOTICS) IS STRICTLY CONTRAINDICATED! (Giving Pilocarpine contracts the ciliary muscle, relaxes the zonules, and allows the lens-iris diaphragm to shift even further forward—making Malignant Glaucoma catastrophically worse!).",
+  "question": "In malignant (ciliary block) glaucoma, miotics are what?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t24"
  },
  {
-  "id": "ophthalmology-q078",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t24",
-  "question": "A Humphrey visual field is unreliable if fixation losses exceed what percentage?",
+  "answerIndex": 1,
+  "id": "ophthalmology-q081",
   "options": [
    "100%",
    "20%",
    "6 dB",
    "33%"
   ],
-  "answerIndex": 1,
-  "passage": "Reliability Indices: Field is unreliable if: Fixation Losses >20%, False Positives >33% (“trigger-happy” patient  white scotomas), or False Negatives >33% (inattentive/fatigued patient  cloverleaf field)."
+  "passage": "Fixation Losses (Heijl-Krakau Method — Normal <20%): The machine periodically flashes a light right into the patient's physiological Blind Spot; if the patient presses the buzzer (>20% of the time), it means their eye wandered off the central fixation target!",
+  "question": "A Humphrey visual field is unreliable if fixation losses exceed what percentage?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t25"
  },
  {
-  "id": "ophthalmology-q079",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t24",
-  "question": "Which glaucoma drainage device is valved and opens at intraocular pressure above 8 mmHg?",
+  "answerIndex": 0,
+  "id": "ophthalmology-q082",
   "options": [
    "Ahmed Glaucoma Valve (AGV)",
    "Baerveldt implant",
    "Ex-PRESS Mini-Shunt",
    "Molteno implant"
   ],
-  "answerIndex": 0,
-  "passage": "Valved (Flow-restrictive, prevents hypotony): Ahmed Glaucoma Valve (AGV) (opens at IOP >8 mmHg), Krupin valve"
+  "passage": "Valved (Flow-Restrictive) Implants: Ahmed Glaucoma Valve (AGV) (contains a Venturi-effect silicone elastomer membrane valve that opens ONLY when IOP exceeds >8 to 10 mmHg, thereby preventing dangerous early postoperative hypotony and flat AC!) and Krupin Valve.",
+  "question": "Which glaucoma drainage device is valved and opens at intraocular pressure above 8 mmHg?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t25"
  },
  {
-  "id": "ophthalmology-q080",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t24",
-  "question": "What does the visual field index express, from 100% normal to 0% perimetric blindness?",
+  "answerIndex": 3,
+  "id": "ophthalmology-q083",
   "options": [
    "Pattern Standard Deviation",
-   "Visual Field Index (VFI)",
    "Mean Deviation",
-   "Glaucoma Hemifield Test"
+   "Glaucoma Hemifield Test",
+   "Visual Field Index (VFI)"
   ],
-  "answerIndex": 1,
-  "passage": "Visual Field Index (VFI): Expressed as a percentage from 100% (normal field) to 0% (perimetric blindness), heavily weighted toward central paracentral points; used for linear regression trend analysis of progression"
+  "passage": "Visual Field Index (VFI): Expressed as an intuitive percentage from 100% (completely normal field) down to 0% (perimetric blindness), heavily weighted toward the central paracentral points; plotted over years to calculate the Rate of Progression (% loss per year).",
+  "question": "What does the visual field index express, from 100% normal to 0% perimetric blindness?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t25"
  },
  {
-  "id": "ophthalmology-q081",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t25",
-  "question": "Which type of heterophoria is the commonest?",
+  "answerIndex": 2,
+  "id": "ophthalmology-q084",
   "options": [
    "Esophoria",
-   "Exophoria",
    "Hyperphoria",
+   "Exophoria",
    "Cyclophoria"
   ],
-  "answerIndex": 1,
-  "passage": "Types: Esophoria (inward), Exophoria (outward — commonest), Hyperphoria (vertical), Cyclophoria (torsional)."
+  "passage": "Exophoria (Most Common Type!): Latent tendency to deviate outward (common in uncorrected Myopes who scarcely need to accommodate, or in elderly presbyopes for near work — Convergence Insufficiency Exophoria).",
+  "question": "Which type of heterophoria is the commonest?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t26"
  },
  {
-  "id": "ophthalmology-q082",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t25",
-  "question": "Intermittent exotropia is precipitated by bright sunlight causing closure of one eye, known as what?",
+  "answerIndex": 1,
+  "id": "ophthalmology-q085",
   "options": [
    "Blepharospasm",
    "Photalgia",
    "Photophobia",
    "Asthenopia"
   ],
-  "answerIndex": 1,
-  "passage": "Intermittent Exotropia: Most common exodeviation; onset at 2–5 years; manifest outward drift precipitated by bright sunlight (closure of one eye in bright light — photalgia), daydreaming, or fatigue, while remaining orthophoric with good stereopsis at near."
+  "passage": "Precipitating Triggers & Hallmark Sign (\"Photalgia\"): The outward drift becomes manifest during daydreaming, fatigue, illness, fever, or looking at a distant object. Pathognomonic History: Whenever the child steps outdoors into bright sunlight, they reflexively squeeze ONE eye shut (\"Photalgia / Monocular Eye Closure in Bright Light\") because bright light dazzles the retina and disrupts weak fusion!",
+  "question": "Intermittent exotropia is precipitated by bright sunlight causing closure of one eye, known as what?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t26"
  },
  {
-  "id": "ophthalmology-q083",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t25",
-  "question": "Maddox Rod Test for distance is performed at what distance?",
+  "answerIndex": 0,
+  "id": "ophthalmology-q086",
   "options": [
+   "6 m",
    "Arm’s length",
    "33 cm",
-   "20–25 cm",
-   "6 m"
+   "20–25 cm"
   ],
-  "answerIndex": 3,
-  "passage": "Maddox Rod Test (for Distance at 6 m): Placed in front of right eye; converts point spotlight into a perpendicular red line, dissociating fusion."
+  "passage": "Maddox Rod Test (Tests Distance Heterophoria at 6 Metres):",
+  "question": "Maddox Rod Test for distance is performed at what distance?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t26"
  },
  {
-  "id": "ophthalmology-q084",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t26",
-  "question": "Complete third nerve palsy causes the eyeball to deviate in which direction?",
+  "answerIndex": 3,
+  "id": "ophthalmology-q087",
   "options": [
    "Up and in",
    "Up and out",
    "Down and in",
    "Down and Out"
   ],
-  "answerIndex": 3,
-  "passage": "Eyeball deviated “Down and Out” (Exotropia + Hypotropia + Intorsion) due to unopposed action of Lateral Rectus (6th nerve) and Superior Oblique (4th nerve)."
+  "passage": "Eyeball Deviated \"Down and Out\" (Exotropia + Hypotropia + Intorsion):",
+  "question": "Complete third nerve palsy causes the eyeball to deviate in which direction?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t27"
  },
  {
-  "id": "ophthalmology-q085",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t26",
-  "question": "In fourth nerve palsy, diplopia is worst on looking in which direction?",
+  "answerIndex": 2,
+  "id": "ophthalmology-q088",
   "options": [
    "Up and in",
-   "Down and In",
    "Straight ahead",
+   "Down and In",
    "Up and out"
   ],
-  "answerIndex": 1,
-  "passage": "Vertical and Torsional (Excyclotorsional) Diplopia, worst on looking DOWN and IN (e.g., difficulty going down stairs or reading a book)"
+  "passage": "Vertical & Torsional (Excyclotorsional) Binocular Diplopia — Worse on Looking DOWN and IN:\n(Why? Because the Superior Oblique is the Depressor in Adduction AND the Intorter! When it is paralysed, the patient experiences maximum vertical and tilted double vision when looking Down and Inward—specifically when walking down a flight of stairs, stepping off a curb, or reading a book in bed!).",
+  "question": "In fourth nerve palsy, diplopia is worst on looking in which direction?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t27"
  },
  {
-  "id": "ophthalmology-q086",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t26",
-  "question": "What is the hallmark sign of Duane retraction syndrome on attempted adduction?",
+  "answerIndex": 1,
+  "id": "ophthalmology-q089",
   "options": [
-   "Retraction of the globe into the orbit and narrowing of the palpebral fissure",
    "Widening of palpebral fissure",
+   "Retraction of the globe into the orbit and narrowing of the palpebral fissure",
    "Ptosis",
    "Proptosis"
   ],
-  "answerIndex": 0,
-  "passage": "Hallmark Sign (in all types): Retraction of the globe into the orbit and narrowing of the palpebral fissure on attempted ADDUCTION (due to co-contraction of Medial and Lateral Recti), with widening of palpebral fissure on attempted abduction + “Upshoot / Downshoot” phenomenon."
+  "passage": "Retraction of the Eyeball into the Orbit AND Narrowing of the Palpebral Fissure on Attempted ADDUCTION, with widening of the palpebral fissure on attempted abduction!",
+  "question": "What is the hallmark sign of Duane retraction syndrome on attempted adduction?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t27"
  },
  {
-  "id": "ophthalmology-q087",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t26",
-  "question": "Downbeat nystagmus points to a lesion at which site?",
+  "answerIndex": 0,
+  "id": "ophthalmology-q090",
   "options": [
+   "Craniocervical junction lesion",
    "Dorsal brainstem",
    "Parasellar mass",
-   "Craniocervical junction lesion",
    "Pinealoma"
   ],
-  "answerIndex": 2,
-  "passage": "Downbeat Nystagmus: Fast phase downward  Craniocervical junction lesion (Arnold-Chiari malformation, cerebellar degeneration)"
+  "passage": "Downbeat Nystagmus (Fast Phase Beats Downward, Worse on Lateral-Downgaze): Pathognomonic of a lesion at the Craniocervical Junction (Foramen Magnum) / Cervicomedullary Junction — classically Arnold-Chiari Type I Malformation (cerebellar tonsillar herniation), Platybasia/Basilar invagination, Spinocerebellar degeneration, or Lithium/Phenytoin toxicity.",
+  "question": "Downbeat nystagmus points to a lesion at which site?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t27"
  },
  {
-  "id": "ophthalmology-q088",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t27",
-  "question": "What is the pathognomonic sign of rhino-orbital-cerebral mucormycosis?",
+  "answerIndex": 3,
+  "id": "ophthalmology-q091",
   "options": [
    "Corkscrew vessels",
    "Sea-fan neovascularization",
    "Griesinger sign",
    "Black necrotic eschar on the nasal turbinates, hard palate, or eyelid skin"
   ],
-  "answerIndex": 3,
-  "passage": "Signs: Facial/orbital pain, proptosis, chemosis, complete ophthalmoplegia (orbital apex syndrome), CRAO (sudden blindness), and pathognomonic black necrotic eschar on the nasal turbinates, hard palate, or eyelid skin"
+  "passage": "Pathognomonic Clinical Sign — \"Black Necrotic Eschar\": Inspection of the nasal cavity with a speculum, the hard palate inside the mouth, or the medial canthal eyelid skin reveals a dry, dead, coal-black necrotic crust (eschar) caused by ischaemic tissue infarction!",
+  "question": "What is the pathognomonic sign of rhino-orbital-cerebral mucormycosis?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t28"
  },
  {
-  "id": "ophthalmology-q089",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t27",
-  "question": "Orbital pseudotumour (idiopathic orbital inflammatory disease) shows what dramatic response?",
+  "answerIndex": 2,
+  "id": "ophthalmology-q092",
   "options": [
-   "Dramatic response to Oral Corticosteroids",
    "Dramatic response to Liposomal Amphotericin-B",
    "Dramatic response to IV antibiotics",
+   "Dramatic response to Oral Corticosteroids",
    "Dramatic response to Endovascular Coiling"
   ],
-  "answerIndex": 0,
-  "passage": "Presents with acute painful congestive proptosis, lid swelling, diplopia, and dramatic response to Oral Corticosteroids (Prednisolone )"
+  "passage": "Treatment (\"The Steroid Trial\"): Shows a dramatic, near-miraculous resolution of pain and proptosis within 24–48 hours of starting High-Dose Oral Corticosteroids (Prednisolone 1 to 1.5 mg/kg/day), tapered slowly over 6–8 weeks (Low-dose orbital radiotherapy [20 Gy] or Methotrexate if steroid-resistant; biopsy if atypical to rule out lymphoma).",
+  "question": "Orbital pseudotumour (idiopathic orbital inflammatory disease) shows what dramatic response?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t28"
  },
  {
-  "id": "ophthalmology-q090",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t27",
-  "question": "In cavernous sinus thrombosis, what is the pathognomonic sign from the comparison table?",
+  "answerIndex": 1,
+  "id": "ophthalmology-q093",
   "options": [
    "Lid oedema confined to orbital rim",
-   "CT shows sinusitis",
    "Pitting oedema over Mastoid region (Griesinger’s sign)",
+   "CT shows sinusitis",
    "Pus pointing through scleral perforation"
   ],
-  "answerIndex": 2,
-  "passage": "7. Pathognomonic Sign | Lid oedema confined to orbital rim | CT shows sinusitis / subperiosteal abscess | Pitting oedema over Mastoid region (Griesinger’s sign) (back-pressure in mastoid emissary vein) | Pus pointing through scleral perforation"
+  "passage": "7. Pathognomonic Diagnostic Sign | Swelling/erythema stops sharply at the orbital rim; globe behind lids is white and quiet | Coronal CT shows ethmoid sinusitis + lentiform Subperiosteal Abscess | Griesinger's Sign: Painful pitting oedema over the Mastoid Process behind the ear (back-pressure in the mastoid emissary vein!) + meningeal signs | Purulent discharge pointing/bursting out through the sclera; treated by Evisceration (NEVER Enucleation!)",
+  "question": "In cavernous sinus thrombosis, what is the pathognomonic sign from the comparison table?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t28"
  },
  {
-  "id": "ophthalmology-q091",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t28",
-  "question": "What is the most common primary malignant orbital tumour of childhood?",
+  "answerIndex": 0,
+  "id": "ophthalmology-q094",
   "options": [
-   "Cavernous haemangioma",
    "Rhabdomyosarcoma",
+   "Cavernous haemangioma",
    "Optic nerve glioma",
    "Optic nerve sheath meningioma"
   ],
-  "answerIndex": 1,
-  "passage": "Rhabdomyosarcoma: Most common primary malignant orbital tumour of childhood (mean age 7–8 years)."
+  "passage": "Orbital Rhabdomyosarcoma (Most Common Primary Malignant Orbital Tumour of Childhood!):",
+  "question": "What is the most common primary malignant orbital tumour of childhood?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t29"
  },
  {
-  "id": "ophthalmology-q092",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t28",
-  "question": "What is the most common benign orbital tumour in adults?",
+  "answerIndex": 3,
+  "id": "ophthalmology-q095",
   "options": [
    "Lacrimal gland tumour",
    "Optic nerve glioma",
    "Rhabdomyosarcoma",
    "Cavernous Haemangioma"
   ],
-  "answerIndex": 3,
-  "passage": "Cavernous Haemangioma: Most common benign orbital tumour in adults (females 30–50 years)."
+  "passage": "Cavernous Haemangioma of the Orbit (Most Common Benign Orbital Tumour in Adults!):",
+  "question": "What is the most common benign orbital tumour in adults?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t29"
  },
  {
-  "id": "ophthalmology-q093",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t28",
-  "question": "The classic triad of direct high-flow carotid-cavernous fistula includes pulsatile proptosis, chemosis, and what?",
+  "answerIndex": 2,
+  "id": "ophthalmology-q096",
   "options": [
    "Sea-fan vessels",
-   "Audible Cephalic Bruit",
    "Black eschar",
+   "Audible Cephalic Bruit",
    "Optic atrophy"
   ],
-  "answerIndex": 1,
-  "passage": "Presents with Classic Triad of Pulsatile Proptosis + Conjunctival Chemosis + Audible Cephalic Bruit (abolished by ipsilateral carotid compression in neck), “Corkscrew” arterialized epibulbar vessels (Caput medusae), ophthalmoplegia (6th nerve earliest), and secondary glaucoma (raised episcleral venous pressure)."
+  "passage": "Classic Clinical Triad of Direct High-Flow CCF: 1. Pulsatile Axial Proptosis (accompanied by a palpable thrill) + 2. Severe Conjunctival Chemosis & Arterialized \"Corkscrew\" Epibulbar Vessels (\"Caput Medusae\") reaching right up to the limbus + 3. Loud \"Machinery / Swishing\" Cephalic Bruit heard by the patient in their head and audible to the examiner on placing a stethoscope bell over the closed eye (which disappears when the ipsilateral common carotid artery is compressed in the neck!).",
+  "question": "The classic triad of direct high-flow carotid-cavernous fistula includes pulsatile proptosis, chemosis, and what?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t29"
  },
  {
-  "id": "ophthalmology-q094",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t29",
-  "question": "What is the investigation of choice for localization of an intraocular foreign body?",
+  "answerIndex": 1,
+  "id": "ophthalmology-q097",
   "options": [
    "Plain X-ray Orbit",
    "Thin-slice (1 mm) Helical CT Scan of Orbits",
    "B-scan Ultrasonography alone",
    "MRI"
   ],
-  "answerIndex": 1,
-  "passage": "Thin-slice (1 mm) Helical CT Scan of Orbits (Investigation of Choice): Detects and localizes radio-opaque metallic, glass, and stone IOFBs down to 0.5 mm"
+  "passage": "Thin-Slice (1.0 mm) Helical Non-Contrast CT Scan of the Orbits (Axial & Coronal Cuts) — The Investigation of Choice!",
+  "question": "What is the investigation of choice for localization of an intraocular foreign body?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t30"
  },
  {
-  "id": "ophthalmology-q095",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t29",
-  "question": "MRI is absolutely contraindicated in suspected ferromagnetic metallic intraocular foreign body because of what risk?",
+  "answerIndex": 0,
+  "id": "ophthalmology-q098",
   "options": [
-   "Radiation exposure",
    "Violent movement of the FB and blinding intraocular haemorrhage",
+   "Radiation exposure",
    "Lens opacity",
    "Allergic reaction"
   ],
-  "answerIndex": 1,
-  "passage": "Strict Contraindication: MRI is ABSOLUTELY CONTRAINDICATED if a ferromagnetic metallic IOFB is suspected, as the magnetic field causes violent movement of the FB and blinding intraocular haemorrhage!"
+  "passage": "STRICT CONTRAINDICATION: Magnetic Resonance Imaging (MRI) is ABSOLUTELY CONTRAINDICATED whenever a ferromagnetic (iron/steel/nickel) IOFB is suspected, because the powerful 1.5–3.0 Tesla magnet will rip the sharp metal splinter across the retina and optic nerve, causing blinding intraocular haemorrhage!",
+  "question": "MRI is absolutely contraindicated in suspected ferromagnetic metallic intraocular foreign body because of what risk?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t30"
  },
  {
-  "id": "ophthalmology-q096",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t29",
-  "question": "A corneal rust ring typically forms within how long of an iron foreign body?",
+  "answerIndex": 3,
+  "id": "ophthalmology-q099",
   "options": [
    "Immediately",
    "After 1 month",
-   "Within 24 hours",
-   "After 1 week"
+   "After 1 week",
+   "Within 24 hours"
   ],
-  "answerIndex": 2,
-  "passage": "Causes acute foreign body sensation, profuse reflex lacrimation, photophobia, blepharospasm, ciliary congestion, and a rust ring (within 24 hours of iron FB)"
+  "passage": "Clinical Features: Acute gritty foreign-body sensation, profuse reflex watery lacrimation, marked photophobia, blepharospasm, circumcorneal ciliary congestion, and blurred vision. If an Iron particle remains on the cornea for >12 to 24 hours, it oxidizes and deposits a brownish-orange Rust Ring in the surrounding Bowman's zone/stroma.",
+  "question": "A corneal rust ring typically forms within how long of an iron foreign body?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t30"
  },
  {
-  "id": "ophthalmology-q097",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t30",
-  "question": "Photophthalmia (arc-welder flash) has a latent period of how long before symptoms?",
+  "answerIndex": 2,
+  "id": "ophthalmology-q100",
   "options": [
    "24–48 hours",
-   "4–6 hours",
    "Immediately",
+   "4 to 10 hours",
    "6 months to 2 years"
   ],
-  "answerIndex": 1,
-  "passage": "Pathogenesis: UV-B and UV-C rays (290–311 nm) absorbed by corneal epithelium  latent period of 4–6 hours  nuclear fragmentation and desquamation of superficial corneal epithelial cells (Multiple Punctate Epithelial Erosions)."
+  "passage": "After a characteristic Symptom-Free Latent Period of 4 to 10 Hours, the damaged superficial corneal epithelial cells simultaneously die and slough off (Multiple Superficial Punctate Epithelial Erosions — SPKs), suddenly exposing thousands of raw, naked subepithelial trigeminal corneal nerve endings!",
+  "question": "Photophthalmia (arc-welder flash) has a latent period of how long before symptoms?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t31"
  },
  {
-  "id": "ophthalmology-q098",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t30",
-  "question": "Which is listed as a minutes-to-hours ophthalmic emergency requiring immediate action?",
+  "answerIndex": 1,
+  "id": "ophthalmology-q101",
   "options": [
    "Painful pupil-involving 3rd nerve palsy",
    "Chemical Burns (especially Alkali burns)",
    "Gonococcal conjunctivitis",
    "Macula-on retinal detachment"
   ],
-  "answerIndex": 1,
-  "passage": "Chemical Burns (especially Alkali burns): Immediate copious saline irrigation for 30 min"
+  "passage": "Chemical Injuries (Especially Alkali / Lime Burns): Immediate copious 30-minute saline/water irrigation + double-eversion removal of solid lime particles.",
+  "question": "Which is listed as a minutes-to-hours ophthalmic emergency requiring immediate action?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t31"
  },
  {
-  "id": "ophthalmology-q099",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t30",
-  "question": "Glass-blower cataract is associated with which radiation injury?",
+  "answerIndex": 0,
+  "id": "ophthalmology-q102",
   "options": [
+   "Infrared Radiation Injury",
    "Ultraviolet radiation",
    "Ionizing radiation",
-   "Visible light",
-   "Infrared Radiation Injury"
+   "Visible light"
   ],
-  "answerIndex": 3,
-  "passage": "Infrared Radiation Injury: Chronic exposure in glass/iron furnace workers (800–1200 nm) causes True Exfoliation of the Anterior Lens Capsule (scroll-like peeling of outer lamella of anterior capsule) and posterior discoid “Glass-Blower’s Cataract”."
+  "passage": "1. Chronic Industrial Exposure — \"Glass-Blower's / Iron-Puddler's Cataract\": Years of staring into glowing molten glass or iron furnaces heats the iris and anterior lens, causing pathognomonic True Exfoliation of the Anterior Lens Capsule (the outer lamella of the anterior capsule peels off and curls into the AC like a rolled-up parchment scroll!) + a posterior cortical discoid cataract.",
+  "question": "Glass-blower cataract is associated with which radiation injury?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t31"
  },
  {
-  "id": "ophthalmology-q100",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t31",
-  "question": "Anterior ischaemic optic neuropathy is caused by occlusion of which arteries?",
+  "answerIndex": 3,
+  "id": "ophthalmology-q103",
   "options": [
-   "Short Posterior Ciliary Arteries (SPCAs)",
    "Long posterior ciliary arteries",
    "Central retinal artery",
-   "Ophthalmic artery trunk"
+   "Ophthalmic artery trunk",
+   "Short Posterior Ciliary Arteries (SPCAs)"
   ],
-  "answerIndex": 0,
-  "passage": "Definition: Segmental infarction of the prelaminar/laminar optic nerve head caused by occlusion of the Short Posterior Ciliary Arteries (SPCAs)"
+  "passage": "Definition & Anatomical Basis: Acute segmental ischaemic infarction of the Optic Nerve Head (prelaminar and laminar regions) caused by occlusion or hypoperfusion of the Short Posterior Ciliary Arteries (SPCAs) (Remember: While the retina is supplied by the Central Retinal Artery, the Optic Nerve Head is supplied by the circle of Zinn-Haller derived from the Short Posterior Ciliary Arteries!",
+  "question": "Anterior ischaemic optic neuropathy is caused by occlusion of which arteries?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t32"
  },
  {
-  "id": "ophthalmology-q101",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t31",
-  "question": "Leber hereditary optic neuropathy is caused by which type of DNA mutation?",
+  "answerIndex": 2,
+  "id": "ophthalmology-q104",
   "options": [
-   "Maternal mitochondrial DNA point mutation",
    "Somatic RB1 mutation",
    "X-linked recessive mutation",
+   "Maternal mitochondrial DNA point mutation",
    "Nuclear autosomal dominant mutation"
   ],
-  "answerIndex": 0,
-  "passage": "Leber’s Hereditary Optic Neuropathy (LHON): Maternal mitochondrial DNA point mutation (11778, 14484, or 3460) affecting young males (15–30 years)."
+  "passage": "Genetics (Maternal Mitochondrial Inheritance!): Caused by a point mutation in Mitochondrial DNA (mtDNA) encoding complex I of the respiratory chain (3 primary mutations account for 95%: 11778 [most common, 60%, worst prognosis], 14484 [best prognosis], and 3460).",
+  "question": "Leber hereditary optic neuropathy is caused by which type of DNA mutation?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t32"
  },
  {
-  "id": "ophthalmology-q102",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t31",
-  "question": "What is the commonest cause of pseudopapilloedema in children?",
+  "answerIndex": 1,
+  "id": "ophthalmology-q105",
   "options": [
    "Optic disc pit",
-   "Medullated nerve fibres",
    "Optic Disc Drusen (Hyaline Bodies)",
+   "Medullated nerve fibres",
    "Morning glory syndrome"
   ],
-  "answerIndex": 2,
-  "passage": "Optic Disc Drusen (Hyaline Bodies): Calcified acellular laminated bodies buried in the prelaminar optic nerve head in children (commonest cause of pseudopapilloedema), emerging on the surface in teens as waxy yellowish globular bodies"
+  "passage": "Optic Disc Drusen (Hyaline Bodies — The #1 Cause of Pseudopapilloedema in Children!):",
+  "question": "What is the commonest cause of pseudopapilloedema in children?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t32"
  },
  {
-  "id": "ophthalmology-q103",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t32",
-  "question": "Cortical blindness is distinguished by normal pupillary light reflexes because pupillary fibres diverge where?",
+  "answerIndex": 0,
+  "id": "ophthalmology-q106",
   "options": [
-   "At the visual cortex",
    "To pretectal nucleus before LGB",
+   "At the visual cortex",
    "At the lateral geniculate body",
    "At the optic chiasma"
   ],
-  "answerIndex": 1,
-  "passage": "Diagnostic Criteria: (1) Complete loss of vision in both eyes, (2) Normal pupillary light reflexes (pupillary fibres diverge to pretectal nucleus before LGB), (3) Normal fundus (no optic atrophy), (4) Loss of optokinetic nystagmus and menace blink reflex, (5) Anton’s Syndrome (patient is completely blind but adamantly denies blindness and confabulates visual descriptions — due to associated parieto-occipital damage), and (6) Riddoch Phenomenon (statokinetic dissociation — ability to perceive moving targets in a blind field)."
+  "passage": "COMPLETELY NORMAL Pupillary Light Reflexes (Both Direct and Consensual)! (Why are the pupils 100% brisk and normal in a completely blind patient?! Because the pupillary light-reflex fibres branched off the optic tract to the Pretectal Nucleus in the midbrain BEFORE the Lateral Geniculate Body—they never go to the occipital cortex!).",
+  "question": "Cortical blindness is distinguished by normal pupillary light reflexes because pupillary fibres diverge where?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t33"
  },
  {
-  "id": "ophthalmology-q104",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t32",
-  "question": "Foster-Kennedy syndrome classic triad includes ipsilateral optic atrophy, contralateral papilloedema, and what?",
+  "answerIndex": 3,
+  "id": "ophthalmology-q107",
   "options": [
-   "Ipsilateral anosmia",
    "Contralateral anosmia",
    "Bilateral ptosis",
-   "Hearing loss"
+   "Hearing loss",
+   "Ipsilateral anosmia"
   ],
-  "answerIndex": 0,
-  "passage": "Classic Triad: (1) Ipsilateral Primary Optic Atrophy (direct compression of ipsilateral optic nerve by tumour), (2) Contralateral Papilloedema (due to generalized raised intracranial pressure; the atrophic nerve cannot swell), and (3) Ipsilateral Anosmia"
+  "passage": "Ipsilateral Anosmia (Loss of Sense of Smell) (due to compression of the adjacent ipsilateral Olfactory Bulb/Tract [1st Cranial Nerve]!).",
+  "question": "Foster-Kennedy syndrome classic triad includes ipsilateral optic atrophy, contralateral papilloedema, and what?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t33"
  },
  {
-  "id": "ophthalmology-q105",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t32",
-  "question": "In electroretinography, the b-wave is generated by which cells?",
+  "answerIndex": 2,
+  "id": "ophthalmology-q108",
   "options": [
    "Photoreceptors",
    "Ganglion cells",
    "Muller cells and Bipolar cells (inner nuclear layer)",
    "Retinal Pigment Epithelium"
   ],
-  "answerIndex": 2,
-  "passage": "b-wave: Large positive deflection generated by Muller cells & Bipolar cells (inner nuclear layer)"
+  "passage": "b-wave (Large Cornea-Positive Upward Deflection): Generated by potassium currents in Muller Glial Cells and ON-Bipolar Cells in the Inner Nuclear Layer (reflects inner retinal viability and perfusion by the Central Retinal Artery!).",
+  "question": "In electroretinography, the b-wave is generated by which cells?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t33"
  },
  {
-  "id": "ophthalmology-q106",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t33",
-  "question": "In aphakia, retinal image magnification with aphakic spectacles is approximately what?",
+  "answerIndex": 1,
+  "id": "ophthalmology-q109",
   "options": [
-   "30%",
    "5–7%",
+   "30%",
    "10 D",
    "0–1%"
   ],
-  "answerIndex": 0,
-  "passage": "Retinal Image Magnification by ~30% when corrected with aphakic spectacles (+10 D), causing intolerable Aniseikonia and Binocular Diplopia in unilateral aphakia"
+  "passage": "30% Retinal Image Magnification: Causes intolerable Aniseikonia and Binocular Diplopia in Unilateral Aphakia (so aphakic spectacles can ONLY be prescribed if both eyes are aphakic or the fellow eye is blind!).",
+  "question": "In aphakia, retinal image magnification with aphakic spectacles is approximately what?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t34"
  },
  {
-  "id": "ophthalmology-q107",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t33",
-  "question": "Anterior lenticonus is associated with which syndrome?",
+  "answerIndex": 0,
+  "id": "ophthalmology-q110",
   "options": [
+   "Alport’s Syndrome",
    "Lowe syndrome",
    "Weill-Marchesani Syndrome",
-   "Alport’s Syndrome",
    "Marfan syndrome"
   ],
-  "answerIndex": 2,
-  "passage": "Lenticonus Anterior: Bilateral anterior conical protrusion associated with Alport’s Syndrome (hereditary haemorrhagic nephritis + sensorineural deafness + anterior lenticonus + dot-and-fleck retinopathy)."
+  "passage": "Anterior Lenticonus (Bilateral): Pathognomonic of Alport's Syndrome (X-linked/Autosomal dominant Type IV collagen mutation → Classic Triad = 1. Hereditary Haemorrhagic Nephritis [haematuria/renal failure] + 2. High-Frequency Sensorineural Deafness + 3. Bilateral Anterior Lenticonus & Perimacular Dot-and-Fleck Retinopathy!).",
+  "question": "Anterior lenticonus is associated with which syndrome?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t34"
  },
  {
-  "id": "ophthalmology-q108",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t33",
-  "question": "Intracapsular cataract extraction cannot be performed in patients below what age range because of the strong hyaloido-capsular ligament?",
+  "answerIndex": 3,
+  "id": "ophthalmology-q111",
   "options": [
-   "Below 20 years",
    "Below 50 years",
    "Below 60 years",
-   "<35–40 years"
+   "Below 45 years",
+   "<35 to 40 years"
   ],
-  "answerIndex": 3,
-  "passage": "2. Age Applicability | Cannot be performed in patients <35–40 years (strong hyaloido-capsular ligament of Wieger causes vitreous loss). | Universal operation — can be performed at all ages (infants to elderly)."
+  "passage": "2. Age Applicability | Strictly Contraindicated in Patients <35 to 40 Years of Age! (Why? Because before age 35, the posterior lens capsule is firmly glued to the anterior vitreous face by Wieger's Hyaloido-Capsular Ligament—pulling the whole lens out rips the entire vitreous body and retina out with it!). | Universal Procedure: Can be safely performed at any age from newborn infants to 100-year-olds.",
+  "question": "Intracapsular cataract extraction cannot be performed in patients below what age range because of the strong hyaloido-capsular ligament?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t34"
  },
  {
-  "id": "ophthalmology-q109",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t34",
-  "question": "Lattice degeneration accounts for approximately what proportion of all rhegmatogenous retinal detachments?",
+  "answerIndex": 2,
+  "id": "ophthalmology-q112",
   "options": [
    "10%",
    "60%",
-   "40%",
+   "30% to 40%",
    "15–20%"
   ],
-  "answerIndex": 2,
-  "passage": "Prevalence: Present in 6–10% of the general population and 15–20% of myopes; accounts for ~40% of all rhegmatogenous retinal detachments."
+  "passage": "Epidemiology: Present in 6% to 10% of the normal population and 15% to 20% of High Myopes; directly responsible for 30% to 40% of all Rhegmatogenous Retinal Detachments!",
+  "question": "Lattice degeneration accounts for approximately what proportion of all rhegmatogenous retinal detachments?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t35"
  },
  {
-  "id": "ophthalmology-q110",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t34",
-  "question": "Which syndrome is the most common inherited cause of rhegmatogenous retinal detachment in children?",
+  "answerIndex": 1,
+  "id": "ophthalmology-q113",
   "options": [
    "Favre-Goldmann syndrome",
    "Stickler Syndrome",
    "Wagner syndrome",
    "Marfan syndrome"
   ],
-  "answerIndex": 1,
-  "passage": "Stickler Syndrome (Hereditary Arthro-Ophthalmopathy): Autosomal dominant connective tissue disorder (COL2A1 collagen gene); most common inherited cause of rhegmatogenous retinal detachment in children"
+  "passage": "Stickler Syndrome (Hereditary Progressive Arthro-Ophthalmopathy):",
+  "question": "Which syndrome is the most common inherited cause of rhegmatogenous retinal detachment in children?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t35"
  },
  {
-  "id": "ophthalmology-q111",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t34",
-  "question": "Paving-stone (cobblestone) degeneration is described as what regarding retinal detachment risk?",
+  "answerIndex": 0,
+  "id": "ophthalmology-q114",
   "options": [
    "Does NOT predispose to RD",
    "Always progresses to RD",
    "High risk",
    "Causes tractional RD"
   ],
-  "answerIndex": 0,
-  "passage": "Paving-Stone (Cobblestone) Degeneration: Benign, discrete, yellowish-white punched-out areas of chorioretinal thinning in the inferior periphery of elderly eyes (does NOT predispose to RD)"
+  "passage": "Paving-Stone (Cobblestone) Degeneration: Discrete, punched-out, yellowish-white round patches of chorioretinal atrophy in the inferior periphery of elderly eyes where the RPE and choriocapillaris have disappeared, exposing bare white sclera. 100% BENIGN — In fact, because the retina is fused directly to Bruch's membrane at the scar, Paving-Stone Degeneration actually PREVENTS retinal detachment!",
+  "question": "Paving-stone (cobblestone) degeneration is described as what regarding retinal detachment risk?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t35"
  },
  {
-  "id": "ophthalmology-q112",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t35",
-  "question": "Axenfeld-Rieger syndrome is associated with which gene inheritance pattern stated in the notes?",
+  "answerIndex": 3,
+  "id": "ophthalmology-q115",
   "options": [
    "X-linked",
    "Mitochondrial",
-   "Autosomal dominant inheritance via PITX2 and FOXC1 genes",
-   "Autosomal recessive"
+   "Autosomal recessive",
+   "Autosomal dominant inheritance via PITX2 and FOXC1 genes"
   ],
-  "answerIndex": 2,
-  "passage": "Anterior Segment Dysgenesis (ASD) Syndromes Causing Developmental Glaucoma (50% Risk) (Caused by defective migration/differentiation of Neural Crest Cells; autosomal dominant inheritance via PITX2* and FOXC1 genes)"
+  "passage": "Autosomal Dominant mutations in transcription factor genes PITX2 and FOXC1 cause defective neural crest migration",
+  "question": "Axenfeld-Rieger syndrome is associated with which gene inheritance pattern stated in the notes?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t36"
  },
  {
-  "id": "ophthalmology-q113",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t35",
-  "question": "Posner-Schlossman syndrome attacks last for how long?",
+  "answerIndex": 2,
+  "id": "ophthalmology-q116",
   "options": [
    "Permanently",
-   "A few days to 2 weeks",
    "A few hours",
+   "A few days to 2 weeks",
    "3-6 months"
   ],
-  "answerIndex": 1,
-  "passage": "Unilateral, recurrent attacks of acute marked elevation of IOP (40–60 mmHg) in young adults (HLA-Bw54), lasting a few days to 2 weeks."
+  "passage": "Course & Treatment: Each attack resolves spontaneously in a few days to 2 weeks; treated during attacks with Topical Corticosteroids (Prednisolone 1% QID) + Topical Timolol / Brimonidine / Oral Acetazolamide (+ topical Ganciclovir gel if CMV positive;",
+  "question": "Posner-Schlossman syndrome attacks last for how long?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t36"
  },
  {
-  "id": "ophthalmology-q114",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t35",
-  "question": "Fuchs heterochromic iridocyclitis is complicated by posterior subcapsular cataract in what proportion?",
+  "answerIndex": 1,
+  "id": "ophthalmology-q117",
   "options": [
    "90%",
-   "70%",
+   "70–80%",
    "100%",
    "15–30%"
   ],
-  "answerIndex": 1,
-  "passage": "Classic Features: Heterochromia iridis (affected iris is hypochromic/lighter due to diffuse stromal atrophy with moth-eaten appearance) + Diffuse, fine, stellate feathery KPs scattered over the ENTIRE corneal endothelium (not just Arlt’s triangle!) + Faint aqueous flare + Complete absence of posterior synechiae + Fragile angle vessels (Amsler’s sign: filiform anterior chamber haemorrhage upon paracentesis) + Complicated posterior subcapsular cataract (70%) and Secondary Open-Angle Glaucoma (15–30%)."
+  "passage": "Two Inevitable Late Complications: 1. Posterior Subcapsular Complicated Cataract (70–80%)",
+  "question": "Fuchs heterochromic iridocyclitis is complicated by posterior subcapsular cataract in what proportion?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t36"
  },
  {
-  "id": "ophthalmology-q115",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t36",
-  "question": "In Worth four-dot testing, seeing 2 red lights only indicates which eye is suppressed?",
+  "answerIndex": 0,
+  "id": "ophthalmology-q118",
   "options": [
+   "Left eye",
    "Right eye",
    "Neither eye",
-   "Left eye",
    "Both eyes"
   ],
-  "answerIndex": 2,
-  "passage": "Sees 2 Red lights only = Left eye Suppression"
+  "passage": "Sees 2 RED Lights Only: Left Eye Suppression (green eye is turned off).",
+  "question": "In Worth four-dot testing, seeing 2 red lights only indicates which eye is suppressed?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t37"
  },
  {
-  "id": "ophthalmology-q116",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t36",
-  "question": "Internuclear ophthalmoplegia is caused by a lesion of which structure?",
+  "answerIndex": 3,
+  "id": "ophthalmology-q119",
   "options": [
    "Rostral interstitial nucleus",
    "Paramedian pontine reticular formation",
-   "Medial Longitudinal Fasciculus (MLF)",
-   "Frontal eye field"
+   "Frontal eye field",
+   "Medial Longitudinal Fasciculus (MLF)"
   ],
-  "answerIndex": 2,
-  "passage": "Internuclear Ophthalmoplegia (INO): Lesion of the Medial Longitudinal Fasciculus (MLF) (caused by Multiple Sclerosis [bilateral in young adults] or Brainstem Lacunar Infarct [unilateral in elderly])"
+  "passage": "Internuclear Ophthalmoplegia (INO — Lesion of the Medial Longitudinal Fasciculus [MLF]):",
+  "question": "Internuclear ophthalmoplegia is caused by a lesion of which structure?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t37"
  },
  {
-  "id": "ophthalmology-q117",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t36",
-  "question": "One-and-a-half syndrome is a combined lesion of ipsilateral PPRF/6th nucleus plus ipsilateral MLF. What is the only remaining horizontal movement?",
+  "answerIndex": 2,
+  "id": "ophthalmology-q120",
   "options": [
    "Abduction of the ipsilateral eye",
    "Adduction of the ipsilateral eye",
    "Abduction of the contralateral eye",
    "Convergence"
   ],
-  "answerIndex": 2,
-  "passage": "One-and-a-Half Syndrome (Fisher): Combined lesion of Ipsilateral PPRF/6th nucleus + Ipsilateral MLF  Complete horizontal gaze palsy toward the ipsilateral side (“one”) + INO (loss of adduction) on looking to the contralateral side (“half”); the only remaining horizontal movement is abduction of the contralateral eye."
+  "passage": "\"The Half\" (Ipsilateral INO on Looking to the Left): When looking to the Left, the Right eye still cannot adduct across the midline—so out of the 4 horizontal eye movements, 3 are dead, and the ONLY horizontal eye movement remaining in the entire patient is ABDUCTION of the Contralateral (Left) Eye (with abducting nystagmus)!",
+  "question": "One-and-a-half syndrome is a combined lesion of ipsilateral PPRF/6th nucleus plus ipsilateral MLF. What is the only remaining horizontal movement?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t37"
  },
  {
-  "id": "ophthalmology-q118",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t37",
-  "question": "Orbital apex syndrome differs from superior orbital fissure syndrome by adding which structures?",
+  "answerIndex": 1,
+  "id": "ophthalmology-q121",
   "options": [
    "Maxillary nerve only",
    "Optic Canal (Optic Nerve [II] and Ophthalmic Artery)",
    "Sympathetic fibres only",
    "Superior ophthalmic vein only"
   ],
-  "answerIndex": 1,
-  "passage": "2. Orbital Apex Syndrome | All structures of Superior Orbital Fissure PLUS Optic Canal (Optic Nerve [II] & Ophthalmic Artery). | Features of Superior Orbital Fissure Syndrome PLUS Early Profound Visual Loss, RAPD, and Optic Disc Oedema / Primary Optic Atrophy."
+  "passage": "2. Orbital Apex Syndrome\n(Causes: Mucormycosis, Aspergillosis, apical tumour, trauma) | ALL structures of the Superior Orbital Fissure PLUS the adjacent Optic Canal (Optic Nerve [Cranial Nerve II] & Ophthalmic Artery)! | • All features of Superior Orbital Fissure Syndrome (Total ophthalmoplegia of 3rd, 4th, 6th + Ptosis + V1 corneal/forehead anaesthesia) PLUS:\n• Early, Profound Unilateral Loss of Vision (<6/60 to No PL), Marked RAPD (Marcus Gunn Pupil), and Optic Disc Oedema / Primary Optic Atrophy!",
+  "question": "Orbital apex syndrome differs from superior orbital fissure syndrome by adding which structures?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t38"
  },
  {
-  "id": "ophthalmology-q119",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t37",
-  "question": "In direct ophthalmoscopy, what is the image characteristic?",
+  "answerIndex": 0,
+  "id": "ophthalmology-q122",
   "options": [
+   "Virtual, Erect",
    "Virtual, Inverted",
    "Real, Inverted, and Laterally Reversed",
-   "Real, Erect",
-   "Virtual, Erect"
+   "Real, Erect"
   ],
-  "answerIndex": 3,
-  "passage": "3. Image Characteristics | Virtual, Erect | Real, Inverted, and Laterally Reversed (formed in air between  lens and observer)"
+  "passage": "3. Characteristics of the Fundus Image | Virtual and Erect (Upright) (situated behind the patient's eye). | Real, Vertically Inverted (Upside-Down), and Laterally Reversed (Left-to-Right) (Formed in the air space between the +20 D condensing lens and the examiner!).",
+  "question": "In direct ophthalmoscopy, what is the image characteristic?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t38"
  },
  {
-  "id": "ophthalmology-q120",
-  "subject": "ophthalmology",
-  "topicId": "ophthalmology-t37",
-  "question": "Distant direct ophthalmoscopy is performed at what distance before direct ophthalmoscopy?",
+  "answerIndex": 3,
+  "id": "ophthalmology-q123",
   "options": [
-   "20–25 cm",
    "Arm’s length",
    "33 cm",
-   "6 m"
+   "6 m",
+   "20 to 25 cm"
   ],
-  "answerIndex": 0,
-  "passage": "Distant Direct Ophthalmoscopy (Performed at 20–25 cm before Direct Ophthalmoscopy):"
+  "passage": "Distant Direct Ophthalmoscopy (Performed at a Distance of 20 to 25 cm in a Semi-Dark Room BEFORE Moving Close for Fundus Exam!):",
+  "question": "Distant direct ophthalmoscopy is performed at what distance before direct ophthalmoscopy?",
+  "subject": "ophthalmology",
+  "topicId": "ophthalmology-t38"
  },
  {
   "id": "pediatrics-q001",
