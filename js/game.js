@@ -11,11 +11,16 @@
    next round starts ONLY on a NEXT tap. The reveal reads the FULL
    supporting passage aloud, never truncated. NEXT is sticky at the
    viewport bottom while reading (see css).
-   RESUME: pre-answer states only, saved per subject under
-   'sessional-saved-<subject>' ('sessional-saved-all' for mixed quiz).
-   A post-answer state is never saved over a pre-answer one (saveGame
-   returns early while locked), so resuming re-asks the round instead
-   of re-awarding its score.
+   RESUME: saved per subject under 'sessional-saved-<subject>'
+   ('sessional-saved-all' for mixed quiz). The save happens on every
+   state change (updateHUD) AND on quit, including post-answer states:
+   saveGame no longer skips locked (revealed) states, so the score and
+   combo earned on the just-answered question are persisted at once.
+   A saved post-answer state records the outcome ('correct' | 'shield'
+   | 'wrong') and the frozen time left; resume restores the exact
+   score/combo/round/question/lives and re-shows the same reveal panel
+   (options re-shuffled, as before) instead of re-asking the round,
+   so the score can never be earned twice or lost by quitting.
    ROBUSTNESS (template rules, kept): every sound/voice call is guarded,
    and nextRound/answer advance even if sound/voice throws, via
    fallbackReveal with a working NEXT. Speech is never paused by this
@@ -84,12 +89,16 @@
   }
   function saveGame() {
     try {
-      if (!G || !QUESTIONS || G.locked) return;
+      if (!G || !QUESTIONS) return;
+      /* No locked guard: post-answer states ARE saved (with the outcome
+         and frozen time), so quitting during a reveal resumes the exact
+         state instead of rolling the score back to the round start. */
       localStorage.setItem(saveKey(G.section), JSON.stringify({
         section: G.section, subject: G.section, level: G.level, score: G.score, lives: G.lives,
         combo: G.combo, bestCombo: G.bestCombo, correct: G.correct,
         answered: G.answered, queue: G.queue.map(function (x) { return x.id; }),
-        qi: G.qi, pw: G.pw, shield: G.shield, savedAt: Date.now()
+        qi: G.qi, pw: G.pw, shield: G.shield, savedAt: Date.now(),
+        revealed: revealed, outcome: G.lastOutcome || null, remain: G.remain
       }));
     } catch (e) {}
   }
@@ -135,6 +144,9 @@
         pw: v.pw || { fifty: 1, time: 1, shield: 1, hint: 1 } };
       $('lvlVal').textContent = LEVELS[G.level].name;
       OphthShow('gameScreen'); updateHUD(); showQuestion();
+      /* Post-answer save: re-show the same reveal instead of re-asking
+         the round, so the restored score/combo can never be re-earned. */
+      if (v.revealed) { G.lastOutcome = v.outcome || null; restoreReveal(v.outcome, v.remain); }
     });
   }
 
@@ -478,6 +490,19 @@
     try { markCorrect(); resolve(good, good ? '' : '✖ WRONG — that was a look-alike. '); }
     catch (e) { fallbackReveal(); }
   }
+  /* FULL passage, never truncated (pre-wrap in css). Formatted like
+     the notes when it is a verbatim span of the topic; plain text
+     otherwise (table passages, paraphrases, any doubt). Shared by
+     resolve() and restoreReveal() so both show the same passage. */
+  function renderPassage(q) {
+    if (!setFormattedPassage(q)) $('fbPassage').textContent = passageFor(q);
+    try {
+      var fp = $('fbPassage');
+      if (OphthTables.renderInto && /\[\[TABLE:/.test(passageFor(q))) { OphthTables.renderInto(fp, passageFor(q)); }
+      else if (OphthTables.getAllForTopic) { OphthTables.getAllForTopic(q.topicId).forEach(function (tab) { fp.appendChild(OphthTables.buildTable(tab)); }); }
+      else { var tab = OphthTables.get(q.topicId); if (tab) fp.appendChild(OphthTables.buildTable(tab)); }
+    } catch (e) {}
+  }
   function resolve(good, prefix) {
     G.answered++;
     var q = curQ();
@@ -486,6 +511,7 @@
     var fb = $('feedback');
     var correctTxt = correctAnswerText(q);
     if (good) {
+      G.lastOutcome = 'correct';
       G.correct++; G.combo++; G.bestCombo = Math.max(G.bestCombo, G.combo);
       var gain = Math.round((100 + Math.round(G.remain * 5)) * mult());
       G.score += gain;
@@ -494,26 +520,19 @@
       fb.className = 'feedback on good';
       $('fbTitle').textContent = '✔ CORRECT — ' + correctTxt;
     } else if (G.shield) {
+      G.lastOutcome = 'shield';
       G.shield = false;
       fb.className = 'feedback on good';
       $('fbTitle').textContent = '🛡️ SHIELD USED! That mistake cost you nothing — this time.';
       safeAudio(function () { OphthAudio.sfx('power'); });
     } else {
+      G.lastOutcome = 'wrong';
       G.lives--; G.combo = 0;
       safeAudio(function () { OphthAudio.sfx('wrong'); });
       fb.className = 'feedback on bad';
       $('fbTitle').textContent = prefix + 'Correct answer: ' + correctTxt;
     }
-    /* FULL passage, never truncated (pre-wrap in css). Formatted like
-       the notes when it is a verbatim span of the topic; plain text
-       otherwise (table passages, paraphrases, any doubt). */
-    if (!setFormattedPassage(q)) $('fbPassage').textContent = passageFor(q);
-    try {
-      var fp = $('fbPassage');
-      if (OphthTables.renderInto && /\[\[TABLE:/.test(passageFor(q))) { OphthTables.renderInto(fp, passageFor(q)); }
-      else if (OphthTables.getAllForTopic) { OphthTables.getAllForTopic(q.topicId).forEach(function (tab) { fp.appendChild(OphthTables.buildTable(tab)); }); }
-      else { var tab = OphthTables.get(q.topicId); if (tab) fp.appendChild(OphthTables.buildTable(tab)); }
-    } catch (e) {}
+    renderPassage(q);
     revealed = true;
     var last = G.qi >= G.queue.length - 1;
     var outOfLives = (!good && !G.shield && G.lives <= 0);
@@ -533,6 +552,46 @@
         safeVoice(function () { OphthVoice.speakFullText(lastRevealText); });
       }, 300);
     }
+  }
+  /* Re-show a saved post-answer reveal (resume only): the score, combo,
+     lives and round are already restored in G, so this rebuilds ONLY the
+     reveal UI for the current question — it never re-awards or re-deducts
+     anything. Options were re-shuffled by showQuestion(), as before, and
+     the frozen time left is restored so the timer does not restart.
+     No auto-read here: the user can replay the reveal with the speaker
+     button; resuming must not start speech unprompted. */
+  function restoreReveal(outcome, remain) {
+    var q = curQ();
+    if (!q) return;
+    var fb = $('feedback');
+    var correctTxt = correctAnswerText(q);
+    clearInterval(G.timer);
+    G.lastOutcome = outcome || null;
+    G.locked = true;
+    if (typeof remain === 'number' && remain >= 0) { G.remain = remain; tickUI(); }
+    markCorrect();
+    if (outcome === 'correct') {
+      fb.className = 'feedback on good';
+      $('fbTitle').textContent = '✔ CORRECT — ' + correctTxt;
+    } else if (outcome === 'shield') {
+      fb.className = 'feedback on good';
+      $('fbTitle').textContent = '🛡️ SHIELD USED! That mistake cost you nothing — this time.';
+    } else {
+      fb.className = 'feedback on bad';
+      $('fbTitle').textContent = 'Correct answer: ' + correctTxt;
+    }
+    renderPassage(q);
+    revealed = true;
+    var last = G.qi >= G.queue.length - 1;
+    var outOfLives = (outcome === 'wrong' && G.lives <= 0);
+    $('nextBtn').textContent = outOfLives ? 'SEE RESULTS ▶' : (last ? (G.level >= 2 ? 'FINISH ▶' : 'CLEAR LEVEL ▶') : 'NEXT ▶');
+    fb.classList.add('on');
+    updateHUD();
+    try {
+      if (fb.scrollIntoView) fb.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      else window.scrollTo(0, fb.offsetTop || 0);
+    } catch (e) {}
+    lastRevealText = $('fbTitle').textContent + '. ' + cleanSpeech(passageFor(q));
   }
   function nextRound() {
     /* NEXT must advance no matter what: sound/voice are best-effort
@@ -604,7 +663,7 @@
     $('chooserBack').onclick = function () { OphthHome(); };
     $('againBtn').onclick = function () { safeAudio(function () { OphthAudio.sfx('click'); }); newGame(G ? G.section : 'all'); };
     $('menuBtn').onclick = function () { OphthHome(); };
-    $('quitGameBtn').onclick = function () { safeVoice(function () { OphthVoice.stopSpeak(); }); OphthHome(); };
+    $('quitGameBtn').onclick = function () { safeVoice(function () { OphthVoice.stopSpeak(); }); saveGame(); OphthHome(); };
     $('nextBtn').onclick = nextRound;
     $('replayRevealBtn').onclick = function () {
       safeVoice(function () { OphthVoice.prime(); });
